@@ -1,0 +1,28 @@
+header{
+    background-color:#000000;
+    
+}
+
+a{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Press Start 2P", cursive;
+    text-decoration: none;
+    text-shadow: 2px 2px 0px #000;
+    margin-right: 15px;
+}
+
+#botao{
+
+    display: inline-block;
+    background-color: #7C5E99;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    box-shadow: 3px 3px 0px rgb(0, 0, 0);
+    border-radius: 1px;
+    margin-left: 3px;
+}
