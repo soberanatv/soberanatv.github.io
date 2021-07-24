@@ -34,7 +34,7 @@ border-radius: [object Object]px;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 70px;
+    font-size: 100px;
     line-height: 70px;
     text-align: center;
     color: #ffffff;
@@ -91,7 +91,7 @@ a{
 
 p{
     color:rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 30px;
 
     font-family: 'Ubuntu', sans-serif;
