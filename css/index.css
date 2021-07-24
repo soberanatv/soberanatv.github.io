@@ -1,28 +1,110 @@
-header{
-    background-color:#000000;
+body{
+    background-color:#3A3333;
+    background-image: linear-gradient(rgba(204, 68, 31, 0.71), rgba(201, 23, 90, 0.81)); 
+    height: 2000px;
+}
+
+#cabecalho{
+    height: 218px;
+width: 1440px;
+left: 0px;
+top: 0px;
+border-radius: [object Object]px;
+
+}
+
+#logo_pqn{
+
+    position: absolute;
+    width: 161px;
+    height: 174px;
+    left: 72px;
+    top: 29px;
+    border-radius: 0px;
+
+}
+
+#texto_cabecalho{
+
+    position: absolute;
+    width: 846px;
+    height: 136px;
+    left: 338px;
+    top: 80px;
+    font-family: "Press Start 2P";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.logo_redes{
+
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    margin: 8px;
+    object-fit: fill;
     
 }
 
+.galeria{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-template-rows: repeat(2, 12vw);
+    grid-gap: 5px;
+}
+
+#retorno{
+    position:fixed;
+    left:0;
+    bottom:0;
+    margin:0;
+    
+}
+
+#cabecalho{
+    height: 218px;
+width: 1440px;
+left: 0px;
+top: 0px;
+border-radius: [object Object]px;
+
+}
+
 a{
-    color:rgb(255, 255, 255);
-    font-size: 20px;
+    color:rgb(0, 0, 0);
+    font-size: 36px;
     font-family: "Press Start 2P", cursive;
     text-decoration: none;
+    margin-right: 15px;
+}
+
+p{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 30px;
+
+    font-family: "Press Start 2P", cursive;
+    text-decoration: none;
+    text-align: center;
     text-shadow: 2px 2px 0px #000;
     margin-right: 15px;
 }
 
-#botao{
-
-    display: inline-block;
-    background-color: #7C5E99;
-    height: 30px;
-    line-height: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 3px;
-    box-shadow: 3px 3px 0px rgb(0, 0, 0);
-    border-radius: 1px;
-    margin-left: 3px;
+nav{
+    margin: auto;
+    display: flex;
+    width: 1400px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
