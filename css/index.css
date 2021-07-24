@@ -15,7 +15,7 @@ border-radius: [object Object]px;
 
 #logo_pqn{
 
-    position: center;
+    position: absolute;
     width: 161px;
     height: 174px;
     left: 72px;
