@@ -31,7 +31,7 @@ border-radius: [object Object]px;
     height: 136px;
     left: 338px;
     top: 80px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 70px;
@@ -84,7 +84,7 @@ border-radius: [object Object]px;
 a{
     color:rgb(0, 0, 0);
     font-size: 36px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     margin-right: 15px;
 }
@@ -94,7 +94,7 @@ p{
     font-size: 20px;
     padding-top: 30px;
 
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
