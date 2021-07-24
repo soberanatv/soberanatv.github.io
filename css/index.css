@@ -72,7 +72,6 @@ border-radius: [object Object]px;
     
 }
 
-
 a{
     color:rgb(0, 0, 0);
     font-size: 36px;
@@ -83,7 +82,7 @@ a{
 
 p{
     color:rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 20px;
     padding-top: 30px;
 
     font-family: 'Ubuntu', sans-serif;
