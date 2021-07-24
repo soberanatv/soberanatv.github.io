@@ -31,7 +31,6 @@ border-radius: [object Object]px;
     height: 136px;
     left: 338px;
     top: 80px;
-    font-family: 'Press Start 2P', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 70px;
@@ -84,7 +83,7 @@ border-radius: [object Object]px;
 a{
     color:rgb(0, 0, 0);
     font-size: 36px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     text-decoration: none;
     margin-right: 15px;
 }
