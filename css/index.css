@@ -31,7 +31,7 @@ footer {
 	margin-right: auto;
 }
 
-.titulo {
+.titulo, h1 {
 	font-size: 70px;
 	line-height: 1;
 	text-align: center;
