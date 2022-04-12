@@ -1,110 +1,112 @@
+* {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+
 body {
-  background-color: #3a3333;
-  background-image: linear-gradient(
-    rgba(175, 67, 37, 0.71),
-    rgba(201, 23, 90, 0.81)
-  );
-  padding-bottom: 150px;
+	background-color: #3a3333;
+	background-image: linear-gradient(rgba(175, 67, 37, 0.71), rgba(201, 23, 90, 0.81));
+	margin: 32px 0;
+	font-family: 'Ubuntu', sans-serif;
 }
 
-.logo_redes {
-  display: block;
-  position: relative;
-  width: 100px;
-  height: 100px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 3px;
-  margin: 8px;
-  object-fit: fill;
-}
-
-.galeria {
-  margin-top: 90px;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(2, 0fr);
-  grid-gap: 5px;
-  user-select: none;
-}
-
-#retorno {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  margin: 0;
-}
-
-a {
-  color: rgb(0, 0, 0);
-  font-size: 36px;
-  font-family: 'Ubuntu', sans-serif;
-  text-decoration: none;
-  margin-right: 15px;
-}
-
-.container {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-family: 'Ubuntu', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  padding: 0 10em;
-}
-
-.container p {
-  margin-top: 30px;
-}
-
-#logo_pqn {
-  width: 160px;
-  user-select: none;
+main,
+footer {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #cabecalho {
-  display: flex;
-  padding: 0 1em;
-  padding-top: 2em;
-  align-items: center;
-  justify-content: center;
-  column-gap: 50px;
+	margin-bottom: 16px;
 }
 
-#texto_cabecalho {
-  font-family: 'Ubuntu', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 70px;
-  line-height: 70px;
-  text-align: center;
-  color: #ffffff;
+#logo_pqn {
+	width: 160px;
+	user-select: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titulo {
+	font-size: 70px;
+	line-height: 1;
+	text-align: center;
+	color: #ffffff;
+}
+
+.container {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.container p {
+	margin-top: 30px;
+	text-align: left;
+	line-height: 1.5;
+}
+
+footer {
+	margin-top: 64px;
+	margin-bottom: 64px;
+}
+
+.galeria {
+	display: flex;
+	gap: 32px;
+	justify-content: center;
+	margin-top: 48px;
+	flex-wrap: wrap;
+	max-width: 423px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.botao_redes {
+	display: block;
+	padding: 20px;
+	border-radius: 50%;
+	background-color: #d9467b;
+	transition: .3s;
+}
+
+.botao_redes:hover {
+	background-color: #910f3f;
+}
+
+.logo_redes {
+	width: 48px;
+	color: white;
 }
 
 @media (max-width: 450px) {
-  .container {
-    font-size: 16px;
-    padding: 0 1em;
-  }
+	.container {
+		font-size: 16px;
+		padding: 0 1em;
+	}
+	.botao_redes {
+		order: 2;
+	}
+	.tiktok {
+		order: 0;
+	}
+	.twitch {
+		order: 1;
+	}
 }
 
 @media (max-width: 900px) {
-  .container {
-    padding: 0 2em;
-  }
+	.container,
+	footer {
+		padding: 0 2em;
+	}
 
-  #cabecalho {
-    flex-direction: column;
-    column-gap: 0px;
-  }
-
-  #texto_cabecalho {
-    font-size: 35px;
-  }
-}
-
-@media (max-width: 1500px) {
-  .container {
-    padding: 0 3em;
-  }
+	.titulo {
+		font-size: 36px;
+	}
 }
