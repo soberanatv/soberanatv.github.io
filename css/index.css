@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 }
+
 img {
 	max-width: 100%;
 	display: block;
@@ -31,7 +32,8 @@ footer {
 	margin-right: auto;
 }
 
-.titulo, h1 {
+.titulo,
+h1 {
 	font-size: 70px;
 	line-height: 1;
 	text-align: center;
@@ -89,18 +91,22 @@ footer {
 		font-size: 16px;
 		padding: 0 1em;
 	}
+
 	.botao_redes {
 		order: 2;
 	}
+
 	.tiktok {
 		order: 0;
 	}
+
 	.twitch {
 		order: 1;
 	}
 }
 
 @media (max-width: 900px) {
+
 	.container,
 	footer {
 		padding: 0 2em;
@@ -109,4 +115,10 @@ footer {
 	.titulo {
 		font-size: 36px;
 	}
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	src: url('../assets/fonts/Ubuntu-Regular.ttf');
 }
