@@ -110,3 +110,9 @@ footer {
 		font-size: 36px;
 	}
 }
+
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	src: url('../assets/fonts/Ubuntu-Regular.ttf');
+}
