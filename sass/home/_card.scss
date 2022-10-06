@@ -1,0 +1,81 @@
+
+.project-card,
+.creator-card {
+  // min-width: calc(300px + 2rem);
+  width: calc(300px + 2rem);
+  max-height: 480px;
+}
+
+.creator-card .heading {
+  padding: 1em;
+}
+
+.creator-card img {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.creator-card .heading p {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.creator-card .heading a {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+
+.creator-card .heading a:visited {
+  color: #fff;
+}
+
+.project-card .description-container,
+.creator-card .description-container {
+  padding: 1em;
+}
+
+.project-card .social-buttons,
+.creator-card .social-buttons {
+  padding: 1em 0.5em;
+}
+
+.creator-card .social-buttons a {
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+  background: var(--soberana-pink);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 32px;
+  line-height: 20px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+.project-card .description-container p {
+  line-height: 24px;
+}
+.project-card .description-container p:last-child {
+  font-size: 14px;
+  color: #49454F;
+}
+.project-card img {
+  display: block;
+  width: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  object-position: left center;
+}
+.project-card .social-buttons {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}

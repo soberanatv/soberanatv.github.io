@@ -1,0 +1,27 @@
+section#manifesto {
+  padding: 1.25rem 1rem;
+  font-size: 20px;
+}
+
+section#manifesto > p {
+  margin-bottom: 1em;
+  // font-weight: 400;
+}
+
+section#manifesto:not(.open) > p.retract {
+  display: none;
+}
+
+section#manifesto > button > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em
+}
+
+section#manifesto:not(:not(.open)) > button > span.more {
+  display: none;
+}
+
+section#manifesto:not(.open) > button > span.less {
+  display: none;
+}
