@@ -2,15 +2,46 @@
 html {
   font-size: 16px;
 }
+
 body {
   margin: 0 1rem;
   max-width: 100vw;
   overflow-x: hidden;
+  padding-bottom: 80px; /* nav */
 }
 
 header {
   position: absolute;
   padding: 16px 0;
+}
+
+header nav {
+  position: fixed;
+  z-index: 1; /* TODO: usar var */
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 80px;
+  padding: 1.5rem;
+  background-color: var(--soberana-black);
+  border-top: 1px solid #747775;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+header nav ul > li {
+  flex: 1;
+  text-align: center;
+}
+
+header nav a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 hr {

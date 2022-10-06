@@ -27,6 +27,32 @@
 
   body {
     margin: 0 4rem;
+    padding-bottom: 0; /* nav */
+  }
+
+  header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 25px 4rem;
+
+    background-color: rgba(0, 0, 0, 0.55);
+  }
+  header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  header nav {
+    all: unset;
+  }
+  
+  header nav ul {
+    gap: 26px;
   }
 
   main {
