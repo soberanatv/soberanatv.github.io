@@ -7,6 +7,17 @@
 
 
 {% block content %}
+<header>
+  <h1><img src="images/logo.svg" alt="Logo Soberana">Soberana</h1>
+  <nav>
+    <ul>
+      <li><a href="#creators">Criadores</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#manifesto">Manifesto</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+</header>
 <main>
   <!-- BANNER -->
   <div class="banner full-width-container">
@@ -28,13 +39,13 @@
   <!-- MAIL -->
   <section id="mail" class="container full-width-container">
     <div class="image-container">
-      <img src="images/microphone.jpg" alt="Microfone">
+      <img src="images/microfone.jpg" alt="Microfone">
       <!-- Fonte: Will Francis/Unsplash -->
     </div>
     <div class="text-container">
       <p>Gostaria de se tornar um <strong>criador de conteúdo</strong> do nosso coletivo?</p>
       <p><strong>Clique no botão abaixo</strong> e nos envie um <strong>e-mail</strong> para iniciarmos as conversas.</p>
-      <a href="mailto:teste@abc.com" class="button">Enviar e-mail</a>
+      <a href="mailto:{{section.extra.email}}" class="button">Enviar e-mail</a>
     </div>
     <div class="triangle"></div>
     <div class="triangle two"></div>
@@ -121,7 +132,7 @@
       </section>
       <section class="container form">
         <h3>Entre em contato por e-mail</h3>
-        <form action="mailto:teste@abc.com" method="get">
+        <form action="mailto:{{section.extra.email}}" method="get">
           <button class="button" type="submit">Enviar e-mail</button>
         </form>
       </section>

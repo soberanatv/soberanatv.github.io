@@ -8,6 +8,11 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  position: absolute;
+  padding: 16px 0;
+}
+
 hr {
   margin: 0;
   margin-top: 3rem;
@@ -16,6 +21,18 @@ hr {
   
   background-color: var(--soberana-pink);
   border: 0;
+}
+
+h1 {
+  font-family: Molot, sans-serif;
+  font-size: calc(1rem + 16px);
+  font-weight: 400;
+}
+
+h1 > img {
+  vertical-align: middle;
+  margin-right: 12px;
+  width: 1.5em;
 }
 
 h2 {
