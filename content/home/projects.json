@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Comunismo: princípios básicos e guia de leitura",
+    "image": "images/principios-comunismo.jpg",
+    "tags": "#tags #tags #tags",
+    "link": {
+      "label": "Acessar vídeo",
+      "href": "#"
+    }
+  },
+  {
+    "title": "Audioteca crítica",
+    "image": "images/audioteca-critica.jpg",
+    "tags": "#tags #tags #tags",
+    "link": {
+      "label": "Acessar audiobooks",
+      "href": "#"
+    }
+  },
+  {
+    "title": "Curso de Formação de Criadores de Conteúdo Nadejda Krúpskaia",
+    "image": "images/curso-nadejda-krupskaia.jpg",
+    "tags": "#tags #tags #tags",
+    "link": {
+      "label": "Acessar curso",
+      "href": "#"
+    }
+  },
+  {
+    "title": "Comunismo: princípios básicos e guia de leitura",
+    "image": "images/principios-comunismo.jpg",
+    "tags": "#tags #tags #tags",
+    "link": {
+      "label": "Acessar vídeo",
+      "href": "#"
+    }
+  },
+  {
+    "title": "Audioteca crítica",
+    "image": "images/audioteca-critica.jpg",
+    "tags": "#tags #tags #tags",
+    "link": {
+      "label": "Acessar audiobooks",
+      "href": "#"
+    }
+  },
+  {
+    "title": "Curso de Formação de Criadores de Conteúdo Nadejda Krúpskaia",
+    "image": "images/curso-nadejda-krupskaia.jpg",
+    "tags": "#tags #tags #tags",
+    "link": {
+      "label": "Acessar curso",
+      "href": "#"
+    }
+  }
+]

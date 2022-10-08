@@ -1,0 +1,15 @@
+.banner {
+  background: url(images/background.jpg) no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner > strong {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}

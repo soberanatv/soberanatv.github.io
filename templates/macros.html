@@ -1,0 +1,30 @@
+{% macro creator_card(name, twitch, image, tags, socials) %}
+<div class="creator-card container">
+  <div class="heading">
+    <p>{{name}}</p>
+    <a href="#">{{twitch}}</a>
+  </div>
+  <img src="{{image}}" />
+  <div class="description-container">
+    <p>{{tags}}</p>
+  </div>
+  <div class="social-buttons">
+    {% for social in socials %}
+    <a href="#">{{social}}</a>
+    {% endfor %}
+  </div>
+</div>
+{% endmacro creator_card %}
+
+{% macro project_card(title, image, tags, link) %}
+<div class="project-card container">
+  <img src="{{image}}" />
+  <div class="description-container">
+    <p>{{title}}</p>
+    <p>{{tags}}</p>
+  </div>
+  <div class="social-buttons">
+    <a href="{{link.href}}" class="button">{{link.label}}</a>
+  </div>
+</div>
+{% endmacro project_card %}

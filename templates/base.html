@@ -2,16 +2,18 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Soberana</title>
+  <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+  {% block styles %} {% endblock %}
 </head>
 
 <body>
-  <section class="section">
-    <div class="container">
-      {% block content %} {% endblock %}
-    </div>
-  </section>
+  <div class="app-container">
+    {% block content %} {% endblock %}
+  </div>
 </body>
 
 </html>

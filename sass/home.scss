@@ -1,0 +1,171 @@
+/* BASE */
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0 1rem;
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding-bottom: 80px; /* nav */
+}
+
+header {
+  position: absolute;
+  padding: 16px 0;
+}
+
+header nav {
+  position: fixed;
+  z-index: 1; /* TODO: usar var */
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 80px;
+  padding: 1.5rem;
+  background-color: var(--soberana-black);
+  border-top: 1px solid #747775;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+header nav ul > li {
+  flex: 1;
+  text-align: center;
+}
+
+header nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+hr {
+  margin: 0;
+  margin-top: 3rem;
+  height: 3px;
+  width: 11rem;
+  
+  background-color: var(--soberana-pink);
+  border: 0;
+}
+
+h1 {
+  font-family: Molot, sans-serif;
+  font-size: calc(1rem + 16px);
+  font-weight: 400;
+}
+
+h1 > img {
+  vertical-align: middle;
+  margin-right: 12px;
+  width: 1.5em;
+}
+
+h2 {
+  position: relative;
+  padding-left: 1.25rem;
+  padding-top: 1rem;
+  margin: 0 0 3rem 0;
+
+  font-size: 2rem;
+  font-family: Molot, sans-serif;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h2::before {
+  content: attr(data-reflection); 
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+
+  opacity: 0.1;
+  color: var(--soberana-orange);
+  font-size: 3.5rem;
+}
+
+h3 {
+  margin-bottom: 20px;
+
+  font-family: Molot, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+.container {
+  background-color: var(--soberana-black);
+  border: 3px solid var(--soberana-pink);
+  color: #FFFFFF;
+}
+
+.full-width-container {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: 0 calc(50vw - 50%);
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+
+  background-color: #FFFFFF;
+  padding: 10px 24px;
+  border-radius: 2rem;
+  border: 0;
+  
+  color: var(--soberana-pink);
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* CARD */
+@import "home/card";
+
+/* BANNER */
+@import "home/banner";
+
+/* CREATORS and PROJECTS*/
+section#projects,
+section#creators {
+  font-size: 16px;
+  display: flex;
+  gap: 0.8rem;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+section#projects::-webkit-scrollbar,
+section#creators::-webkit-scrollbar {
+  display: none;
+}
+
+/* MAIL */
+@import "home/mail";
+
+/* MANIFESTO */
+@import "home/manifesto";
+
+/* FAQ */
+@import "home/faq";
+
+/* CONTACT */
+@import "home/contact";
+
+/* MEDIA QUERIES */
+@import "home/media-queries";

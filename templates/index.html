@@ -1,7 +1,161 @@
 {% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ get_url(path="home.css") }}">
+{% endblock styles %}
+
 
 {% block content %}
-<h1 class="title">
-  Site da Soberana
-</h1>
+<header>
+  <div>
+    <h1><img src="images/logo.svg" alt="Logo Soberana">Soberana</h1>
+    <nav>
+      <ul>
+        <li><a href="#creators">Criadores</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#manifesto">Manifesto</a></li>
+        <li><a href="#contact-container">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <!-- BANNER -->
+  <div class="banner full-width-container">
+    <strong>Coletivo marxista-leninista de criadores de conteúdo.</strong>
+    <a target="_blank" href="https://discord.gg/UQZpTQbCT4" class="button">
+      Junte-se no Discord
+    </a>
+  </div>
+  <!-- CREATORS -->
+  <hr>
+  <h2 data-reflection="Criadores">Criadores</h2>
+  <section id="creators" class="full-width-container">
+    {% set creators = load_data(path="@/home/creators.json") %}
+    {% for c in creators %}
+      {{ macros::creator_card(name=c.name, twitch=c.twitch, image=c.image, tags=c.tags, socials=c.socials) }}
+    {% endfor %}
+  </section>
+
+  <!-- MAIL -->
+  <section id="mail" class="container full-width-container">
+    <div class="image-container">
+      <img src="images/microfone.jpg" alt="Microfone">
+      <!-- Fonte: Will Francis/Unsplash -->
+    </div>
+    <div class="text-container">
+      <p>Gostaria de se tornar um <strong>criador de conteúdo</strong> do nosso coletivo?</p>
+      <p><strong>Clique no botão abaixo</strong> e nos envie um <strong>e-mail</strong> para iniciarmos as conversas.</p>
+      <a href="mailto:{{section.extra.email}}" class="button">Enviar e-mail</a>
+    </div>
+    <div class="triangle"></div>
+    <div class="triangle two"></div>
+    <div class="triangle three"></div>
+    <div class="stick"></div>
+  </section>
+
+  <!-- PROJETOS -->
+  <hr>
+  <h2 data-reflection="Projetos">Projetos</h2>
+  <section id="projects" class="full-width-container">
+    {% set projects = load_data(path="@/home/projects.json") %}
+    {% for p in projects %}
+      {{ macros::project_card(title=p.title, image=p.image, tags=p.tags, link=p.link) }}
+    {% endfor %}
+  </section>
+
+  <!-- MANIFESTO -->
+  <hr>
+  <h2 data-reflection="Manifesto">Manifesto</h2>
+  <section id="manifesto" class="container">
+    <p>
+      A Soberana é um coletivo marxista-leninista que atua na disputa pela consciência política dos trabalhadores na internet. Dado o crescimento do acesso à internet via celulares no cotidiano da classe trabalhadora, julgamos necessário ocupar os espaços virtuais mais utilizados.
+    </p>
+    <p>
+      Nossa fundação parte do entendimento que a esmagadora maioria do conteúdo disponível na internet, seja abertamente político ou não, é tomado por linhas reacionárias. Os motivos que culminaram nessa realidade são diversos e complexos, derivando tanto dos monopólios das “Big Techs”, quanto das agências de telecomunicações. Essas empresas determinam a qualidade e acessibilidade da internet em território nacional, ao mesmo tempo que controlam os algoritmos dos sites que acessamos.
+    </p>
+    <p class="retract">As alas à direita, aproveitando-se da colaboração dessas companhias, frequentemente difundem seu discurso com métodos escusos e generosamente financiados. Dessa forma, os algoritmos são apreendidos pelo conservadorismo do senso comum, o liberalismo que luta com unhas e dentes contra a dignidade da classe trabalhadora e o negacionismo calcado nos interesses da burguesia, frequentemente sob a vista grossa da legislação.</p>
+
+    <p class="retract">Boa parte da esquerda que produz conteúdo para a internet age somente pela perspectiva de agitação e propaganda. Apesar de entendermos a importância da agitprop, nós propomos ir além. Nosso projeto consiste em utilizar a internet para fomentar a organização dos trabalhadores, o avanço da consciência política, a divulgação e a capilarização do marxismo-leninismo no cotidiano de toda a classe.</p>
+
+    <p class="retract">Dado o modelo de funcionamento das redes, sabemos que a qualquer momento podemos ser banidos e/ou bloqueados das plataformas que utilizamos. Por isso, julgamos necessária a construção de uma rede sólida de camaradas, a fim de garantir a continuidade das nossas atividades, para além de qualquer única rede social.</p>
+
+    <p class="retract">Para concretizar esse projeto criamos espaços de discussão, diálogo e formação política. Entretanto, o objetivo é não nos restringirmos ao conteúdo acadêmico, explorando formas de entretenimento político mais adequadas aos potenciais da internet. Produzimos de maneira cotidiana transmissões ao vivo, vídeos, textos e ilustrações, priorizando nossa proximidade com a comunidade.</p>
+
+    <p class="retract">Somos criadores de conteúdo com trabalhos variados sob a perspectiva de disseminar o discurso comunista nas plataformas virtuais. Alinhando-se a isso, promovemos o contato direto com a base de trabalhadores que consomem cotidianamente conteúdo na internet.</p>
+
+    <button class="button" type="button" onclick="manifesto.classList.toggle('open')">
+      <span class="less">
+        <!-- <svg><use xlink:href="#radix-chevron-up-icon"></use></svg> -->
+        Ver menos
+      </span>
+      <span class="more">
+        <!-- <svg><use xlink:href="#radix-chevron-down-icon"></use></svg> -->
+        Ver mais
+      </span>
+    </button>
+  </section>
+
+  <!-- FAQ -->
+  <hr>
+  <h2 data-reflection="FAQ">FAQ</h2>
+  <section id="faq">
+    <details class="container">
+      <summary>Qual objetivo do coletivo?</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero alias deleniti distinctio placeat quibusdam qui ipsum accusamus doloribus. Accusamus incidunt mollitia iusto, nesciunt amet dignissimos dolore ex minima, sapiente, consectetur impedit harum sequi aliquam distinctio earum voluptatem quidem ea corporis corrupti optio. Error, ad ratione. Ut, dignissimos? Voluptatum obcaecati hic consectetur dolores provident, iste at architecto dolor optio maiores.</p>
+    </details>
+    <details class="container">
+      <summary>O que é socialismo?</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero alias deleniti distinctio placeat quibusdam qui ipsum accusamus doloribus. Accusamus incidunt mollitia iusto, nesciunt amet dignissimos dolore ex minima, sapiente, consectetur impedit harum sequi aliquam distinctio earum voluptatem quidem ea corporis corrupti optio. Error, ad ratione. Ut, dignissimos? Voluptatum obcaecati hic consectetur dolores provident, iste at architecto dolor optio maiores.</p>
+    </details>
+    <details class="container">
+      <summary>Como posso apoiar o coletivo?</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero alias deleniti distinctio placeat quibusdam qui ipsum accusamus doloribus. Accusamus incidunt mollitia iusto, nesciunt amet dignissimos dolore ex minima, sapiente, consectetur impedit harum sequi aliquam distinctio earum voluptatem quidem ea corporis corrupti optio. Error, ad ratione. Ut, dignissimos? Voluptatum obcaecati hic consectetur dolores provident, iste at architecto dolor optio maiores.</p>
+    </details>
+    <details class="container">
+      <summary>Qual objetivo do coletivo?</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero alias deleniti distinctio placeat quibusdam qui ipsum accusamus doloribus. Accusamus incidunt mollitia iusto, nesciunt amet dignissimos dolore ex minima, sapiente, consectetur impedit harum sequi aliquam distinctio earum voluptatem quidem ea corporis corrupti optio. Error, ad ratione. Ut, dignissimos? Voluptatum obcaecati hic consectetur dolores provident, iste at architecto dolor optio maiores.</p>
+    </details>
+    <details class="container">
+      <summary>O que é socialismo?</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero alias deleniti distinctio placeat quibusdam qui ipsum accusamus doloribus. Accusamus incidunt mollitia iusto, nesciunt amet dignissimos dolore ex minima, sapiente, consectetur impedit harum sequi aliquam distinctio earum voluptatem quidem ea corporis corrupti optio. Error, ad ratione. Ut, dignissimos? Voluptatum obcaecati hic consectetur dolores provident, iste at architecto dolor optio maiores.</p>
+    </details>
+  </section>
+
+  <!-- CONTACT -->
+  <div id="contact-container" class="full-width-container">
+    <hr>
+    <h2 data-reflection="Contato">Contato</h2>
+    <div class="grid-container">
+      <section class="text">
+        <p>Entre em contato conosco para possíveis parcerias, se candidatar a criador de conteúdo, tirar dúvidas ou apenas debater e trocar uma ideia.</p>
+        <p>Utilizamos o Discord como ferramenta principal de comunicação, acesse nosso servidor clicando no ícone abaixo e junte-se ao nosso coletivo.</p>
+      </section>
+      <section class="container form">
+        <h3>Entre em contato por e-mail</h3>
+        <form action="mailto:{{section.extra.email}}" method="get">
+          <button class="button" type="submit">Enviar e-mail</button>
+        </form>
+      </section>
+      <section class="social-media">
+        <h3>Nossas redes:</h3>
+        <ul>
+          <li>Discord</li>
+          <li>TikTok</li>
+          <li>Twitter</li>
+          <li>Youtube</li>
+          <li>Twitch</li>
+          <li>Instagram</li>
+        </ul>
+      </section>
+      <section>
+        <a href="#" class="back-to-top">
+          <!-- <svg><use xlink:href="#radix-chevron-up-icon"></use></svg> -->
+          Voltar para o topo
+        </a>
+      </section>
+    </div>
+  </div>
+</main>
 {% endblock content %}
