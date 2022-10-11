@@ -54,6 +54,10 @@
   header nav ul {
     gap: 26px;
   }
+  
+  header nav a {
+    flex-direction: row;
+  }
 
   main {
     max-width: 1200px;
@@ -69,7 +73,7 @@
 
   #contact-container > .grid-container {
     display: grid;
-    gap: 1rem;
+    gap: 0 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
       "text form"

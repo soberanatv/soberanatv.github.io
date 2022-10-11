@@ -52,8 +52,22 @@
 #contact-container > .grid-container > section.social-media > ul {
   list-style-type: none;
   columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3;
 
   font-size: 14px;
+}
+
+#contact-container > .grid-container > section.social-media > ul > li {
+  margin-bottom: 24px;
+}
+
+#contact-container > .grid-container > section.social-media > ul > li > a {  
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  text-decoration: none;
+  color: inherit
+}
+
+#contact-container > .grid-container > section.social-media > ul > li svg {
+  font-size: 1.6em
 }

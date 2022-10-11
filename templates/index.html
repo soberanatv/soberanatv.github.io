@@ -12,10 +12,22 @@
     <h1><img src="images/logo.svg" alt="Logo Soberana">Soberana</h1>
     <nav>
       <ul>
-        <li><a href="#creators">Criadores</a></li>
-        <li><a href="#projects">Projetos</a></li>
-        <li><a href="#manifesto">Manifesto</a></li>
-        <li><a href="#contact-container">Contato</a></li>
+        <li><a href="#creators">
+          <svg><use href="#fa-people-icon"></use></svg>
+          Criadores
+        </a></li>
+        <li><a href="#projects">
+          <svg><use href="#fa-book-icon"></use></svg>
+          Projetos
+        </a></li>
+        <li><a href="#manifesto">
+          <svg><use href="#fa-scroll-icon"></use></svg>
+          Manifesto
+        </a></li>
+        <li><a href="#contact-container">
+          <svg><use href="#fa-mail-icon"></use></svg>
+          Contato
+        </a></li>
       </ul>
     </nav>
   </div>
@@ -24,7 +36,8 @@
   <!-- BANNER -->
   <div class="banner full-width-container">
     <strong>Coletivo marxista-leninista de criadores de conteúdo.</strong>
-    <a target="_blank" href="https://discord.gg/UQZpTQbCT4" class="button">
+    <a target="_blank" href="{{section.extra.discord}}" class="button">
+      <svg><use xlink:href="#fa-discord-icon"></use></svg>
       Junte-se no Discord
     </a>
   </div>
@@ -87,11 +100,11 @@
 
     <button class="button" type="button" onclick="manifesto.classList.toggle('open')">
       <span class="less">
-        <!-- <svg><use xlink:href="#radix-chevron-up-icon"></use></svg> -->
+        <svg><use xlink:href="#radix-triangle-up-icon"></use></svg>
         Ver menos
       </span>
       <span class="more">
-        <!-- <svg><use xlink:href="#radix-chevron-down-icon"></use></svg> -->
+        <svg><use xlink:href="#radix-triangle-down-icon"></use></svg>
         Ver mais
       </span>
     </button>
@@ -141,17 +154,47 @@
       <section class="social-media">
         <h3>Nossas redes:</h3>
         <ul>
-          <li>Discord</li>
-          <li>TikTok</li>
-          <li>Twitter</li>
-          <li>Youtube</li>
-          <li>Twitch</li>
-          <li>Instagram</li>
+          <li>
+            <a href="{{section.extra.discord}}" target="_blank">
+              <svg><use xlink:href="#fa-discord-icon"></use></svg>
+              Discord
+            </a>
+          </li>
+          <li>
+            <a href="{{section.extra.tiktok}}" target="_blank">
+              <svg><use xlink:href="#fa-tiktok-icon"></use></svg>
+              TikTok
+            </a>
+          </li>
+          <li>
+            <a href="{{section.extra.twitter}}" target="_blank">
+              <svg><use xlink:href="#fa-twitter-icon"></use></svg>
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a href="{{section.extra.youtube}}" target="_blank">
+              <svg><use xlink:href="#fa-youtube-icon"></use></svg>
+              Youtube
+            </a>
+          </li>
+          <li>
+            <a href="{{section.extra.twitch}}" target="_blank">
+              <svg><use xlink:href="#fa-twitch-icon"></use></svg>
+              Twitch
+            </a>
+          </li>
+          <li>
+            <a href="{{section.extra.instagram}}" target="_blank">
+              <svg><use xlink:href="#fa-instagram-icon"></use></svg>
+              Instagram
+            </a>
+          </li>
         </ul>
       </section>
       <section>
         <a href="#" class="back-to-top">
-          <!-- <svg><use xlink:href="#radix-chevron-up-icon"></use></svg> -->
+          <svg><use xlink:href="#radix-triangle-up-icon"></use></svg>
           Voltar para o topo
         </a>
       </section>
