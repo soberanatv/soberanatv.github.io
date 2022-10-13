@@ -16,7 +16,7 @@
 }
 
 #contact-container a.back-to-top {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.5rem;
 
@@ -51,13 +51,11 @@
 
 #contact-container > .grid-container > section.social-media > ul {
   list-style-type: none;
-  columns: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 
   font-size: 14px;
-}
-
-#contact-container > .grid-container > section.social-media > ul > li {
-  margin-bottom: 24px;
 }
 
 #contact-container > .grid-container > section.social-media > ul > li > a {  
