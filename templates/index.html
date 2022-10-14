@@ -8,29 +8,27 @@
 
 {% block content %}
 <header>
-  <div>
-    <h1><img src="images/logo.svg" alt="Logo Soberana">Soberana</h1>
-    <nav>
-      <ul>
-        <li><a href="#creators">
-          <svg><use href="#fa-people-icon"></use></svg>
-          Criadores
-        </a></li>
-        <li><a href="#projects">
-          <svg><use href="#fa-book-icon"></use></svg>
-          Projetos
-        </a></li>
-        <li><a href="#manifesto">
-          <svg><use href="#fa-scroll-icon"></use></svg>
-          Manifesto
-        </a></li>
-        <li><a href="#contact-container">
-          <svg><use href="#fa-mail-icon"></use></svg>
-          Contato
-        </a></li>
-      </ul>
-    </nav>
-  </div>
+  <h1><img src="images/logo.svg" alt="Logo Soberana">Soberana</h1>
+  <nav>
+    <ul>
+      <li><a href="#creators">
+        <svg><use href="#fa-people-icon"></use></svg>
+        Criadores
+      </a></li>
+      <li><a href="#projects">
+        <svg><use href="#fa-book-icon"></use></svg>
+        Projetos
+      </a></li>
+      <li><a href="#manifesto">
+        <svg><use href="#fa-scroll-icon"></use></svg>
+        Manifesto
+      </a></li>
+      <li><a href="#contact-container">
+        <svg><use href="#fa-mail-icon"></use></svg>
+        Contato
+      </a></li>
+    </ul>
+  </nav>
 </header>
 <main>
   <!-- BANNER -->
@@ -44,7 +42,7 @@
   <!-- CREATORS -->
   <hr>
   <h2 data-reflection="Criadores">Criadores</h2>
-  <section id="creators" class="full-width-container">
+  <section id="creators">
     {% set creators = load_data(path="@/home/creators.json") %}
     {% for c in creators %}
       {{ macros::creator_card(name=c.name, twitch=c.twitch, image=c.image, tags=c.tags, socials=c.socials) }}
@@ -71,7 +69,7 @@
   <!-- PROJETOS -->
   <hr>
   <h2 data-reflection="Projetos">Projetos</h2>
-  <section id="projects" class="full-width-container">
+  <section id="projects">
     {% set projects = load_data(path="@/home/projects.json") %}
     {% for p in projects %}
       {{ macros::project_card(title=p.title, image=p.image, tags=p.tags, link=p.link) }}
@@ -135,70 +133,67 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero alias deleniti distinctio placeat quibusdam qui ipsum accusamus doloribus. Accusamus incidunt mollitia iusto, nesciunt amet dignissimos dolore ex minima, sapiente, consectetur impedit harum sequi aliquam distinctio earum voluptatem quidem ea corporis corrupti optio. Error, ad ratione. Ut, dignissimos? Voluptatum obcaecati hic consectetur dolores provident, iste at architecto dolor optio maiores.</p>
     </details>
   </section>
-
-  <!-- CONTACT -->
-  <div id="contact-container" class="full-width-container">
-    <hr>
-    <h2 data-reflection="Contato">Contato</h2>
-    <div class="grid-container">
-      <section class="text">
-        <p>Entre em contato conosco para possíveis parcerias, se candidatar a criador de conteúdo, tirar dúvidas ou apenas debater e trocar uma ideia.</p>
-        <p>Utilizamos o Discord como ferramenta principal de comunicação, acesse nosso servidor clicando no ícone abaixo e junte-se ao nosso coletivo.</p>
-      </section>
-      <section class="container form">
-        <h3>Entre em contato por e-mail</h3>
-        <form action="mailto:{{section.extra.email}}" method="get">
-          <button class="button" type="submit">Enviar e-mail</button>
-        </form>
-      </section>
-      <section class="social-media">
-        <h3>Nossas redes:</h3>
-        <ul>
-          <li>
-            <a href="{{section.extra.discord}}" target="_blank">
-              <svg><use xlink:href="#fa-discord-icon"></use></svg>
-              Discord
-            </a>
-          </li>
-          <li>
-            <a href="{{section.extra.tiktok}}" target="_blank">
-              <svg><use xlink:href="#fa-tiktok-icon"></use></svg>
-              TikTok
-            </a>
-          </li>
-          <li>
-            <a href="{{section.extra.twitter}}" target="_blank">
-              <svg><use xlink:href="#fa-twitter-icon"></use></svg>
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a href="{{section.extra.youtube}}" target="_blank">
-              <svg><use xlink:href="#fa-youtube-icon"></use></svg>
-              Youtube
-            </a>
-          </li>
-          <li>
-            <a href="{{section.extra.twitch}}" target="_blank">
-              <svg><use xlink:href="#fa-twitch-icon"></use></svg>
-              Twitch
-            </a>
-          </li>
-          <li>
-            <a href="{{section.extra.instagram}}" target="_blank">
-              <svg><use xlink:href="#fa-instagram-icon"></use></svg>
-              Instagram
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <a href="#" class="back-to-top">
-          <svg><use xlink:href="#radix-triangle-up-icon"></use></svg>
-          Voltar para o topo
-        </a>
-      </section>
-    </div>
-  </div>
 </main>
+<!-- CONTACT -->
+<footer id="contact-container">
+  <hr>
+  <h2 data-reflection="Contato">Contato</h2>
+  <section class="grid-container">
+    <div class="text">
+      <p>Entre em contato conosco para possíveis parcerias, se candidatar a criador de conteúdo, tirar dúvidas ou apenas debater e trocar uma ideia.</p>
+      <p>Utilizamos o Discord como ferramenta principal de comunicação, acesse nosso servidor clicando no ícone abaixo e junte-se ao nosso coletivo.</p>
+    </div>
+    <div class="container form">
+      <h3>Entre em contato por e-mail</h3>
+      <form action="mailto:{{section.extra.email}}" method="get">
+        <button class="button" type="submit">Enviar e-mail</button>
+      </form>
+    </div>
+    <div class="social-media">
+      <h3>Nossas redes:</h3>
+      <ul>
+        <li>
+          <a href="{{section.extra.discord}}" target="_blank">
+            <svg><use xlink:href="#fa-discord-icon"></use></svg>
+            Discord
+          </a>
+        </li>
+        <li>
+          <a href="{{section.extra.tiktok}}" target="_blank">
+            <svg><use xlink:href="#fa-tiktok-icon"></use></svg>
+            TikTok
+          </a>
+        </li>
+        <li>
+          <a href="{{section.extra.twitter}}" target="_blank">
+            <svg><use xlink:href="#fa-twitter-icon"></use></svg>
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a href="{{section.extra.youtube}}" target="_blank">
+            <svg><use xlink:href="#fa-youtube-icon"></use></svg>
+            Youtube
+          </a>
+        </li>
+        <li>
+          <a href="{{section.extra.twitch}}" target="_blank">
+            <svg><use xlink:href="#fa-twitch-icon"></use></svg>
+            Twitch
+          </a>
+        </li>
+        <li>
+          <a href="{{section.extra.instagram}}" target="_blank">
+            <svg><use xlink:href="#fa-instagram-icon"></use></svg>
+            Instagram
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <a href="#" class="back-to-top">
+    <svg><use xlink:href="#radix-triangle-up-icon"></use></svg>
+    Voltar para o topo
+  </a>
+</footer>
 {% endblock content %}

@@ -25,40 +25,41 @@
   text-decoration: none;
 }
 
-#contact-container > .grid-container > section {
-  margin-bottom: 2rem;
-}
-#contact-container > .grid-container > section:last-child {
-  margin-bottom: 0;
-}
-#contact-container > .grid-container > section > p {
+#contact-container p {
   font-size: 20px;
   margin-bottom: 1em;
 }
 
-#contact-container > .grid-container > section.form {
-  background-color: #0A0909;
-  padding: 24px 1.5rem;
+#contact-container .grid-container {
+  display: grid;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
-#contact-container > .grid-container > section.form > h3 {
+#contact-container > .grid-container > .form {
+  background-color: #0A0909;
+  padding: 24px 1.5rem;
+  align-self: flex-start;
+}
+
+#contact-container > .grid-container > .form > h3 {
   text-align: center;
 }
 
-#contact-container > .grid-container > section.form button[type="submit"] {
+#contact-container > .grid-container > .form button[type="submit"] {
   font-size: 14px;
 }
 
-#contact-container > .grid-container > section.social-media > ul {
-  list-style-type: none;
+#contact-container > .grid-container > .social-media > ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-
+  
+  list-style-type: none;
   font-size: 14px;
 }
 
-#contact-container > .grid-container > section.social-media > ul > li > a {  
+#contact-container > .grid-container > .social-media a {  
   display: flex;
   align-items: center;
   gap: 1em;
@@ -66,6 +67,6 @@
   color: inherit
 }
 
-#contact-container > .grid-container > section.social-media > ul > li svg {
+#contact-container > .grid-container > .social-media a svg {
   font-size: 1.6em
 }
