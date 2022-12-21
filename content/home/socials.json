@@ -1,0 +1,17 @@
+[
+    {
+        "name": "youtube",
+        "label": "Youtube",
+        "icon": "bx bxl-youtube"
+    },
+    {
+        "name": "instagram",
+        "label": "Insta",
+        "icon": "bx bxl-instagram"
+    },
+    {
+        "name": "twitter",
+        "label": "Twitter",
+        "icon": "bx bxl-twitter"
+    }
+]

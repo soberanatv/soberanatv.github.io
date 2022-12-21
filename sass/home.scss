@@ -31,12 +31,17 @@ header nav {
 header nav ul {
   display: flex;
   list-style-type: none;
+
   font-size: 14px;
 }
 
 header nav ul > li {
-  flex: 1;
-  text-align: center;
+  display: inline-flex;
+  align-items: center;
+}
+
+header nav ul > li .icon {
+  margin-right: 2px;
 }
 
 header nav a {
@@ -119,7 +124,8 @@ section {
 }
 
 .button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   cursor: pointer;
 
   background-color: #FFFFFF;
@@ -132,6 +138,11 @@ section {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
+}
+
+.button .icon {
+  font-size: 18px;
+  margin-right: 5px;
 }
 
 /* CARD */

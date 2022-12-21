@@ -1,4 +1,7 @@
+
+
 {% macro creator_card(name, twitch, image, tags, socials) %}
+{% set socials_data = load_data(path="@/home/socials.json") %}
 <div class="creator-card container">
   <div class="heading">
     <p>{{name}}</p>
@@ -9,8 +12,11 @@
     <p>{{tags}}</p>
   </div>
   <div class="social-buttons">
-    {% for social in socials %}
-    <a href="#">{{social}}</a>
+    {% for social in socials_data %}
+    <a href="#" class="button">
+      <i class="{{social.icon}}"></i>
+      {{social.label}}
+    </a>
     {% endfor %}
   </div>
 </div>
