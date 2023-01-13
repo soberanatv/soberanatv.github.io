@@ -1,16 +1,42 @@
-import Image from "next/image";
-import logo from "../public/logo.png";
 import BordaSuperior from "./bordaSuperior";
-import styles from "../styles/Criador.module.css";
-import useSWR from "swr";
+// import useSWR from "swr";
 import Projeto from "./projeto";
-import Criador from "./criador";
-const fetcher = (...args) => fetch(...args).then((res) => res.json());
+// const fetcher = (...args) => fetch(...args).then((res) => res.json());
 function Projetos() {
-  const { data, error } = useSWR("/api/projetos", fetcher);
+  // const { data, error } = useSWR("/api/projetos", fetcher);
 
-  if (error) return <div>Falha ao carregar projetos</div>;
-  if (!data) return <div>Carregando...</div>;
+  // if (error) return <div>Falha ao carregar projetos</div>;
+  // if (!data) return <div>Carregando...</div>;
+  const data = [
+    {
+      nome: "Comunismo: Príncípios Básicos e Guia de Leitura",
+      url: "https://www.youtube.com/watch?v=cg5winGpx80&t=2979s",
+      capa: "/comunismo.jpg",
+      tags: "vídeo;youtube",
+      categoria: "vídeo",
+    },
+    {
+      nome: "Audioteca Crítica",
+      url: "",
+      capa: "/audioteca.jpg",
+      tags: "audiobook;spotify",
+      categoria: "audiobooks",
+    },
+    {
+      nome: "Curso de Formação de Criadores de Conteúdo Nadejda Krúpskaia",
+      url: "",
+      capa: "/curso_conteudo.jpg",
+      tags: "curso;aulas",
+      categoria: "curso",
+    },
+    {
+      nome: "Entrevista Candidata Priscila Voigt",
+      url: "https://www.youtube.com/watch?v=rgx_cL6xcr0",
+      capa: "/priscila.jpg",
+      tags: "vídeo;entrevista",
+      categoria: "vídeo",
+    },
+  ];
   return (
     <>
       <BordaSuperior></BordaSuperior>
