@@ -108,7 +108,7 @@ function Criadores() {
           })}
         </div>
       </div>
-      <div className="grid grid-flow-row-dense grid-cols-4 pl-6 pr-6 pt-32">
+      <div className="grid grid-flow-row-dense grid-cols-1 lg:grid-cols-4  pt-32">
         <div>
           <Image
             className="
@@ -127,7 +127,7 @@ function Criadores() {
             <strong>Clique no botão abaixo</strong> e nos envie um{" "}
             <strong>e-mail</strong> para iniciarmos as conversas
           </p>
-          <div className="pl-6">
+          <div className="pl-4">
             <button
               type="button"
               className="inline-block px-6 py-2.5 bg-white text-soberana-red  uppercase font-bold rounded-full shadow-md mb-4"

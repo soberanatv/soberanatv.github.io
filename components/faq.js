@@ -28,8 +28,8 @@ function FAQ() {
   return (
     <>
       <BordaSuperior></BordaSuperior>
-      <h1 className="pl-6 text-6xl text-soberana">FAQ</h1>
-      <div className="w-3/4 pt-10 pb-10  m-auto">
+      <h1 className="pl-6 lg:pt-0 pt-48  text-6xl text-soberana">FAQ</h1>
+      <div className="w-3/4 lg:pt-10 lg:pb-10 pt-24 pb-24  m-auto">
         {data.map(({ titulo, descricao }) => {
           return (
             <Accordion titulo={titulo} descricao={descricao} key={titulo} />

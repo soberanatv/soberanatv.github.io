@@ -86,7 +86,7 @@
 
   background: #ffffff;
   transform: rotate(45deg);
-  z-index: 3;
+  z-index: -2;
 }
 
 .stick {
@@ -96,6 +96,7 @@
   /* Laranja Soberana */
   background: #fa5901;
   transform: rotate(30deg);
+  z-index: -1;
 }
 
 .circulo_laranja {
@@ -107,7 +108,7 @@
   transform: translate(-25%, -25%);
   border-radius: 150px 150px 0 0;
   transform: rotate(270deg);
-  z-index: 1;
+  z-index: -3;
 }
 
 .circulo_rosa {
@@ -119,7 +120,7 @@
   background: #eb005c;
   border-radius: 100px 100px 0 0;
   transform: rotate(270deg);
-  z-index: 3;
+  z-index: -3;
 }
 
 .triangulo_esquerda {

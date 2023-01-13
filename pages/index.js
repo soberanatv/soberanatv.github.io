@@ -42,8 +42,7 @@ export default function Home() {
             <div className="pb-32"></div>
             <Manifesto></Manifesto>
             <div className="pb-32"></div>
-            <FAQ></FAQ>
-            <div className="w-full -top-96 -right-10 relative">
+            <div className="w-full -bottom-2 -right-10 relative">
               <div
                 className={`${style.stick_branco} absolute right-0 top-16`}
               ></div>
@@ -54,6 +53,7 @@ export default function Home() {
                 className={`${style.circulo_rosa} absolute top-4 right-0`}
               ></div>
             </div>
+            <FAQ></FAQ>
             <div className="pb-32"></div>
             <Contato></Contato>
           </div>
