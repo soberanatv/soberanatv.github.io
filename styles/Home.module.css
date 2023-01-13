@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding-left: 3rem;
-  padding-right: 3rem;
+  overflow-x: hidden;
   min-height: 100vh;
 }
 
@@ -76,4 +76,59 @@
 .logo,
 .thirteen {
   position: relative;
+}
+
+.stick_branco {
+  /* Rectangle 519 */
+
+  width: 200px;
+  height: 5px;
+
+  background: #ffffff;
+  transform: rotate(45deg);
+  z-index: 3;
+}
+
+.stick {
+  width: 5px;
+  height: 232.93px;
+
+  /* Laranja Soberana */
+  background: #fa5901;
+  transform: rotate(30deg);
+}
+
+.circulo_laranja {
+  width: 167.36px;
+  height: 83.68px;
+
+  /* Laranja Soberana */
+  background: #fa5901;
+  transform: translate(-25%, -25%);
+  border-radius: 150px 150px 0 0;
+  transform: rotate(270deg);
+  z-index: 1;
+}
+
+.circulo_rosa {
+  /* Vector */
+  width: 117.15px;
+  height: 58.58px;
+
+  /* Rosa Soberana */
+  background: #eb005c;
+  border-radius: 100px 100px 0 0;
+  transform: rotate(270deg);
+  z-index: 3;
+}
+
+.triangulo_esquerda {
+  /* Vector */
+  width: 88.66px;
+  height: 62.68px;
+
+  /* Rosa Soberana */
+  background: #eb005c;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  transform: rotate(270deg);
 }

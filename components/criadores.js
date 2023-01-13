@@ -108,7 +108,7 @@ function Criadores() {
           })}
         </div>
       </div>
-      <div className="grid grid-flow-row-dense grid-cols-4 pl-6 pr-6 pt-12">
+      <div className="grid grid-flow-row-dense grid-cols-4 pl-6 pr-6 pt-32">
         <div>
           <Image
             className="
