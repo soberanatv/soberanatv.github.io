@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Changa One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Changa One"), local("ChangaOne"),
+    url(https://themes.googleusercontent.com/static/fonts/changaone/v6/QmTOgNNWM9ly3K3B2X29HC3USBnSvpkopQaUR-2r7iU.ttf)
+      format("truetype");
+}
+
+.text-soberana {
+  font-family: "Changa One";
+  color: #ece8e1;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+.accent {
+  background: #eb005c;
+  color: white;
+}
+
+.accent-text {
+  color: #eb005c;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eb005c;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
