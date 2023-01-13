@@ -14,7 +14,7 @@ function Header() {
           alt="SOBERANA"
         ></Image>
         <div>
-          <h1 className="absolute font-semibold text-6xl text-white top-1/3 left-0 pl-48 w-3/6">
+          <h1 className="absolute font-semibold text-6xl text-white top-1/3 left-0 lg:pl-48 pl-6 w-3/6">
             Coletivo marxista-leninista de Criadores de Conteúdo
             <div>
               <button

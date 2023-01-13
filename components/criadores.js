@@ -112,7 +112,7 @@ function Criadores() {
         <div>
           <Image
             className="
-            object-fill h-80 w-80
+            object-fill w-80
             shadow rounded-full align-middle border-solid border-4 border-soberana-red"
             src={PhoneImage}
             alt="Phone"

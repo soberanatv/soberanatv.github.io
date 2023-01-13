@@ -92,7 +92,7 @@ function Contato() {
           </div>
         </div>
 
-        <div className="lg:col-start-3 col-start-1  row-span-2 col-span-full text-xl text-justify text-sobera-white pl-24">
+        <div className="lg:col-start-3 col-start-1  row-span-2 col-span-full text-xl text-justify text-sobera-white lg:pl-24">
           <div className="border-red-soberana text-gray-light cursor-pointer border-4 border-soberana-red">
             <div className="pl-12 pr-12 pt-6 pb-6">
               <h4 className="uppercase text-soberana text-white text-2xl pb-4">
