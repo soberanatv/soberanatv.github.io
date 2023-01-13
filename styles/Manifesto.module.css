@@ -1,0 +1,5 @@
+.window {
+  z-index: -1;
+  transform: translate(2%, 5%); /* this is relative to current position */
+  background: black;
+}
