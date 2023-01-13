@@ -11,7 +11,7 @@ function Projetos() {
     {
       nome: "Comunismo: Príncípios Básicos e Guia de Leitura",
       url: "https://www.youtube.com/watch?v=cg5winGpx80&t=2979s",
-      capa: "https://github.com/souzadevinicius/soberanatv.github.io/blob/gh-pages/comunismo.jpg",
+      capa: "https://github.com/souzadevinicius/soberanatv.github.io/blob/gh-pages/comunismo.jpg?raw=true",
       tags: "vídeo;youtube",
       categoria: "vídeo",
     },
@@ -25,14 +25,14 @@ function Projetos() {
     {
       nome: "Curso de Formação de Criadores de Conteúdo Nadejda Krúpskaia",
       url: "",
-      capa: "https://github.com/souzadevinicius/soberanatv.github.io/blob/gh-pages/curso_conteudo.jpg",
+      capa: "https://github.com/souzadevinicius/soberanatv.github.io/blob/gh-pages/curso_conteudo.jpg?raw=true",
       tags: "curso;aulas",
       categoria: "curso",
     },
     {
       nome: "Entrevista Candidata Priscila Voigt",
       url: "https://www.youtube.com/watch?v=rgx_cL6xcr0",
-      capa: "https://github.com/souzadevinicius/soberanatv.github.io/blob/gh-pages/priscila.jpg",
+      capa: "https://github.com/souzadevinicius/soberanatv.github.io/blob/gh-pages/priscila.jpg?raw=true",
       tags: "vídeo;entrevista",
       categoria: "vídeo",
     },
