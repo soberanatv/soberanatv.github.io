@@ -13,3 +13,13 @@
   font-size: 2.2rem;
   margin-bottom: 1rem;
 }
+
+.banner > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.banner > a > svg {
+  font-size: 1.25em
+}

@@ -26,25 +26,22 @@
   }
 
   body {
-    margin: 0 4rem;
+    --page-padding: max(4rem, calc((100vw - var(--large-screen-max-width)) / 2));
+
     padding-bottom: 0; /* nav */
   }
 
   header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     position: fixed;
     left: 0;
     right: 0;
     z-index: 1;
-    padding: 25px 4rem;
 
     background-color: rgba(0, 0, 0, 0.55);
-  }
-  header > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
   }
 
   header nav {
@@ -54,11 +51,9 @@
   header nav ul {
     gap: 26px;
   }
-
-  main {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+  
+  header nav a {
+    flex-direction: row;
   }
 
   section#mail .image-container {
@@ -68,25 +63,12 @@
   }
 
   #contact-container > .grid-container {
-    display: grid;
-    gap: 1rem;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-      "text form"
-      "social-media form"
-      "link form";
   }
-  
+
   #contact-container > .grid-container > .form {
-    margin: 0;
-    grid-area: form;
-    align-self: flex-start;
-  }
-  #contact-container > .grid-container > .social-media {
-    grid-area: social-media;
-  }
-  #contact-container > .grid-container > .text {
-    grid-area: text;
+    grid-row: span 2;
+    grid-column: 2;
   }
 
   section#manifesto {
