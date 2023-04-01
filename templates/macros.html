@@ -1,30 +1,49 @@
-{% macro creator_card(name, twitch, image, tags, socials) %}
+{% macro creator_card(creator) %}
 <div class="creator-card container">
-  <div class="heading">
-    <p>{{name}}</p>
-    <a href="#">{{twitch}}</a>
-  </div>
-  <img src="{{image}}" />
+  <h3>{{creator.name}}</h3>
+  <img src="{{creator.image}}" />
+  {% if creator.tags %}
   <div class="description-container">
-    <p>{{tags}}</p>
+    <ul>
+      {% for t in creator.tags %}
+      <li>#{{t}}</li>
+      {% endfor %}
+    </ul>
   </div>
+  {% endif %}
   <div class="social-buttons">
-    {% for social in socials %}
-    <a href="#">{{social}}</a>
-    {% endfor %}
+    {% if creator.twitch %}
+    <a href="{{creator.twitch}}">
+      <svg><use xlink:href="#fa-discord-icon"></use></svg>
+    </a>
+    {% endif %}
+
+    {% if creator.youtube %}
+    <a href="{{creator.youtube}}">
+      <svg><use xlink:href="#fa-youtube-icon"></use></svg>
+    </a>
+    {% endif %}
+
+    {% if creator.instagram %}
+    <a href="{{creator.instagram}}">
+      <svg><use xlink:href="#fa-instagram-icon"></use></svg>
+    </a>
+    {% endif %}
   </div>
 </div>
 {% endmacro creator_card %}
 
-{% macro project_card(title, image, tags, link) %}
+{% macro project_card(project) %}
 <div class="project-card container">
-  <img src="{{image}}" />
+  <img src="{{project.image}}" />
   <div class="description-container">
-    <p>{{title}}</p>
-    <p>{{tags}}</p>
+    <p>{{project.title}}</p>
+    <p>{{project.tags}}</p>
   </div>
   <div class="social-buttons">
-    <a href="{{link.href}}" class="button">{{link.label}}</a>
+    <a href="{{project.link.href}}" class="button">
+      {{project.link.label}}
+    </a>
   </div>
 </div>
 {% endmacro project_card %}

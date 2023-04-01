@@ -43,9 +43,9 @@
   <hr>
   <h2 data-reflection="Criadores">Criadores</h2>
   <section id="creators">
-    {% set creators = load_data(path="@/home/creators.json") %}
+    {% set creators = load_data(path="@/home/creators.yaml") %}
     {% for c in creators %}
-      {{ macros::creator_card(name=c.name, twitch=c.twitch, image=c.image, tags=c.tags, socials=c.socials) }}
+      {{ macros::creator_card(creator=c) }}
     {% endfor %}
   </section>
 
@@ -70,9 +70,9 @@
   <hr>
   <h2 data-reflection="Projetos">Projetos</h2>
   <section id="projects">
-    {% set projects = load_data(path="@/home/projects.json") %}
+    {% set projects = load_data(path="@/home/projects.yaml") %}
     {% for p in projects %}
-      {{ macros::project_card(title=p.title, image=p.image, tags=p.tags, link=p.link) }}
+      {{ macros::project_card(project=p) }}
     {% endfor %}
   </section>
 

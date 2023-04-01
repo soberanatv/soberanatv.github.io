@@ -1,0 +1,35 @@
+- name: Comuninja
+  image: images/comuninja.jpg
+  twitch: twitch.tv/comuninja
+  youtube: https://www.youtube.com/@comuninja505
+  instagram: https://www.instagram.com/comuninja
+  tags: 
+    - pororoca de chorume
+    - jornalista
+
+- name: Ian Neves
+  image: images/historia-publica.jpg
+  twitch: twitch.tv/historiapublica
+  youtube: youtube.com/@HistoriaPublicaOficial
+  instagram: instagram.com/historiapublica_
+  tags: 
+    - comunews
+    - pororoca de chorume
+    - historiador
+
+- name: SovietLunox
+  image: images/soviet-lunox.jpg
+  twitch: twitch.tv/sovietlunox
+  youtube: youtube.com/@SovietLunox
+ 
+- name: VinnyDays
+  image: images/vinny-days.jpg
+  twitch: twitch.tv/vinnydays
+  youtube: youtube.com/@ViniDays
+  instagram: instagram.com/vinnydays
+ 
+- name: LucasZawacki
+  image: images/zawacki.jpg
+  twitch: twitch.tv/lucaszawacki
+  youtube: youtube.com/@LucasZawacki
+  instagram: instagram.com/lfzawacki

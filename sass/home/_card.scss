@@ -3,15 +3,19 @@
 .creator-card {
   min-width: calc(300px + 2rem);
   width: calc(300px + 2rem);
-  max-height: 480px;
+  display: flex;
+  flex-direction: column;
 }
 
-.creator-card .heading {
+.creator-card * {
+  display: flex;
+}
+
+.creator-card h3 {
   padding: 1em;
 }
 
 .creator-card img {
-  display: block;
   width: 100%;
   height: 280px;
   object-fit: cover;
@@ -39,20 +43,33 @@
   padding: 1em;
 }
 
+.project-card .description-container ul,
+.creator-card .description-container ul {
+  flex-wrap: wrap;
+}
+
+.project-card .description-container ul li,
+.creator-card .description-container ul li {
+  flex: 1;
+  word-break: keep-all;
+}
+
 .project-card .social-buttons,
 .creator-card .social-buttons {
   padding: 1em 0.5em;
+  flex-flow: row wrap;
 }
 
 .creator-card .social-buttons a {
-  display: inline-block;
-  font-size: 14px;
+  font-size: 22px;
   text-decoration: none;
   background: var(--soberana-pink);
   color: #fff;
   padding: 10px 16px;
   border-radius: 32px;
   line-height: 20px;
+  padding: 4px 8px;
+  margin: 0px 5px;
 }
 
 .project-card {
