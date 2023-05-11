@@ -1,16 +1,16 @@
-{% macro creator_card(name, twitch, image, tags, socials) %}
+{% macro creator_card(name, links, image, tags, pronomes) %}
 <div class="creator-card container">
   <div class="heading">
     <p>{{name}}</p>
-    <a href="#">{{twitch}}</a>
+    <a href={{links}} target="_blank" rel="noopener noreferrer">{{links}}</a>
   </div>
   <img src="{{image}}" />
   <div class="description-container">
     <p>{{tags}}</p>
   </div>
   <div class="social-buttons">
-    {% for social in socials %}
-    <a href="#">{{social}}</a>
+    {% for pronome in pronomes %}
+    <p>{{pronome}}</p>
     {% endfor %}
   </div>
 </div>
