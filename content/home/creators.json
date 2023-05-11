@@ -1,79 +1,143 @@
 [
-  {
-    "name": "Comuninja",
-    "twitch": "twitch.tv/comuninja",
-    "image": "images/comuninja.jpg",
-    "tags": "#tags #tags #tags",
-    "socials": [
-      "Youtube",
-      "Insta",
-      "Twitter"
-    ]
-  },
-  {
-    "name": "Ian Neves",
-    "twitch": "twitch.tv/historiapublica",
-    "image": "images/historiapublica.jpg",
-    "tags": "#tags #tags #tags",
-    "socials": [
-      "Youtube",
-      "Insta",
-      "Twitter"
-    ]
-  },
-  {
-    "name": "Ian Neves",
-    "twitch": "twitch.tv/historiapublica",
-    "image": "images/historiapublica.jpg",
-    "tags": "#tags #tags #tags",
-    "socials": [
-      "Youtube",
-      "Insta",
-      "Twitter"
-    ]
-  },
-  {
-    "name": "Ian Neves",
-    "twitch": "twitch.tv/historiapublica",
-    "image": "images/historiapublica.jpg",
-    "tags": "#tags #tags #tags",
-    "socials": [
-      "Youtube",
-      "Insta",
-      "Twitter"
-    ]
-  },
-  {
-    "name": "Ian Neves",
-    "twitch": "twitch.tv/historiapublica",
-    "image": "images/historiapublica.jpg",
-    "tags": "#tags #tags #tags",
-    "socials": [
-      "Youtube",
-      "Insta",
-      "Twitter"
-    ]
-  },
-  {
-    "name": "Ian Neves",
-    "twitch": "twitch.tv/historiapublica",
-    "image": "images/historiapublica.jpg",
-    "tags": "#tags #tags #tags",
-    "socials": [
-      "Youtube",
-      "Insta",
-      "Twitter"
-    ]
-  },
-  {
-    "name": "Historiatopia",
-    "twitch": "twitch.tv/historiatopia",
-    "image": "images/historiatopia.jpg",
-    "tags": "#tags #tags #tags",
-    "socials": [
-      "Youtube",
-      "Insta",
-      "Twitter"
-    ]
-  }
-]
+    {
+      "name": "Ana",
+      "links": "https://linktr.ee/souananeves",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ela", "Dela"]
+    },
+    {
+      "name": "Azhariel",
+      "links": "https://linktr.ee/azhariel",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "Bebel Abelhinha",
+      "links": "https://linktr.ee/bebel_abelhinha",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ela", "Dela"]
+    },
+    {
+      "name": "Bonzago",
+      "links": "https://linktr.ee/bonzago",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "Camarada Furry",
+      "links": "https://linktr.ee/camaradafurry",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "Comuninja",
+      "links": "https://linktr.ee/comuninja",
+      "image": "images/comuninja.jpg",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Elu", "Delu"]
+    },
+    {
+      "name": "Elisa",
+      "links": "https://linktr.ee/delirioscomunas",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ela", "Dela"]
+    },
+    {
+      "name": "Froggy",
+      "links": "https://linktr.ee/0froggy",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "Gabe",
+      "links": "https://linktr.ee/gabe_da_soberana",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ela", "Dela"]
+    },
+    {
+      "name": "Groselha Atômica",
+      "links": "https://linktr.ee/groselha_atomica",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Qualquer Pronome"]
+    },
+    {
+      "name": "Gus",
+      "links": "https://linktr.ee/gbringel",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "Humberto Matos",
+      "links": "https://linktr.ee/humbertomatos",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "Ian Neves",
+      "links": "https://linktr.ee/historiapublica",
+      "image": "images/historiapublica.jpg",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "João Carvalho",
+      "links": "https://linktr.ee/assimdisseojoao",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "Naná",
+      "links": "http://linktr.ee/nanacaligari",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ela", "Elu"]
+    },
+    {
+      "name": "Tarcísio",
+      "links": "https://linktr.ee/tarcisioe",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "Terça",
+      "links": "https://linktr.ee/historiatopia",
+      "image": "images/terca.jpg",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "VinnyDays",
+      "links": "https://linktr.ee/vinnydays",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "Zawacki",
+      "links": "https://links.lfzawacki.com/",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    },
+    {
+      "name": "Zorzal",
+      "links": "https://linkr.bio/zorzaverso",
+      "image": "images/placeholder.png",
+      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "pronomes": ["Ele", "Dele"]
+    }
+  ] 
+  
