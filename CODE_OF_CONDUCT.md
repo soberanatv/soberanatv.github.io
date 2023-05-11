@@ -2,10 +2,10 @@
 
 ## Nosso Juramento
 
-Nós, como pessoas membras, pessoas contribuidoras e pessoas moderadoras juramos fazer 
+Nós, como pessoas membras, pessoas contribuidoras e pessoas moderadoras juramos fazer
 a participação na nossa comunidade livre de perseguição/preconceitos para todos
-independente de idade, peso, deficiência visível ou invisível, etnia, 
-características sexuais, identidade de gênero e expressão, nível de experiência, 
+independente de idade, peso, deficiência visível ou invisível, etnia,
+características sexuais, identidade de gênero e expressão, nível de experiência,
 educação, posição social, nacionalidade, aparência, raça, religião ou orientação sexual.
 
 Nós juramos agir e interagir de forma que contribua para criarmos um ambiente:
@@ -20,21 +20,21 @@ Exemplos de comportamentos que contribuem para um ambiente positivo:
 - Dar e aceitar receber devolutivas construtivas;
 - Estarmos cientes da responsabilidade com a qual nos comprometemos;
 - Caso cometamos erros, nos desculparmos e aprendermos de forma coletiva
-para evitarmos repetir;
+  para evitarmos repetir;
 - Focar no que é melhor não apenas para nós individualmente, mas para
-toda a comunidade.
+  toda a comunidade.
 
 Exemplos de comportamentos inaceitáveis:
 
 - O usa de imagens ou linguagem com ofensas sexuais;
 - Trollar, insultar ou fazer comentários ofensivos
-privado ou publicamente;
+  privado ou publicamente;
 - Trollar o repositório ou trollar tarefas para
-impactar o projeto de forma negativa;
+  impactar o projeto de forma negativa;
 - Publicar informações privadas de pessoas sem
-permissão;
+  permissão;
 - Condutas que possam ir contra as boas condutas da
-nossa comunidade.
+  nossa comunidade.
 
 ## Reforçando Responsabilidades
 
@@ -43,17 +43,18 @@ explicar e reforçar nosso compromisso de comportamento e
 serão responsáveis por tomar medidas caso algum destes
 seja quebrado.
 
-As pessoas moderadoras da comunidade tem o direito e a 
+As pessoas moderadoras da comunidade tem o direito e a
 responsabilidade de remover, editar ou rejeitar:
+
 - Comentários;
 - Commits;
 - Edições;
 - Problemas (Issues);
 - e outras contribuições que não estão alinhadas com
-este código de conduta.
+  este código de conduta.
 
 As pessoas moderadoras da comunidade serão responsáveis por esclarecer
-nossos comportamentos aceitáveis e vão tomar ações corretivas em 
+nossos comportamentos aceitáveis e vão tomar ações corretivas em
 resposta a qualquer comportamento que eles julguem inapropriado.
 Os comportamentos ruins que forem denunciados no canal de denúncias
 da Soberana, também serão esclarecidos e as devidas atitudes serão
@@ -71,7 +72,7 @@ ou offline.
 
 Caso você sofra algum tipo de ofensa ou perceba comportamentos que violem
 nossas diretrizes para criar um bom ambiente, reporte anônimamente pelo link:
-https://forms.gle/r9sKVn5EwdUugZ3D7
+[Formulário de Denúncias][formulario de denuncias]
 
 Ou entre em contato pelo canal de #Denúncias do Discord.
 
@@ -105,8 +106,8 @@ mais uma vez a violação de nossos combinados
 
 **Violação**: Após um aviso, contabilizando a segunda reincidência.
 
-**Consequência**: Banimento temporário (a ser definido pelos moderadores) 
-da participação da comunidade, não podendo participar de debates, 
+**Consequência**: Banimento temporário (a ser definido pelos moderadores)
+da participação da comunidade, não podendo participar de debates,
 decisões e/ou desenvolvimento.
 
 ### 4. Banimento Definitivo
@@ -119,10 +120,11 @@ Esse tipo de banimento ocorre após decisão do grupo moderador e de membros.
 ## Créditos
 
 Esse código de conduta foi adaptado de [Contributor Covenant][homepage],
-versão 2.0, disponível em
-https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+versão 2.0, disponível em [Code of Conduct][code of conduct].
 
 Passo-a-passo após Denúncia inspirado em [Mozilla's code of conduct
 enforcement ladder](https://github.com/mozilla/diversity).
 
 [homepage]: https://www.contributor-covenant.org
+[code of conduct]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+[formulario de denuncias]: https://forms.gle/r9sKVn5EwdUugZ3D7
