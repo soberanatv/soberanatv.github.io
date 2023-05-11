@@ -3,7 +3,8 @@
 .creator-card {
   min-width: calc(300px + 2rem);
   width: calc(300px + 2rem);
-  max-height: 480px;
+  max-height: fit-content;
+  
 }
 
 .creator-card .heading {
@@ -44,7 +45,7 @@
   padding: 1em 0.5em;
 }
 
-.creator-card .social-buttons a {
+.creator-card .social-buttons p {
   display: inline-block;
   font-size: 14px;
   text-decoration: none;
