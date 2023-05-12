@@ -4,10 +4,10 @@ Soberana é um coletivo marxista-leninista de criadores de conteúdo na internet
 
 ## Contribuir
 
-[![GitHub issues](https://img.shields.io/github/issues-raw/soberanatv/soberanatv.github.io?color=green&label=issues)][issues] [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/soberanatv/soberanatv.github.io?color=green&label=pull%20requests)][pull requests]
+[![GitHub issues](https://img.shields.io/github/issues-raw/soberanatv/soberanatv.github.io?color=green&label=issues)][issues] [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/soberanatv/soberanatv.github.io?color=green&label=pull%20requests)][pullRequests]
 
 Para contribuir com o projeto, veja [Guia de Contribuições](CONTRIBUTING.md).
 
-[website]: [https://soberanatv.github.io]
-[issues]: [https://github.com/soberanatv/soberanatv.github.io/issues]
-[pull requests]: [https://github.com/soberanatv/soberanatv.github.io/pulls]
+[website]: https://soberanatv.github.io
+[issues]: https://github.com/soberanatv/soberanatv.github.io/issues
+[pullRequests]: https://github.com/soberanatv/soberanatv.github.io/pulls
