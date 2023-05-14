@@ -8,6 +8,10 @@ Soberana é um coletivo marxista-leninista de criadores de conteúdo na internet
 
 Para contribuir com o projeto, veja [Guia de Contribuições](CONTRIBUTING.md).
 
+## Dúvidas
+
+Para qualquer dúvida não listada nos documentos acima, entre em contato com [Azhariel](https://github.com/azhariel).
+
 [website]: https://soberanatv.github.io
 [issues]: https://github.com/soberanatv/soberanatv.github.io/issues
 [pullRequests]: https://github.com/soberanatv/soberanatv.github.io/pulls
