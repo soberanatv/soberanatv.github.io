@@ -41,11 +41,11 @@
   </div>
   <!-- CREATORS -->
   <hr>
-  <h2 data-reflection="Criadores">Criadores</h2>
+  <h2 data-reflection="Membros">Membros</h2>
   <section id="creators">
     {% set creators = load_data(path="@/home/creators.json") %}
     {% for c in creators %}
-      {{ macros::creator_card(name=c.name, twitch=c.twitch, image=c.image, tags=c.tags, socials=c.socials) }}
+      {{ macros::creator_card(name=c.name, links=c.links, image=c.image, tags=c.tags, pronouns=c.pronouns) }}
     {% endfor %}
   </section>
 
