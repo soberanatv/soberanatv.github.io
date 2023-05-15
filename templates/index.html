@@ -45,7 +45,7 @@
   <section id="creators">
     {% set creators = load_data(path="@/home/creators.json") %}
     {% for c in creators %}
-      {{ macros::creator_card(name=c.name, links=c.links, image=c.image, tags=c.tags, pronomes=c.pronomes) }}
+      {{ macros::creator_card(name=c.name, links=c.links, image=c.image, tags=c.tags, pronouns=c.pronouns) }}
     {% endfor %}
   </section>
 

@@ -1,4 +1,4 @@
-{% macro creator_card(name, links, image, tags, pronomes) %}
+{% macro creator_card(name, links, image, tags, pronouns) %}
 <div class="creator-card container">
   <div class="heading">
     <p>{{name}}</p>
@@ -9,8 +9,8 @@
     <p>{{tags}}</p>
   </div>
   <div class="social-buttons">
-    {% for pronome in pronomes %}
-    <p>{{pronome}}</p>
+    {% for pronoun in pronouns %}
+    <p>{{pronoun}}</p>
     {% endfor %}
   </div>
 </div>
