@@ -197,3 +197,39 @@
   </a>
 </footer>
 {% endblock content %}
+
+{% block scripts %}
+<script type="text/javascript" defer>
+
+const scrollables = ['creators', 'projects']
+
+scrollables.forEach((scrollable) => {
+  const selectedSection = document.querySelector(`#${scrollable}`);
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+  
+  selectedSection.addEventListener('mousedown', (e) => {
+    isDown = true;
+    selectedSection.classList.add('active');
+    startX = e.pageX - selectedSection.offsetLeft;
+    scrollLeft = selectedSection.scrollLeft;
+  });
+  selectedSection.addEventListener('mouseleave', () => {
+    isDown = false;
+    selectedSection.classList.remove('active');
+  });
+  selectedSection.addEventListener('mouseup', () => {
+    isDown = false;
+    selectedSection.classList.remove('active');
+  });
+  selectedSection.addEventListener('mousemove', (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - selectedSection.offsetLeft;
+    const walk = (x - startX) * 2; //scroll-fast
+    selectedSection.scrollLeft = scrollLeft - walk;
+  });
+})
+</script>
+{% endblock scripts %}

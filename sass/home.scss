@@ -161,8 +161,25 @@ section#creators {
   font-size: 16px;
   display: flex;
   gap: 0.8rem;
-  overflow-x: auto;
+  overflow-x: scroll;
   padding-bottom: 0.25rem;
+  cursor: grab;
+}
+
+// set cursor to grabbing when scrolling
+section#projects:active,
+section#creators:active {
+  cursor: grabbing;
+}
+
+section#creators::-webkit-scrollbar, section#projects::-webkit-scrollbar {
+  width: 4px;
+  height: 6px;
+}
+
+section#creators::-webkit-scrollbar-thumb, section#projects::-webkit-scrollbar-thumb {
+  background-color: var(--soberana-pink);
+  border-radius: 4px;
 }
 
 /* MAIL */
