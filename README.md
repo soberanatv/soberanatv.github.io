@@ -1,5 +1,8 @@
 # Site do Coletivo Soberana
 
+<a href="https://discord.gg/soberana">
+<img src="https://img.shields.io/discord/828778305691844609?label=soberana&logo=discord" alt="Join Soberana on Discord" /></a>
+
 Soberana é um coletivo marxista-leninista de criadores de conteúdo na internet. O site abriga nosso manifesto e links para redes sociais. [Está disponível aqui][website].
 
 ## Contribuir
