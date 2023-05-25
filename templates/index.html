@@ -3,6 +3,7 @@
 
 {% block styles %}
 <link rel="stylesheet" href="{{ get_url(path="home.css") }}">
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 {% endblock styles %}
 
 
@@ -123,7 +124,8 @@
     </details>
     <details class="container">
       <summary>Como posso apoiar o coletivo?</summary>
-      <p>Para apoiar o coletivo Soberana, a melhor forma é acompanhar nossas atividades através das redes sociais e participar de nosso Discord. Nossas redes sociais são espaços onde compartilhamos conteúdos, transmissões ao vivo, vídeos, textos, ilustrações e podcasts com o objetivo de promover a conscientização política e a disseminação do discurso comunista. Seguir nossas páginas e perfis nas redes sociais nos ajudará a ampliar nosso alcance e a compartilhar informações importantes.</p>
+      <p>Para apoiar o coletivo Soberana, a melhor forma é acompanhar nossas atividades através das redes sociais e participar de nosso <a href={{section.extra.discord}} target="_blank" rel="noopener noreferer">Discord</a>. Nossas redes sociais são espaços onde compartilhamos conteúdos, transmissões ao vivo, vídeos, textos, ilustrações e podcasts com o objetivo de promover a conscientização política e a disseminação do discurso comunista. Seguir nossas páginas e perfis nas redes sociais nos ajudará a ampliar nosso alcance e a compartilhar informações importantes.</p>
+      <p>Caso você queira disponibilizar seu trabalho para o coletivo, pedimos que preencha o <a href={{section.extra.colab}} target="_blank" rel="noopener noreferer">Formulário de Colaboração</a>. Sempre consultamos o formulário tanto para recrutamentos quanto para colaborações eventuais.</p>
       <!-- <p>Além de acompanhar nossas redes sociais e participar de nosso Discord, outra forma de apoiar o coletivo Soberana é através da plataforma "Apoia.se". Nessa plataforma, você tem a oportunidade de fazer contribuições financeiras mensais para nos ajudar a manter nossas atividades e fortalecer nossa atuação online. Se você acredita em nossa causa e deseja contribuir de forma mais direta, essa é uma excelente opção para fornecer suporte financeiro contínuo ao coletivo.</p><p>Também temos uma loja online onde disponibilizamos produtos relacionados ao coletivo Soberana, como camisetas, adesivos, bonés e outros materiais. Ao adquirir esses produtos, você estará apoiando financeiramente o coletivo e também poderá disseminar nossa mensagem ao utilizar esses itens no seu dia a dia. Além disso, ao adquirir produtos da nossa loja, você estará contribuindo para a visibilidade do coletivo e para a divulgação do discurso comunista nas plataformas virtuais.</p> -->
     </details>
   </section>
@@ -135,11 +137,21 @@
   <section class="grid-container">
     <div class="text">
       <p>Entre em contato conosco para possíveis parcerias, se candidatar a criador de conteúdo, tirar dúvidas ou apenas debater e trocar uma ideia.</p>
-      <p>Utilizamos o Discord como ferramenta principal de comunicação, acesse nosso servidor clicando no ícone abaixo e junte-se ao nosso coletivo.</p>
+      <p>Utilizamos o Discord como ferramenta principal de comunicação, acesse nosso servidor clicando no ícone abaixo e junte-se à nossa comunidade.</p>
     </div>
     <div class="container form">
       <h3>Entre em contato por e-mail</h3>
-      <form action="mailto:{{section.extra.email}}" method="get">
+      
+      <form id="formulario" onsubmit="sendEmail()">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu nome" required><br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br>
+        <label for="subject">Assunto</label>
+        <input type="text" id="subject" name="subject" placeholder="Digite o assunto do e-mail" required>
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" placeholder="Digite a sua mensagem" required></textarea>
+
         <button class="button" type="submit">Enviar e-mail</button>
       </form>
     </div>
@@ -206,6 +218,35 @@
   }
 </script>
 
+<!-- Email form -->
+<script type="text/javascript" defer>
+const form = document.getElementById('formulario');
+const handleSubmit = (e) => {
+  e.preventDefault();
+  const formData = new FormData(form);
+  const data = Object.fromEntries(formData);
+  Email.send({
+    SecureToken: "{{section.extra.secureToken}}",
+    To: "{{section.extra.email}}",
+    From: "{{section.extra.email}}",
+    Subject : `Contato pelo Site: ${data.subject}`,
+    Body : `<b>Nome:</b> ${data.name}<br><b>E-mail:</b> ${data.email}<br><b>Assunto:</b> ${data.subject}<br><b>Mensagem:</b> ${data.message}`
+  }).then(
+    message => {
+      if (message === 'OK') {
+        alert('E-mail enviado com sucesso!');
+        form.reset();
+      } else {
+        alert('Ocorreu um erro ao enviar o e-mail, tente novamente mais tarde ou envie diretamente para {{section.extra.email}}');
+      }
+    }
+    );
+  }
+
+form.addEventListener('submit', handleSubmit);
+</script>
+
+<!-- Scrollables -->
 <script type="text/javascript" defer>
 
 const scrollables = ['creators', 'projects']
