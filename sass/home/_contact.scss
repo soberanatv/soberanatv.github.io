@@ -72,7 +72,7 @@
 }
 
 fieldset {
-  border: solid 1px #938F99;
+  border: 1px solid #938F99;
   border-radius: 4px;
   margin-bottom: 10px;
 }
@@ -81,7 +81,6 @@ legend {
   font-size: 14px;
   margin-left: 15px;
   color: #CAC4D0;
-  background-color: #0a0909;
   padding: 0 4px;
 }
 
@@ -92,23 +91,17 @@ textarea {
   border: none;
   margin-left: 10px;
   font-family: 'Roboto', sans-serif;
-  // border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
   background-color: transparent;
   width: 95%;
 }
 
-input[type="text"]::placeholder,
-input[type="email"]::placeholder,
-textarea::placeholder {
+::placeholder {
   font-weight: 400;
-  color: #E6E1E5
-
+  color: #E6E1E5;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-textarea:focus {
+:focus {
   outline: none;
 }
 
