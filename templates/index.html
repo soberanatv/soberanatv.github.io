@@ -143,15 +143,23 @@
       <h3>Entre em contato por e-mail</h3>
       
       <form id="formulario" onsubmit="sendEmail()">
-        <label for="name">Nome</label>
-        <input type="text" id="name" name="name" placeholder="Digite seu nome" required><br>
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br>
-        <label for="subject">Assunto</label>
-        <input type="text" id="subject" name="subject" placeholder="Digite o assunto do e-mail" required>
-        <label for="message">Mensagem</label>
-        <textarea id="message" name="message" placeholder="Digite a sua mensagem" required></textarea>
-
+        <fieldset>
+          <legend style="font-size: 12px;">Nome</legend>
+          <input type="text" id="name" name="name" placeholder="Digite seu nome" required autocomplete="off"><br>
+        </fieldset>
+        <fieldset>
+          <legend style="font-size: 12px;">E-mail</legend>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required autocomplete="off"><br>
+        </fieldset>
+        <fieldset>
+          <legend style="font-size: 12px;">Assunto</legend>
+          <input type="text" id="subject" name="subject" placeholder="Digite o assunto do e-mail" required autocomplete="off"><br>
+        </fieldset>
+        <fieldset>
+          <legend style="font-size: 12px;">Mensagem</legend>
+          <textarea id="message" name="message" placeholder="Digite a sua mensagem" required autocomplete="off"></textarea>
+        </fieldset>
+        
         <button class="button" type="submit">Enviar e-mail</button>
       </form>
     </div>
