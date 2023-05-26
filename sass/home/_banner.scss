@@ -1,8 +1,10 @@
 .banner {
   background: url(images/background.jpg) no-repeat;
   background-size: cover;
+  background-position-y: center;
+  background-position-x: left;
 
-  height: 100vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

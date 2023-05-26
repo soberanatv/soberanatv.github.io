@@ -70,3 +70,43 @@
 #contact-container > .grid-container > .social-media a svg {
   font-size: 1.6em
 }
+
+fieldset {
+  border: 1px solid #938F99;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+legend {
+  font-size: 14px;
+  margin-left: 15px;
+  color: #CAC4D0;
+  padding: 0 4px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font-size: 16px;
+  border: none;
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  background-color: transparent;
+  width: 95%;
+}
+
+::placeholder {
+  font-weight: 400;
+  color: #E6E1E5;
+}
+
+:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+  padding-top: 12px;
+}

@@ -3,6 +3,7 @@
 
 {% block styles %}
 <link rel="stylesheet" href="{{ get_url(path="home.css") }}">
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 {% endblock styles %}
 
 
@@ -11,19 +12,19 @@
   <h1><img src="images/logo.svg" alt="Logo Soberana">Soberana</h1>
   <nav>
     <ul>
-      <li><a href="#creators">
+      <li><a href="#creators-hr">
         <svg><use href="#fa-people-icon"></use></svg>
-        Criadores
+        Membros
       </a></li>
-      <li><a href="#projects">
+      <li><a href="#projects-hr">
         <svg><use href="#fa-book-icon"></use></svg>
         Projetos
       </a></li>
-      <li><a href="#manifesto">
+      <li><a href="#manifesto-hr">
         <svg><use href="#fa-scroll-icon"></use></svg>
         Manifesto
       </a></li>
-      <li><a href="#contact-container">
+      <li><a href="#contact-hr">
         <svg><use href="#fa-mail-icon"></use></svg>
         Contato
       </a></li>
@@ -40,7 +41,7 @@
     </a>
   </div>
   <!-- CREATORS -->
-  <hr>
+  <hr id="creators-hr">
   <h2 data-reflection="Membros">Membros</h2>
   <section id="creators">
     {% set creators = load_data(path="@/home/creators.json") %}
@@ -49,25 +50,8 @@
     {% endfor %}
   </section>
 
-  <!-- MAIL -->
-  <section id="mail" class="container full-width-container">
-    <div class="image-container">
-      <img src="images/microfone.jpg" alt="Microfone">
-      <!-- Fonte: Will Francis/Unsplash -->
-    </div>
-    <div class="text-container">
-      <p>Gostaria de se tornar um <strong>criador de conteúdo</strong> do nosso coletivo?</p>
-      <p><strong>Clique no botão abaixo</strong> e nos envie um <strong>e-mail</strong> para iniciarmos as conversas.</p>
-      <a href="mailto:{{section.extra.email}}" class="button">Enviar e-mail</a>
-    </div>
-    <div class="triangle"></div>
-    <div class="triangle two"></div>
-    <div class="triangle three"></div>
-    <div class="stick"></div>
-  </section>
-
   <!-- PROJETOS -->
-  <hr>
+  <hr id="projects-hr">
   <h2 data-reflection="Projetos">Projetos</h2>
   <section id="projects">
     {% set projects = load_data(path="@/home/projects.json") %}
@@ -77,7 +61,7 @@
   </section>
 
   <!-- MANIFESTO -->
-  <hr>
+  <hr id="manifesto-hr">
   <h2 data-reflection="Manifesto">Manifesto</h2>
   <section id="manifesto" class="container">
     <p>
@@ -114,38 +98,51 @@
   <section id="faq">
     <details class="container">
       <summary>Qual objetivo do coletivo?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero alias deleniti distinctio placeat quibusdam qui ipsum accusamus doloribus. Accusamus incidunt mollitia iusto, nesciunt amet dignissimos dolore ex minima, sapiente, consectetur impedit harum sequi aliquam distinctio earum voluptatem quidem ea corporis corrupti optio. Error, ad ratione. Ut, dignissimos? Voluptatum obcaecati hic consectetur dolores provident, iste at architecto dolor optio maiores.</p>
+      <p>Nosso objetivo como coletivo Soberana é atuar na disputa pela consciência política dos trabalhadores na internet, ocupando os espaços virtuais mais utilizados. Estamos determinados a combater a predominância de conteúdo político reacionário que influencia a internet, manipulado por monopólios de empresas de tecnologia e agências de telecomunicações. Utilizaremos a internet como uma ferramenta para fomentar a organização dos trabalhadores, impulsionar o avanço da consciência política e difundir o marxismo-leninismo para toda a classe trabalhadora.</p>
     </details>
     <details class="container">
       <summary>O que é socialismo?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero alias deleniti distinctio placeat quibusdam qui ipsum accusamus doloribus. Accusamus incidunt mollitia iusto, nesciunt amet dignissimos dolore ex minima, sapiente, consectetur impedit harum sequi aliquam distinctio earum voluptatem quidem ea corporis corrupti optio. Error, ad ratione. Ut, dignissimos? Voluptatum obcaecati hic consectetur dolores provident, iste at architecto dolor optio maiores.</p>
+      <p>Do ponto de vista marxista-leninista, o socialismo é um sistema socioeconômico que busca a superação das contradições e injustiças presentes no sistema capitalista. É uma etapa de transição entre o capitalismo e o comunismo.</p>
+      <p>No socialismo, a classe trabalhadora se torna a classe dominante, assumindo o controle dos meios de produção e eliminando a exploração do trabalho. A propriedade privada dos meios de produção é substituída pela propriedade social, visando o benefício de toda a sociedade e não apenas de uma classe privilegiada. Isso permite uma distribuição mais justa da riqueza, com o objetivo de eliminar as desigualdades sociais e proporcionar condições dignas de vida para todos.</p>
     </details>
     <details class="container">
       <summary>Como posso apoiar o coletivo?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero alias deleniti distinctio placeat quibusdam qui ipsum accusamus doloribus. Accusamus incidunt mollitia iusto, nesciunt amet dignissimos dolore ex minima, sapiente, consectetur impedit harum sequi aliquam distinctio earum voluptatem quidem ea corporis corrupti optio. Error, ad ratione. Ut, dignissimos? Voluptatum obcaecati hic consectetur dolores provident, iste at architecto dolor optio maiores.</p>
-    </details>
-    <details class="container">
-      <summary>Qual objetivo do coletivo?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero alias deleniti distinctio placeat quibusdam qui ipsum accusamus doloribus. Accusamus incidunt mollitia iusto, nesciunt amet dignissimos dolore ex minima, sapiente, consectetur impedit harum sequi aliquam distinctio earum voluptatem quidem ea corporis corrupti optio. Error, ad ratione. Ut, dignissimos? Voluptatum obcaecati hic consectetur dolores provident, iste at architecto dolor optio maiores.</p>
-    </details>
-    <details class="container">
-      <summary>O que é socialismo?</summary>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio libero alias deleniti distinctio placeat quibusdam qui ipsum accusamus doloribus. Accusamus incidunt mollitia iusto, nesciunt amet dignissimos dolore ex minima, sapiente, consectetur impedit harum sequi aliquam distinctio earum voluptatem quidem ea corporis corrupti optio. Error, ad ratione. Ut, dignissimos? Voluptatum obcaecati hic consectetur dolores provident, iste at architecto dolor optio maiores.</p>
+      <p>Para apoiar o coletivo Soberana, a melhor forma é acompanhar nossas atividades através das redes sociais e participar de nosso <a href={{section.extra.discord}} target="_blank" rel="noopener noreferer">Discord</a>. Nossas redes sociais são espaços onde compartilhamos conteúdos, transmissões ao vivo, vídeos, textos, ilustrações e podcasts com o objetivo de promover a conscientização política e a disseminação do discurso comunista. Seguir nossas páginas e perfis nas redes sociais nos ajudará a ampliar nosso alcance e a compartilhar informações importantes.</p>
+      <p>Caso você queira disponibilizar seu trabalho para o coletivo, pedimos que preencha o <a href={{section.extra.colab}} target="_blank" rel="noopener noreferer">Formulário de Colaboração</a>. Sempre consultamos o formulário tanto para recrutamentos quanto para colaborações eventuais.</p>
+      <!-- <p>Além de acompanhar nossas redes sociais e participar de nosso Discord, outra forma de apoiar o coletivo Soberana é através da plataforma "Apoia.se". Nessa plataforma, você tem a oportunidade de fazer contribuições financeiras mensais para nos ajudar a manter nossas atividades e fortalecer nossa atuação online. Se você acredita em nossa causa e deseja contribuir de forma mais direta, essa é uma excelente opção para fornecer suporte financeiro contínuo ao coletivo.</p><p>Também temos uma loja online onde disponibilizamos produtos relacionados ao coletivo Soberana, como camisetas, adesivos, bonés e outros materiais. Ao adquirir esses produtos, você estará apoiando financeiramente o coletivo e também poderá disseminar nossa mensagem ao utilizar esses itens no seu dia a dia. Além disso, ao adquirir produtos da nossa loja, você estará contribuindo para a visibilidade do coletivo e para a divulgação do discurso comunista nas plataformas virtuais.</p> -->
     </details>
   </section>
 </main>
 <!-- CONTACT -->
 <footer id="contact-container">
-  <hr>
+  <hr id="contact-hr">
   <h2 data-reflection="Contato">Contato</h2>
   <section class="grid-container">
     <div class="text">
-      <p>Entre em contato conosco para possíveis parcerias, se candidatar a criador de conteúdo, tirar dúvidas ou apenas debater e trocar uma ideia.</p>
-      <p>Utilizamos o Discord como ferramenta principal de comunicação, acesse nosso servidor clicando no ícone abaixo e junte-se ao nosso coletivo.</p>
+      <p>Entre em contato conosco para possíveis parcerias, tirar dúvidas ou apenas debater e trocar uma ideia.</p>
+      <p>Utilizamos o Discord como ferramenta principal de comunicação, acesse nosso servidor clicando no ícone abaixo e junte-se à nossa comunidade.</p>
     </div>
     <div class="container form">
       <h3>Entre em contato por e-mail</h3>
-      <form action="mailto:{{section.extra.email}}" method="get">
+      
+      <form id="formulario" onsubmit="sendEmail()">
+        <fieldset>
+          <legend style="font-size: 12px;">Nome</legend>
+          <input type="text" id="name" name="name" placeholder="Digite seu nome" required autocomplete="off"><br>
+        </fieldset>
+        <fieldset>
+          <legend style="font-size: 12px;">E-mail</legend>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required autocomplete="off"><br>
+        </fieldset>
+        <fieldset>
+          <legend style="font-size: 12px;">Assunto</legend>
+          <input type="text" id="subject" name="subject" placeholder="Digite o assunto do e-mail" required autocomplete="off"><br>
+        </fieldset>
+        <fieldset>
+          <legend style="font-size: 12px;">Mensagem</legend>
+          <textarea id="message" name="message" placeholder="Digite a sua mensagem" required autocomplete="off"></textarea>
+        </fieldset>
+        
         <button class="button" type="submit">Enviar e-mail</button>
       </form>
     </div>
@@ -212,6 +209,35 @@
   }
 </script>
 
+<!-- Email form -->
+<script type="text/javascript" defer>
+const form = document.getElementById('formulario');
+const handleSubmit = (e) => {
+  e.preventDefault();
+  const formData = new FormData(form);
+  const data = Object.fromEntries(formData);
+  Email.send({
+    SecureToken: "{{section.extra.secureToken}}",
+    To: "{{section.extra.email}}",
+    From: "{{section.extra.email}}",
+    Subject : `Contato pelo Site: ${data.subject}`,
+    Body : `<b>Nome:</b> ${data.name}<br><b>E-mail:</b> ${data.email}<br><b>Assunto:</b> ${data.subject}<br><b>Mensagem:</b> ${data.message}`
+  }).then(
+    message => {
+      if (message === 'OK') {
+        alert('E-mail enviado com sucesso!');
+        form.reset();
+      } else {
+        alert('Ocorreu um erro ao enviar o e-mail, tente novamente mais tarde ou envie diretamente para {{section.extra.email}}');
+      }
+    }
+    );
+  }
+
+form.addEventListener('submit', handleSubmit);
+</script>
+
+<!-- Scrollables -->
 <script type="text/javascript" defer>
 
 const scrollables = ['creators', 'projects']
