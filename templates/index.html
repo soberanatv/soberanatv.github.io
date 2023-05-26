@@ -12,19 +12,19 @@
   <h1><img src="images/logo.svg" alt="Logo Soberana">Soberana</h1>
   <nav>
     <ul>
-      <li><a href="#creators">
+      <li><a href="#creators-hr">
         <svg><use href="#fa-people-icon"></use></svg>
-        Criadores
+        Membros
       </a></li>
-      <li><a href="#projects">
+      <li><a href="#projects-hr">
         <svg><use href="#fa-book-icon"></use></svg>
         Projetos
       </a></li>
-      <li><a href="#manifesto">
+      <li><a href="#manifesto-hr">
         <svg><use href="#fa-scroll-icon"></use></svg>
         Manifesto
       </a></li>
-      <li><a href="#contact-container">
+      <li><a href="#contact-hr">
         <svg><use href="#fa-mail-icon"></use></svg>
         Contato
       </a></li>
@@ -41,7 +41,7 @@
     </a>
   </div>
   <!-- CREATORS -->
-  <hr>
+  <hr id="creators-hr">
   <h2 data-reflection="Membros">Membros</h2>
   <section id="creators">
     {% set creators = load_data(path="@/home/creators.json") %}
@@ -50,25 +50,8 @@
     {% endfor %}
   </section>
 
-  <!-- MAIL -->
-  <section id="mail" class="container full-width-container">
-    <div class="image-container">
-      <img src="images/microfone.jpg" alt="Microfone">
-      <!-- Fonte: Will Francis/Unsplash -->
-    </div>
-    <div class="text-container">
-      <p>Gostaria de se tornar um <strong>criador de conteúdo</strong> do nosso coletivo?</p>
-      <p><strong>Clique no botão abaixo</strong> e nos envie um <strong>e-mail</strong> para iniciarmos as conversas.</p>
-      <a href="mailto:{{section.extra.email}}" class="button">Enviar e-mail</a>
-    </div>
-    <div class="triangle"></div>
-    <div class="triangle two"></div>
-    <div class="triangle three"></div>
-    <div class="stick"></div>
-  </section>
-
   <!-- PROJETOS -->
-  <hr>
+  <hr id="projects-hr">
   <h2 data-reflection="Projetos">Projetos</h2>
   <section id="projects">
     {% set projects = load_data(path="@/home/projects.json") %}
@@ -78,7 +61,7 @@
   </section>
 
   <!-- MANIFESTO -->
-  <hr>
+  <hr id="manifesto-hr">
   <h2 data-reflection="Manifesto">Manifesto</h2>
   <section id="manifesto" class="container">
     <p>
@@ -132,11 +115,11 @@
 </main>
 <!-- CONTACT -->
 <footer id="contact-container">
-  <hr>
+  <hr id="contact-hr">
   <h2 data-reflection="Contato">Contato</h2>
   <section class="grid-container">
     <div class="text">
-      <p>Entre em contato conosco para possíveis parcerias, se candidatar a criador de conteúdo, tirar dúvidas ou apenas debater e trocar uma ideia.</p>
+      <p>Entre em contato conosco para possíveis parcerias, tirar dúvidas ou apenas debater e trocar uma ideia.</p>
       <p>Utilizamos o Discord como ferramenta principal de comunicação, acesse nosso servidor clicando no ícone abaixo e junte-se à nossa comunidade.</p>
     </div>
     <div class="container form">
