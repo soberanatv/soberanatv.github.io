@@ -9,6 +9,15 @@
     }
   },
   {
+    "title": "Projeto Saúde Mental Camarada",
+    "image": "images/sameca.png",
+    "tags": "O Projeto Saúde Mental Camarada, também conhecido como SAMECA oferece apoio psicológico a valores sociais às pessoas da comunidade da Soberana presentes no nosso discord aberto. Ao mesmo tempo, o SAMECA organiza uma rede de profissionais da psicologia em torno de uma prática que considera o sujeito em sua dimensão social, fortalecendo a categoria profissional e estimulando sua consciência de classe.",
+    "link": {
+      "label": "Acessar no Discord",
+      "href": "https://discord.com/channels/828778305691844609/849991695725625394/1073348147604115456"
+    }
+  },
+  {
     "title": "Audioteca Crítica",
     "image": "images/audioteca-critica.jpg",
     "tags": "A Audioteca é um projeto de audiobooks de obras marxistas e revolucionárias, com o objetivo de facilitar o acesso ao conhecimento. É produzido pelas camaradas Comuninja, Elisa e Zorzal. Orelo é a plataforma que melhor remunera as camaradas, mas você pode ouvir também no Spotify e no Youtube.",
