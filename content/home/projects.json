@@ -1,19 +1,10 @@
 [
   {
-    "title": "Comunismo: princípios básicos e guia de leitura",
-    "image": "images/principios-comunismo.png",
-    "tags": "Principios básicos do comunismo é um popular vídeo introdutório ao marxismo-leninismo, produzido pelo camarada Ian. Recomendamos a todes camaradas que assistam!",
-    "link": {
-      "label": "Assistir",
-      "href": "https://www.youtube.com/watch?v=cg5winGpx80"
-    }
-  },
-  {
     "title": "Projeto Saúde Mental Camarada",
     "image": "images/sameca.png",
     "tags": "O Projeto Saúde Mental Camarada, também conhecido como SAMECA oferece apoio psicológico a valores sociais às pessoas da comunidade da Soberana presentes no nosso discord aberto. Ao mesmo tempo, o SAMECA organiza uma rede de profissionais da psicologia em torno de uma prática que considera o sujeito em sua dimensão social, fortalecendo a categoria profissional e estimulando sua consciência de classe.",
     "link": {
-      "label": "Acessar no Discord",
+      "label": "Acessar Discord",
       "href": "https://discord.com/channels/828778305691844609/849991695725625394/1073348147604115456"
     }
   },
@@ -22,8 +13,26 @@
     "image": "images/audioteca-critica.jpg",
     "tags": "A Audioteca é um projeto de audiobooks de obras marxistas e revolucionárias, com o objetivo de facilitar o acesso ao conhecimento. É produzido pelas camaradas Comuninja, Elisa e Zorzal. Orelo é a plataforma que melhor remunera as camaradas, mas você pode ouvir também no Spotify e no Youtube.",
     "link": {
-      "label": "Acessar",
+      "label": "Acessar no Orelo",
       "href": "https://orelo.cc/podcast/63596d0765a447074f37f367"
+    }
+  },
+  {
+    "title": "Segunda Popular",
+    "image": "images/seg_pop.png",
+    "tags": "O Segunda Popular é um podcast dedicado a falar da cultura pop através da esquerda radical. A proposta é pegar obras já amplamente conhecidas (ou não) e trazer uma discussão politica e de esquerda revolucionária sobre elas. Produzido por Ana Neves e apresentado por Froggy e Terça, o Segunda Popular vai ao ar em todas as plataformas de podcast a cada 15 dias, sempre às segundas.",
+    "link": {
+      "label": "Ver no Instagram",
+      "href": "https://www.instagram.com/segundapopular/"
+    }
+  },
+  {
+    "title": "Comunismo: princípios básicos e guia de leitura",
+    "image": "images/principios-comunismo.png",
+    "tags": "Principios básicos do comunismo é um popular vídeo introdutório ao marxismo-leninismo, produzido pelo camarada Ian. Recomendamos a todes camaradas que assistam!",
+    "link": {
+      "label": "Assistir",
+      "href": "https://www.youtube.com/watch?v=cg5winGpx80"
     }
   },
   {
