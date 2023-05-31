@@ -57,11 +57,14 @@
   flex-direction: column;
 }
 .project-card .description-container p {
+  font-weight: 500;
+  font-size: 16px;
   line-height: 24px;
+  margin-bottom: 5px;
 }
 .project-card .description-container p:last-child {
   font-size: 14px;
-  color: #49454F;
+  font-weight: 400;
 }
 .project-card img {
   display: block;
