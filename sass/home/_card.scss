@@ -4,7 +4,12 @@
   min-width: calc(300px + 2rem);
   width: calc(300px + 2rem);
   max-height: fit-content;
-  
+}
+
+.creator-card,
+.project-card {
+  display: flex;
+  flex-direction: column;
 }
 
 .creator-card .heading {
@@ -41,6 +46,14 @@
   padding: 1em 0.5em;
 }
 
+.creator-card .social-buttons, 
+.project-card .social-buttons {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+
 .creator-card .social-buttons p {
   display: inline-block;
   font-size: 14px;
@@ -48,34 +61,29 @@
   background: var(--soberana-pink);
   color: #fff;
   padding: 10px 16px;
+  margin-left: 10px;
   border-radius: 32px;
   line-height: 20px;
+  min-width: 70px;
+  text-align: center;
 }
 
-.project-card {
-  display: flex;
-  flex-direction: column;
-}
 .project-card .description-container p {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 5px;
 }
+
 .project-card .description-container p:last-child {
   font-size: 14px;
   font-weight: 400;
 }
+
 .project-card img {
   display: block;
   width: 100%;
   min-height: 280px;
   object-fit: cover;
   object-position: left center;
-}
-.project-card .social-buttons {
-  flex: 1;
-  display: flex;
-  justify-content: right;
-  align-items: flex-end;
 }
