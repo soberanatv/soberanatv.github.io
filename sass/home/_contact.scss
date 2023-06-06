@@ -64,7 +64,13 @@
   align-items: center;
   gap: 1em;
   text-decoration: none;
-  color: inherit
+  color: inherit;
+  transition: all 300ms ease;
+
+  &:hover {
+    cursor: pointer;
+    color: var(--soberana-pink);
+  }
 }
 
 #contact-container > .grid-container > .social-media a svg {
