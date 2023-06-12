@@ -45,7 +45,7 @@
       "name": "Elisa",
       "links": "https://linktr.ee/delirioscomunas",
       "image": "images/elisa.png",
-      "tags": "Crocheteira, audiotequer, swiftie e sommelier de waffles. Estudei Economia e Direito e tenho uma gata chamada Farofa. Quando eu tinha 6 anos, a professora disse que se eu continuasse lendo para meus colegas eles não iriam aprender a ler. Hoje eu leio textos marxistas na Audioteca Crítica, um podcast de audiolivros.",
+      "tags": "Crocheteira, swiftie e sommelier de waffles. Estudei Economia e Direito e tenho uma gata chamada Farofa. Quando eu tinha 6 anos, a professora disse que se eu continuasse lendo para meus colegas eles não iriam aprender a ler. Hoje eu leio textos marxistas na Audioteca Crítica, um podcast de audiolivros.",
       "pronouns": ["Ela", "Dela"]
     },
     {
@@ -87,7 +87,7 @@
       "name": "Ian Neves",
       "links": "https://linktr.ee/historiapublica",
       "image": "images/ian.png",
-      "tags": "Em breve adicionaremos descrições das pessoas criadoras :)",
+      "tags": "Historiador, criador de conteúdo e juíz de campeonatos de ioiô. Acha que pegar carrapato-estrela é uma troca justa por fazer carinho em uma capivara.",
       "pronouns": ["Ele", "Dele"]
     },
     {
@@ -103,6 +103,13 @@
       "image": "images/nana.jpg",
       "tags": "Autora, neurodivergente, PcD surda e queer até os ossos, pronta para lutar contra o capitalismo seja ele colorido ou não. É parte do núcleo de criação da Soberana, mas mostra as caras no TikTok quando é pra contar curiosidades que permeiam experiências socialistas.",
       "pronouns": ["Ela", "Elu"]
+    },
+    {
+      "name": "Pequi",
+      "links": "https://bento.me/eai-pequi",
+      "image": "images/pequi.jpg",
+      "tags": "Designer de produto, cozinheiro amador e viciado em usar emojis. Acredito firmemente no design como instrumento na busca do bem-estar da classe trabalhadora, e acho incrível colaborar em projetos que beneficiam verdadeiramente às pessoas. Nunca vi um pequi.",
+      "pronouns": ["Ele", "Dele"]
     },
     {
       "name": "Tarcísio",
