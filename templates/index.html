@@ -9,7 +9,7 @@
 
 {% block content %}
 <header>
-  <h1><img src="images/logo.svg" alt="Logo Soberana">Soberana</h1>
+  <a href="#"><h1><img src="images/logo.svg" alt="Logo Soberana">Soberana</h1></a>
   <nav>
     <ul>
       <li><a href="#creators-hr">
@@ -24,6 +24,12 @@
         <svg><use href="#fa-scroll-icon"></use></svg>
         Manifesto
       </a></li>
+      <li>
+        <a href="#faq-hr">
+          <svg><use href="#fa-circle-question"></use></svg>
+          FAQ
+        </a>
+      </li>
       <li><a href="#contact-hr">
         <svg><use href="#fa-mail-icon"></use></svg>
         Contato
@@ -93,7 +99,7 @@
   </section>
 
   <!-- FAQ -->
-  <hr>
+  <hr id="faq-hr">
   <h2 data-reflection="FAQ">FAQ</h2>
   <section id="faq">
     <details class="container">
@@ -127,19 +133,19 @@
       
       <form id="formulario" onsubmit="sendEmail()">
         <fieldset>
-          <legend style="font-size: 12px;">Nome</legend>
+          <legend>Nome</legend>
           <input type="text" id="name" name="name" placeholder="Digite seu nome" required autocomplete="off"><br>
         </fieldset>
         <fieldset>
-          <legend style="font-size: 12px;">E-mail</legend>
+          <legend>E-mail</legend>
           <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required autocomplete="off"><br>
         </fieldset>
         <fieldset>
-          <legend style="font-size: 12px;">Assunto</legend>
+          <legend>Assunto</legend>
           <input type="text" id="subject" name="subject" placeholder="Digite o assunto do e-mail" required autocomplete="off"><br>
         </fieldset>
         <fieldset>
-          <legend style="font-size: 12px;">Mensagem</legend>
+          <legend>Mensagem</legend>
           <textarea id="message" name="message" placeholder="Digite a sua mensagem" required autocomplete="off"></textarea>
         </fieldset>
         
