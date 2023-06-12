@@ -7,6 +7,16 @@ section#faq details {
   border: 1px solid #FFFFFF;
   font-size: 16px;
   margin-bottom: 1em;
+  transition: all 300ms ease;
+
+  &:hover {
+    cursor: pointer;
+    color: var(--soberana-pink);
+  }
+
+  p {
+    color: #FFFFFF;
+  }
 }
 
 section#faq details summary {
