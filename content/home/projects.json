@@ -1,7 +1,7 @@
 [
   {
     "title": "Projeto Saúde Mental Camarada",
-    "image": "images/sameca.png",
+    "image": "images/sameca.jpg",
     "tags": "O Projeto Saúde Mental Camarada, também conhecido como SAMECA oferece apoio psicológico a valores sociais às pessoas da comunidade da Soberana presentes no nosso discord aberto. Ao mesmo tempo, o SAMECA organiza uma rede de profissionais da psicologia em torno de uma prática que considera o sujeito em sua dimensão social, fortalecendo a categoria profissional e estimulando sua consciência de classe.",
     "link": {
       "label": "Acessar Discord",
@@ -28,7 +28,7 @@
   },
   {
     "title": "Comunismo: princípios básicos e guia de leitura",
-    "image": "images/principios-comunismo.png",
+    "image": "images/principios-comunismo.jpg",
     "tags": "Principios básicos do comunismo é um popular vídeo introdutório ao marxismo-leninismo, produzido pelo camarada Ian. Recomendamos a todes camaradas que assistam!",
     "link": {
       "label": "Assistir",
@@ -37,7 +37,7 @@
   },
   {
     "title": "Clube de Leitura",
-    "image": "images/clube-de-leitura.png",
+    "image": "images/clube-de-leitura.jpg",
     "tags": "O Clube ocorre quinzenalmente e é livre para todes participarem! Acompanhe os anúncios e pegue o cargo 'Clube do Livro' no Discord para saber quando será o próximo encontro.",
     "link": {
       "label": "Acessar Discord",
