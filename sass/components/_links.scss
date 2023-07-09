@@ -1,0 +1,8 @@
+a {
+  transition: all 300ms ease;
+
+  &:hover {
+    cursor: pointer;
+    color: var(--soberana-pink);
+  }
+}

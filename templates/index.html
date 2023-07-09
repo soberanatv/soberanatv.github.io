@@ -2,7 +2,6 @@
 {% import "macros.html" as macros %}
 
 {% block styles %}
-<link rel="stylesheet" href="{{ get_url(path="home.css") }}">
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 {% endblock styles %}
 
@@ -130,7 +129,7 @@
     </div>
     <div class="container form">
       <h3>Entre em contato por e-mail</h3>
-      
+
       <form id="formulario" onsubmit="sendEmail()">
         <fieldset>
           <legend>Nome</legend>
@@ -148,7 +147,7 @@
           <legend>Mensagem</legend>
           <textarea id="message" name="message" placeholder="Digite a sua mensagem" required autocomplete="off"></textarea>
         </fieldset>
-        
+
         <button class="button" type="submit">Enviar e-mail</button>
       </form>
     </div>
@@ -253,7 +252,7 @@ scrollables.forEach((scrollable) => {
   let isDown = false;
   let startX;
   let scrollLeft;
-  
+
   selectedSection.addEventListener('mousedown', (e) => {
     isDown = true;
     selectedSection.classList.add('active');
