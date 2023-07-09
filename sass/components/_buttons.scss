@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  cursor: pointer;
+
+  background-color: #FFFFFF;
+  padding: 10px 24px;
+  border-radius: 2rem;
+  border: 0;
+
+  color: var(--soberana-pink);
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 300ms ease;
+
+  &:hover {
+    cursor: pointer;
+    color: #FFF;
+    background-color: var(--soberana-pink);
+  }
+}

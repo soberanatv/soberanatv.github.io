@@ -54,12 +54,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  
+
   list-style-type: none;
   font-size: 14px;
 }
 
-#contact-container > .grid-container > .social-media a {  
+#contact-container > .grid-container > .social-media a {
   display: flex;
   align-items: center;
   gap: 1em;

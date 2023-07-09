@@ -1,0 +1,56 @@
+:root {
+  --soberana-orange: #FA5901;
+  --soberana-pink: #EB005C;
+  --soberana-black: #161214;
+
+  --site-background-color: #060606;
+  --text-white: #ECE8E1;
+
+  color-scheme: dark;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--site-background-color);
+  color: var(--text-white);
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 80px; /* nav */
+
+  --large-screen-max-width: 1200px;
+  --page-padding: 1rem;
+}
+
+header, main, footer {
+  padding-right: var(--page-padding);
+  padding-left: var(--page-padding);
+}
+
+hr {
+  margin: 0;
+  margin-top: 3rem;
+  height: 3px;
+  width: 11rem;
+
+  background-color: var(--soberana-pink);
+  border: 0;
+}
+
+main section {
+  margin-bottom: 4rem;
+}
+
+.container {
+  background-color: var(--soberana-black);
+  border: 3px solid var(--soberana-pink);
+  color: #FFFFFF;
+}
+
+.full-width-container {
+  margin-left: calc(var(--page-padding) * -1);
+  margin-right: calc(var(--page-padding) * -1);
+  padding: 0 var(--page-padding);
+}

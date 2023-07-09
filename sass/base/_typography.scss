@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@font-face {
+  font-family: 'Molot';
+  src: url(fonts/Molot.otf);
+}
+
+h1 {
+  font-family: Molot, sans-serif;
+  font-size: calc(1rem + 16px);
+  font-weight: 400;
+}
+
+h1 > img {
+  vertical-align: middle;
+  margin-right: 12px;
+  width: 1.5em;
+}
+
+h2 {
+  position: relative;
+  padding-left: 1.25rem;
+  padding-top: 1rem;
+  margin: 0 0 3rem 0;
+
+  font-size: 2rem;
+  font-family: Molot, sans-serif;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h2::before {
+  content: attr(data-reflection);
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+
+  opacity: 0.1;
+  color: var(--soberana-orange);
+  font-size: 3.5rem;
+}
+
+h3 {
+  margin-bottom: 20px;
+
+  font-family: Molot, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  text-transform: uppercase;
+}

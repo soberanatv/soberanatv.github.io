@@ -1,25 +1,3 @@
-@media screen and (min-width: 768px) {
-  section#mail {
-    background-color: var(--soberana-black);
-    display: grid;
-    grid-template-columns: 30% 3fr;
-    gap: 0.8rem;
-  }
-  @media screen and (max-width: 992px) {
-    section#mail .image-container:after {
-      content: none;
-    }
-    section#mail .image-container > img {
-      border: 0;
-      border-radius: 0;
-    }
-  }
-  
-  section#mail .text-container {
-    padding: 1.5rem 0;
-  }
-}
-
 @media screen and (min-width: 992px) {
   html {
     font-size: 32px;
@@ -47,19 +25,13 @@
   header nav {
     all: unset;
   }
-  
+
   header nav ul {
     gap: 26px;
   }
-  
+
   header nav a {
     flex-direction: row;
-  }
-
-  section#mail .image-container {
-    align-self: center;
-    margin: -25px 0;
-    background-color: transparent;
   }
 
   #contact-container > .grid-container {
