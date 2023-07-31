@@ -23,7 +23,7 @@ export default function Home() {
       <section>
         <h2 data-reflection="Membros">Membros</h2>
         {/* randomized so that every creator has the chance to apear first (not 100% random, this method has some bias -> https://javascript.info/task/shuffle) */}
-        {/* could set to only randomize once a day */}
+        {/* could set to only randomize once a day via nextjs*/}
         <SideScroller>
           {creators.sort(() => Math.random() - 0.5).map(({ name, link, image, description, pronouns }) => <CreatorCard
             name={name}
