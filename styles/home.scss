@@ -1,3 +1,5 @@
+@import "style.scss";
+
 /* BASE */
 html {
   font-size: 16px;
@@ -5,7 +7,8 @@ html {
 }
 
 body {
-  padding-bottom: 80px; /* nav */
+  padding-bottom: 80px;
+  /* nav */
 
   --large-screen-max-width: 1200px;
   --page-padding: 1rem;
@@ -17,14 +20,17 @@ header {
   padding-bottom: 16px;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   padding-right: var(--page-padding);
   padding-left: var(--page-padding);
 }
 
 header nav {
   position: fixed;
-  z-index: 1; /* TODO: usar var */
+  z-index: 1;
+  /* TODO: usar var */
   bottom: 0;
   left: 0;
 
@@ -41,7 +47,7 @@ header nav ul {
   font-size: 14px;
 }
 
-header nav ul > li {
+header nav ul>li {
   flex: 1;
 }
 
@@ -61,10 +67,10 @@ header a {
 
 hr {
   margin: 0;
-  margin-top: 3rem;
+  margin-top: 6rem;
   height: 3px;
   width: 11rem;
-  
+
   background-color: var(--soberana-pink);
   border: 0;
 }
@@ -75,7 +81,7 @@ h1 {
   font-weight: 400;
 }
 
-h1 > img {
+h1>img {
   vertical-align: middle;
   margin-right: 12px;
   width: 1.5em;
@@ -95,7 +101,7 @@ h2 {
 }
 
 h2::before {
-  content: attr(data-reflection); 
+  content: attr(data-reflection);
   position: absolute;
   z-index: -1;
   left: 0;
@@ -115,10 +121,6 @@ h3 {
   letter-spacing: 0.01em;
   line-height: 1;
   text-transform: uppercase;
-}
-
-main section {
-  margin-bottom: 4rem;
 }
 
 svg {
@@ -147,7 +149,7 @@ svg {
   padding: 10px 24px;
   border-radius: 2rem;
   border: 0;
-  
+
   color: var(--soberana-pink);
   font-family: Roboto, sans-serif;
   text-decoration: none;
@@ -177,9 +179,8 @@ a {
 /* BANNER */
 @import "home/banner";
 
-/* CREATORS and PROJECTS*/
-section#projects,
-section#creators {
+/* side-scrollers and PROJECTS*/
+div.side-scroller {
   font-size: 16px;
   display: flex;
   gap: 0.8rem;
@@ -189,19 +190,23 @@ section#creators {
 }
 
 // set cursor to grabbing when scrolling
-section#projects:active,
-section#creators:active {
+div.side-scroller:active {
   cursor: grabbing;
 }
 
-section#creators::-webkit-scrollbar, section#projects::-webkit-scrollbar {
+div.side-scroller::-webkit-scrollbar {
   width: 4px;
   height: 6px;
 }
 
-section#creators::-webkit-scrollbar-thumb, section#projects::-webkit-scrollbar-thumb {
+div.side-scroller::-webkit-scrollbar-thumb {
   background-color: var(--soberana-pink);
   border-radius: 4px;
+}
+
+.side-scroll-button {
+  font-size: large;
+  padding: 0.5rem;
 }
 
 /* MAIL */

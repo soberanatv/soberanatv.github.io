@@ -1,5 +1,5 @@
 .banner {
-  background: url(images/background.jpg) no-repeat;
+  background: url(/images/background.jpg) no-repeat;
   background-size: cover;
   background-position-y: center;
   background-position-x: left;
@@ -11,17 +11,17 @@
   align-items: flex-start;
 }
 
-.banner > strong {
+.banner>h1 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
 }
 
-.banner > a {
+.banner>a {
   display: inline-flex;
   align-items: center;
   gap: 0.5em;
 }
 
-.banner > a > svg {
+.banner>a>svg {
   font-size: 1.25em
 }

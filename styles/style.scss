@@ -4,7 +4,9 @@
 
 @font-face {
   font-family: 'Molot';
-  src: url(fonts/Molot.otf);
+  src: url(/fonts/Molot.otf), format('otf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {
@@ -18,7 +20,7 @@
   color-scheme: dark;
 }
 
-.app-container {}
+// .app-container {}
 
 body {
   background-color: var(--site-background-color);

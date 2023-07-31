@@ -1,9 +1,9 @@
-section#faq {
+div#faq {
   max-width: 800px;
   margin: auto;
 }
 
-section#faq details {
+div#faq details {
   border: 1px solid #FFFFFF;
   font-size: 16px;
   margin-bottom: 1em;
@@ -19,13 +19,14 @@ section#faq details {
   }
 }
 
-section#faq details summary {
+div#faq details summary {
   list-style-type: none;
   padding: 1em;
   font-weight: 500;
   position: relative;
 }
-section#faq details summary:after {
+
+div#faq details summary:after {
   content: "";
   position: absolute;
   right: 1em;
@@ -38,7 +39,7 @@ section#faq details summary:after {
   transform: translateY(25%) rotate(45deg);
 }
 
-section#faq details[open] summary:after {
+div#faq details[open] summary:after {
   border-right: 0;
   border-bottom: 0;
   border-top: 2px solid #FFFFFF;
@@ -46,10 +47,10 @@ section#faq details[open] summary:after {
   transform: translateY(75%) rotate(45deg);
 }
 
-section#faq details[open] summary {
+div#faq details[open] summary {
   border-bottom: 1px solid #FFFFFF;
 }
 
-section#faq details p {
+div#faq details p {
   padding: 1em;
 }

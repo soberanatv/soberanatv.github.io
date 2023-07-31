@@ -1,0 +1,12 @@
+article#manifesto {
+  padding: 1.25rem 1rem;
+  font-size: 20px;
+}
+
+article#manifesto>button {
+  margin-bottom: 1em;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em
+}
