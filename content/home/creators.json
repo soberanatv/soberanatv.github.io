@@ -73,7 +73,7 @@
 		"name": "Gui Afonso | Radio Guerrilha",
 		"links": "https://www.radioguerrilha.com",
 		"image": "images/radioguerrilha.png",
-		"tags": "A Rádio Guerrilha é um projeto que visa difundir o pensamento comunista por meio da música e da sua relação com a sociedade. O projeto nasceu em junho/2022 e desde então, venho produzindo conteúdo na Twitch, com cortes lançados no YouTube, TikTok e Instagram. Eu, Gui Afonso, sou músico e trabalho com isso diretamente há mais de 10 anos, sendo que parte disso foi dando aula e a outra parte eu passei produzindo, compondo e arranjando. Eu posso ajudar tanto na parte operacional de som (áudio em geral), quanto na produção de conteúdo musical",
+		"tags": "A Rádio Guerrilha é um projeto que visa difundir o pensamento comunista por meio da música e da sua relação com a sociedade. O projeto nasceu em junho/2022 e desde então, venho produzindo conteúdo na Twitch, com cortes lançados no YouTube, TikTok e Instagram. Eu, Gui Afonso, sou músico e trabalho com isso diretamente há mais de 10 anos, sendo que parte disso foi dando aula e a outra parte eu passei produzindo, compondo e arranjando.",
 		"pronouns": ["Ele", "Dele"]
 	},
 	{
@@ -110,6 +110,13 @@
 		"image": "images/nana.jpg",
 		"tags": "Autora, neurodivergente, PcD surda e queer até os ossos, pronta para lutar contra o capitalismo seja ele colorido ou não. É parte do núcleo de criação da Soberana, mas mostra as caras no TikTok quando é pra contar curiosidades que permeiam experiências socialistas.",
 		"pronouns": ["Ela", "Elu"]
+	},
+	{
+		"name": "Nate",
+		"links": "https://linktr.ee/kanshow",
+		"image": "images/nate.jpg",
+		"tags": "Otaku safado sempre atento ao que passou despercebido pelo consenso geral, por isso apresenta o Kanshow, podcast que acompanha obras, episódio por episódio, sempre trazendo uma banca diversa, experiente ou não, para analisar a fundo a alma da animação e entender sua contextualização. Pelo menos tentar. Editor de áudio de podcasts e video game, tenho expertise na área do áudio desde 2017, sempre disposto pra dar pitaco e puxar orelha se tiver alguém segurando microfone errado.",
+		"pronouns": ["Ele", "Dele"]
 	},
 	{
 		"name": "Pequi",
