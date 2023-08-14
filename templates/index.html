@@ -225,7 +225,7 @@ const handleSubmit = (e) => {
   Email.send({
     SecureToken: "{{section.extra.secureToken}}",
     To: "{{section.extra.email}}",
-    From: "{{section.extra.email}}",
+    From: data.email,
     Subject : `Contato pelo Site: ${data.subject}`,
     Body : `<b>Nome:</b> ${data.name}<br><b>E-mail:</b> ${data.email}<br><b>Assunto:</b> ${data.subject}<br><b>Mensagem:</b> ${data.message}`
   }).then(
