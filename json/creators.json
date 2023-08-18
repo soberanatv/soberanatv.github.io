@@ -1,9 +1,9 @@
 [
   {
     "name": "Ana",
-    "link": "https://linktr.ee/souananeves",
-    "image": "/images/ana.jpg",
     "description": "Eu escrevo, canto, produzo, trabalho e, acima de tudo, eu me importo. Atuo na criação de conteúdos da Soberana, sou palestrinha de não-monogamia política e inimiga de fascista.",
+    "image": "/images/ana.jpg",
+    "link": "https://linktr.ee/souananeves",
     "pronouns": [
       "Ela",
       "Dela"
@@ -11,9 +11,9 @@
   },
   {
     "name": "Azhariel",
-    "link": "https://linktr.ee/azhariel",
-    "image": "/images/azhariel.jpg",
     "description": "Autista, programador e ex-advogado, meu maior defeito é gostar de League of Legends. Componho o núcleo de tecnologia da Soberana, tanto na divulgação através do canal Tecnologia e Classe quanto no desenvolvimento do site e outras ferramentas internas.",
+    "image": "/images/azhariel.jpg",
+    "link": "https://linktr.ee/azhariel",
     "pronouns": [
       "Ele",
       "Dele"
@@ -21,9 +21,9 @@
   },
   {
     "name": "Bebel Abelhinha",
-    "link": "https://linktr.ee/bebel_abelhinha",
-    "image": "/images/bebel.jpg",
     "description": "Mestranda em ecologia política, publicitária, poliglota, e colecionadora de mel de abelhas nativas. Gosto de permacultura, bioconstrução, agroecologia, e todos esses babados. Sei que a raiz do problema não são os combustíveis fósseis, mas sim, a acumulação de capital.",
+    "image": "/images/bebel.jpg",
+    "link": "https://linktr.ee/bebel_abelhinha",
     "pronouns": [
       "Ela",
       "Dela"
@@ -31,9 +31,9 @@
   },
   {
     "name": "Bonzago",
-    "link": "https://linktr.ee/bonzago",
-    "image": "/images/bonzago.jpg",
     "description": "Graduando em História, TikToker e o fã mais jovem de Star Trek. Componho o núcleo de Divulgação da Soberana ajudando na coordenação e criação dos conteúdos nos perfis oficiais do coletivo. Ah, e dizem por aí que eu gosto de Pokémon.",
+    "image": "/images/bonzago.jpg",
+    "link": "https://linktr.ee/bonzago",
     "pronouns": [
       "Ele",
       "Dele"
@@ -41,9 +41,9 @@
   },
   {
     "name": "Camarada Furry",
-    "link": "https://linktr.ee/camaradafurry",
-    "image": "/images/furry.jpg",
     "description": "Furry, já curso física e meteorologia 🌧️ e principalmente planilheiro. Empenhado diariamente em ser uma burocracia. Péssimo artista nas horas vagas e um dia sonha em ser um caçador de tornados.",
+    "image": "/images/furry.jpg",
+    "link": "https://linktr.ee/camaradafurry",
     "pronouns": [
       "Ele",
       "Dele"
@@ -51,18 +51,18 @@
   },
   {
     "name": "Comuninja",
-    "link": "https://linktr.ee/comuninja",
-    "image": "/images/comuninja.jpg",
     "description": "Jornalista cearense na contramão do fim da história. Faço parte do Núcleo de Divulgação do coletivo e leio textos para a Audioteca Crítica. Pokémonzeiro movido a açaí, bandolinista e aprendiz de cinéfilo nas horas vagas. Acredito que o individualismo é o maior mal que já assolou a humanidade e há de ser superado.",
+    "image": "/images/comuninja.jpg",
+    "link": "https://linktr.ee/comuninja",
     "pronouns": [
       "Qualquer Pronome"
     ]
   },
   {
     "name": "Duda Bolche",
-    "link": "https://linktr.ee/dudabolche",
-    "image": "/images/dudabolche.jpg",
     "description": "Internacionalista, brasileira e uruguaia, criadora de conteúdo sobre  integração regional, relações internacionais e luta de classes na América Latina. Fã de Rosalía, adora uma partidinha de xadrez nas horas vagas e é TDAH em tempo integral. Para combater o capitalismo é preciso combater o discurso imperialista.",
+    "image": "/images/dudabolche.jpg",
+    "link": "https://linktr.ee/dudabolche",
     "pronouns": [
       "Ela",
       "Dela"
@@ -70,9 +70,9 @@
   },
   {
     "name": "Elisa",
-    "link": "https://linktr.ee/delirioscomunas",
-    "image": "/images/elisa.jpg",
     "description": "Crocheteira, swiftie e sommelier de waffles. Estudei Economia e Direito e tenho uma gata chamada Farofa. Quando eu tinha 6 anos, a professora disse que se eu continuasse lendo para meus colegas eles não iriam aprender a ler. Hoje eu leio textos marxistas na Audioteca Crítica, um podcast de audiolivros.",
+    "image": "/images/elisa.jpg",
+    "link": "https://linktr.ee/delirioscomunas",
     "pronouns": [
       "Ela",
       "Dela"
@@ -80,9 +80,9 @@
   },
   {
     "name": "Froggy",
-    "link": "https://linktr.ee/0froggy",
-    "image": "/images/froggy.jpg",
     "description": "Hacker, animeiro, podcaster, bolchefitness, já cursei psicologia e atualmente o maior hater de criptomoedas e NFT. Faço parte do nucleo de tecnologia da Soberana e produzo conteúdo pelos projetos Segunda Popular e Tecnologia e Classe.",
+    "image": "/images/froggy.jpg",
+    "link": "https://linktr.ee/0froggy",
     "pronouns": [
       "Ele",
       "Dele"
@@ -90,9 +90,9 @@
   },
   {
     "name": "Gabe",
-    "link": "https://linktr.ee/gabe_da_soberana",
-    "image": "/images/gabe.jpg",
     "description": "Motion designer, faço coreografias de k-pop enquanto estou na cadeira do computador trabalhando. E ao mesmo tempo em que quero ficar em meus saves de joguinhos, não posso pois preciso malhar para me tornar bolchefitness. Basicamente eu sou a contradição em pessoa (ou em milho).",
+    "image": "/images/gabe.jpg",
+    "link": "https://linktr.ee/gabe_da_soberana",
     "pronouns": [
       "Ela",
       "Dela"
@@ -100,18 +100,18 @@
   },
   {
     "name": "Groselha Atômica",
-    "link": "https://linktr.ee/groselha_atomica",
-    "image": "/images/groselha.jpg",
     "description": "Em breve adicionaremos descrições das pessoas criadoras :)",
+    "image": "/images/groselha.jpg",
+    "link": "https://linktr.ee/groselha_atomica",
     "pronouns": [
       "Qualquer Pronome"
     ]
   },
   {
     "name": "Gus",
-    "link": "https://linktr.ee/gbringel",
-    "image": "/images/gus.jpg",
     "description": "Em breve adicionaremos descrições das pessoas criadoras :)",
+    "image": "/images/gus.jpg",
+    "link": "https://linktr.ee/gbringel",
     "pronouns": [
       "Ele",
       "Dele"
@@ -119,9 +119,9 @@
   },
   {
     "name": "Humberto Matos",
-    "link": "https://linktr.ee/humbertomatos",
-    "image": "/images/humberto.jpg",
     "description": "Professor de história da educação pública de base desde 2005, agitador e propagandista socialista gaúcho. Toca o Canal Humberto Matos no YouTube, onde faz a crítica da economia política desde 2015. Hoje atua nas redes sociais ajudando a construir a via para a Revolução Brasileira junto ao Coletivo Soberana.",
+    "image": "/images/humberto.jpg",
+    "link": "https://linktr.ee/humbertomatos",
     "pronouns": [
       "Ele",
       "Dele"
@@ -129,9 +129,9 @@
   },
   {
     "name": "Ian Neves",
-    "link": "https://linktr.ee/historiapublica",
-    "image": "/images/ian.jpg",
     "description": "Historiador, criador de conteúdo e juíz de campeonatos de ioiô. Acha que pegar carrapato-estrela é uma troca justa por fazer carinho em uma capivara.",
+    "image": "/images/ian.jpg",
+    "link": "https://linktr.ee/historiapublica",
     "pronouns": [
       "Ele",
       "Dele"
@@ -139,9 +139,9 @@
   },
   {
     "name": "João Carvalho",
-    "link": "https://linktr.ee/assimdisseojoao",
-    "image": "/images/joao.jpg",
     "description": "Fruto do Amor proibido entre uma Escada Magirus e uma Biblioteca do SCP, João é o gigante gentil que veio atacar a sua webvila com recomendações de livros. O Tio pode ser encontrado no canal História e no coração daqueles que creem em sua existência.",
+    "image": "/images/joao.jpg",
+    "link": "https://linktr.ee/assimdisseojoao",
     "pronouns": [
       "Ele",
       "Dele"
@@ -149,9 +149,9 @@
   },
   {
     "name": "Naná",
-    "link": "http://linktr.ee/nanacaligari",
-    "image": "/images/nana.jpg",
     "description": "Autora, neurodivergente, PcD surda e queer até os ossos, pronta para lutar contra o capitalismo seja ele colorido ou não. É parte do núcleo de criação da Soberana, mas mostra as caras no TikTok quando é pra contar curiosidades que permeiam experiências socialistas.",
+    "image": "/images/nana.jpg",
+    "link": "http://linktr.ee/nanacaligari",
     "pronouns": [
       "Ela",
       "Elu"
@@ -159,9 +159,9 @@
   },
   {
     "name": "Pequi",
-    "link": "https://bento.me/eai-pequi",
-    "image": "/images/pequi.jpg",
     "description": "Designer de produto, cozinheiro amador e viciado em usar emojis. Acredito firmemente no design como instrumento na busca do bem-estar da classe trabalhadora, e acho incrível colaborar em projetos que beneficiam verdadeiramente às pessoas. Nunca vi um pequi.",
+    "image": "/images/pequi.jpg",
+    "link": "https://bento.me/eai-pequi",
     "pronouns": [
       "Ele",
       "Dele"
@@ -169,9 +169,9 @@
   },
   {
     "name": "Tarcísio",
-    "link": "https://linktr.ee/tarcisioe",
-    "image": "/images/placeholder.png",
     "description": "Em breve adicionaremos descrições das pessoas criadoras :)",
+    "image": "/images/placeholder.png",
+    "link": "https://linktr.ee/tarcisioe",
     "pronouns": [
       "Ele",
       "Dele"
@@ -179,9 +179,9 @@
   },
   {
     "name": "Terça",
-    "link": "https://linktr.ee/historiatopia",
-    "image": "/images/terca.jpg",
     "description": "Em breve adicionaremos descrições das pessoas criadoras :)",
+    "image": "/images/terca.jpg",
+    "link": "https://linktr.ee/historiatopia",
     "pronouns": [
       "Ele",
       "Dele"
@@ -189,9 +189,9 @@
   },
   {
     "name": "Victor",
-    "link": "https://linktr.ee/victutur",
-    "image": "/images/victor.jpg",
     "description": "Professor de física, autista, gosto de desenhos (seja em brochura, na tela, ou na pele), falar mal de gringo, esportes, filmes, exposições, piadas e de surpreender as pessoas com análises políticas detalhadas e espantosamente precisas sobre todos esses assuntos.",
+    "image": "/images/victor.jpg",
+    "link": "https://linktr.ee/victutur",
     "pronouns": [
       "Ele",
       "Dele"
@@ -199,9 +199,9 @@
   },
   {
     "name": "VinnyDays",
-    "link": "https://linktr.ee/vinnydays",
-    "image": "/images/vinnydays.jpg",
     "description": "Psicólogo, zeldeiro, gateiro, SAMEQUER e constantemente me pergunto: 'será que estou velho demais pra isso?'. Ao longo da minha atuação na psicologia social e junto ao SUAS adquiri experiência que levo atualmente para meu atendimento clínico, dentro de uma perspectiva que entende que o sofrimento psíquico é indissociável da experiência de viver em uma sociedade individuzliante e atomizada - é contra isso que lutamos dentro da militância e é com isso que contribuo com o coletivo.",
+    "image": "/images/vinnydays.jpg",
+    "link": "https://linktr.ee/vinnydays",
     "pronouns": [
       "Ele",
       "Dele"
@@ -209,9 +209,9 @@
   },
   {
     "name": "Zawacki",
-    "link": "https://link.lfzawacki.com/",
-    "image": "/images/zawacki.jpg",
     "description": "Músico, gxmer, metaleiro e desenvolvedor de software camarada. Crio conteúdo sobre música, tecnologia e como estes tópicos se misturam com a política.",
+    "image": "/images/zawacki.jpg",
+    "link": "https://link.lfzawacki.com/",
     "pronouns": [
       "Ele",
       "Dele"
@@ -219,9 +219,9 @@
   },
   {
     "name": "Zorzal",
-    "link": "https://linkr.bio/zorzaverso",
-    "image": "/images/zorzal.jpg",
     "description": "Podcaster, roteirista, editor, e apaixonado por cinema que também faz filmes. Crio uns 300 projetos por minuto (me faz parar, sério), e gosto de dançar forró e ver vídeos ensaios enormes sobre assuntos que nunca mais vou ouvir falar na vida.",
+    "image": "/images/zorzal.jpg",
+    "link": "https://linkr.bio/zorzaverso",
     "pronouns": [
       "Ele",
       "Dele"

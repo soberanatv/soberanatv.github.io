@@ -1,6 +1,7 @@
 import '../styles/home.scss'
 import Image from 'next/image'
 import links from '../json/links.json'
+import { socials } from '@/json/types'
 
 const headerLinks = [
   {
@@ -46,7 +47,7 @@ export default function RootLayout({
           <defs>
             {/* there is a package for 'fontawesome' in react, just saying because i didn't used it */}
             { /* <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --> */}
-            {Object.values(links.socials).map(({ svg: { id, viewBox, path } }) => (
+            {Object.values(links.socials).map(({ svg: { id, viewBox, path } }: socials[string]) => (
               <symbol key={id} id={id} viewBox={viewBox}>
                 <path d={path} />
               </symbol>

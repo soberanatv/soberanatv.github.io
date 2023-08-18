@@ -5,6 +5,7 @@ import CreatorCard from './CreatorCard'
 import ProjectCard from './ProjectCard'
 import SideScroller from './SideScroller'
 import Manifest from './Manifest'
+import { socials } from '@/json/types'
 
 export default function Home() {
   return (<>
@@ -41,12 +42,12 @@ export default function Home() {
       <section>
         <h2 data-reflection="Projetos">Projetos</h2>
         <SideScroller>
-          {projects.map(({ title, image, description, link }) => <ProjectCard
-            title={title}
+          {projects.map(({ name, image, description, link }) => <ProjectCard
+            name={name}
             image={image}
             description={description}
             link={link}
-            key={title}
+            key={name}
           />)}
         </SideScroller>
       </section>
@@ -138,7 +139,7 @@ export default function Home() {
         <div className="social-media">
           <h3>Nossas redes:</h3>
           <ul>
-            {Object.values(links.socials).map(({ name, link, svg: { id } }) => (
+            {Object.values(links.socials).map(({ name, link, svg: { id } }: socials[string]) => (
               <li key={name}>
                 <a href={link}>
                   <svg><use href={`#${id}`}></use></svg>

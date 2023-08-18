@@ -1,15 +1,15 @@
 [
   {
-    "title": "Projeto Saúde Mental Camarada",
-    "image": "/images/sameca.jpg",
+    "name": "Projeto Saúde Mental Camarada",
     "description": "O Projeto Saúde Mental Camarada, também conhecido como SAMECA oferece apoio psicológico a valores sociais às pessoas da comunidade da Soberana presentes no nosso discord aberto. Ao mesmo tempo, o SAMECA organiza uma rede de profissionais da psicologia em torno de uma prática que considera o sujeito em sua dimensão social, fortalecendo a categoria profissional e estimulando sua consciência de classe.",
+    "image": "/images/sameca.jpg",
     "link": {
       "label": "Acessar Discord",
       "href": "https://discord.com/channels/828778305691844609/849991695725625394/1073348147604115456"
     }
   },
   {
-    "title": "Audioteca Crítica",
+    "name": "Audioteca Crítica",
     "image": "/images/audioteca-critica.png",
     "description": "A Audioteca é um projeto de audiobooks de obras marxistas e revolucionárias, com o objetivo de facilitar o acesso ao conhecimento. É produzido pelas camaradas Comuninja, Elisa e Zorzal. Orelo é a plataforma que melhor remunera as camaradas, mas você pode ouvir também no Spotify e no Youtube.",
     "link": {
@@ -18,7 +18,7 @@
     }
   },
   {
-    "title": "Segunda Popular",
+    "name": "Segunda Popular",
     "image": "/images/seg_pop.png",
     "description": "O Segunda Popular é um podcast dedicado a falar da cultura pop através da esquerda radical. A proposta é pegar obras já amplamente conhecidas (ou não) e trazer uma discussão politica e de esquerda revolucionária sobre elas. Produzido por Ana Neves e apresentado por Froggy e Terça, o Segunda Popular vai ao ar em todas as plataformas de podcast a cada 15 dias, sempre às segundas.",
     "link": {
@@ -27,7 +27,7 @@
     }
   },
   {
-    "title": "Comunismo: princípios básicos e guia de leitura",
+    "name": "Comunismo: princípios básicos e guia de leitura",
     "image": "/images/principios-comunismo.jpg",
     "description": "Principios básicos do comunismo é um popular vídeo introdutório ao marxismo-leninismo, produzido pelo camarada Ian. Recomendamos a todes camaradas que assistam!",
     "link": {
@@ -36,7 +36,7 @@
     }
   },
   {
-    "title": "Clube de Leitura",
+    "name": "Clube de Leitura",
     "image": "/images/clube-de-leitura.jpg",
     "description": "O Clube ocorre quinzenalmente e é livre para todes participarem! Acompanhe os anúncios e pegue o cargo 'Clube do Livro' no Discord para saber quando será o próximo encontro.",
     "link": {
@@ -45,7 +45,7 @@
     }
   },
   {
-    "title": "Curso de Formação de Criadoras de Conteúdo Nadejda Krúpskaia",
+    "name": "Curso de Formação de Criadoras de Conteúdo Nadejda Krúpskaia",
     "image": "/images/curso-nadejda-krupskaia.jpg",
     "description": "O Cursinho da Krups é uma iniciativa para fomentar a formação de conteúdo. Atualmente está sendo reformulado e em breve teremos novidades!",
     "link": {
