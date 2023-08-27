@@ -1,8 +1,8 @@
 import Link from "next/link"
-import creators from "../json/creators.json"
 import Image from "next/image"
+import { creatorCard } from "@/json/types"
 
-export default function CreatorCard({ name, link, image, description, pronouns }: typeof creators[number]) {
+export default function CreatorCard({ name, link, image, description, pronouns }: creatorCard) {
   return (
     <div className="creator-card container">
       <div className="heading">

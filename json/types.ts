@@ -10,7 +10,6 @@ export type socials = {
   }
 }
 
-// none bellow are being used because ts inference is awsome
 type card = {
   name: string;
   description: string;

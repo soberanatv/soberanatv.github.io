@@ -1,8 +1,8 @@
 import Link from "next/link"
-import projects from "../json/projects.json"
 import Image from "next/image"
+import { projectCard } from "@/json/types"
 
-export default function ProjectCard({ name, image, description, link: { label, href } }: typeof projects[number]) {
+export default function ProjectCard({ name, image, description, link: { label, href } }: projectCard) {
   return (
     <div className="project-card container">
       <Image src={image} width={360} height={360} draggable="false" alt={`Foto do projeto ${name}`} />
