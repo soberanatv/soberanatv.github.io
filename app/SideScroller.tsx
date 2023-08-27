@@ -1,41 +1,45 @@
 'use client'
 
-import React, { MouseEvent, useRef, useState } from "react"
+import { MouseEvent, useRef, ReactNode } from "react"
 
-const time = 70
-const interval = 10
-const totalLength = 400
-const length = (totalLength * interval) / time
+const totalTime = 100; // in milliseconds
+const timeInterval = 10; // in milliseconds
+const totalLength = 400; // in pixels
+const length = totalLength * timeInterval / totalTime;
 
-export default function SideScroller({ children }: { children: React.ReactNode }) {
-  const self = useRef({ current: { scrollLeft: 0 } } as unknown as HTMLDivElement);// force type because there's no way this can go
-  const [down, setDown] = useState(false);
-  const [initialScroll, setInitialScroll] = useState(0);
-  const [initialX, setInitialX] = useState(0);
+export default function SideScroller({ children }: { children: ReactNode }) {
+  // ! Non-Null Assertion Operator been used | don't acess this ref before first render and don't forget to use it on a div
+  const scrollDivRef = useRef<HTMLDivElement>(null!);
+  // ! ---------------
+  const mouseDownRef = useRef(false);
+  const initialScrollRef = useRef(0);
+  const initialXRef = useRef(0);
+  const currIntervalIDRef = useRef<NodeJS.Timer>();
 
   function mouseDown({ pageX }: MouseEvent) {
-    setInitialScroll(self.current.scrollLeft);
-    setInitialX(pageX);
-    setDown(true);
+    initialScrollRef.current = scrollDivRef.current.scrollLeft;
+    initialXRef.current = pageX;
+    mouseDownRef.current = true;
   }
 
   function mouseMove(e: MouseEvent) {
-    if (!down) return;
+    if (!mouseDownRef.current) return;
     e.preventDefault();
-    self.current.scrollLeft = initialScroll - (e.pageX - initialX) * 2;
+    scrollDivRef.current.scrollLeft = initialScrollRef.current - (e.pageX - initialXRef.current) * 2;
   }
 
   function stopScroll() {
-    setDown(false)
+    mouseDownRef.current = false
   }
 
   function scroll(direction: 'R' | 'L') {
+    window.clearInterval(currIntervalIDRef.current)
     const sign = direction == 'R' ? 1 : -1;
-    const curr = self.current
-    const intervalId = setInterval(() => curr.scrollLeft += length * sign, interval)
-    setTimeout(() => {
-      window.clearInterval(intervalId)
-    }, time)
+    const curr = scrollDivRef.current
+    const intervalId = setInterval(() => curr.scrollLeft += length * sign, timeInterval)
+    currIntervalIDRef.current = intervalId
+
+    setTimeout(() => window.clearInterval(intervalId), totalTime)
   }
 
   // TODO do a better css (i don't like doing css, don't know how sass works and this is a PoC thus i'm not doing it)
@@ -43,7 +47,7 @@ export default function SideScroller({ children }: { children: React.ReactNode }
     <div style={{ display: 'flex', alignItems: 'center', }}>
       <button className="side-scroll-button" onClick={() => scroll("L")}>&lt;</button>
       <div
-        ref={self}
+        ref={scrollDivRef}
         className="side-scroller"
         onMouseDown={mouseDown}
         onMouseMove={mouseMove}
