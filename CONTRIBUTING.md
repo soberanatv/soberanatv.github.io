@@ -18,11 +18,19 @@ Qualquer ajuda que agregue valor ao projeto, seja na edição do código-fonte o
 
 ## Rodando o projeto localmente
 
-O projeto utiliza [Zola](https://www.getzola.org/) para gerar arquivos HTML, CSS e JS. Veja como instalar [aqui](https://www.getzola.org/documentation/getting-started/installation/) e utilize os seguintes comandos:
+Esse projeto foi feito com [Next.js](https://nextjs.org/) inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-```zola serve``` - Compila e fornecer servidor local atento às modificações. Ideal para desenvolvimento.
+Para aprender mais sobre Next.js (ingles0):
+- [Next.js Documentação](https://nextjs.org/docs) - aprenda sobre Next.js features and API.
+- [Aprenda Next.js](https://nextjs.org/learn) - um tutorial interativo de Next.js.
 
-```zola build``` - Compila os arquivos para a pasta *public*.
+É necessario [nodejs](https://nodejs.org/pt-br), versão minima 14.6.0, e [npm](https://www.npmjs.com/) para instalar e rodar.
+
+```npm install``` - Instala as dependencias e pacotes necessarios.
+
+```npm run dev``` - Fornecer servidor local atento às modificações. Ideal para desenvolvimento.
+```npm run build``` - Compila os arquivos para a pasta *.next*.
+```npm start``` - Fornece servidor com os arquivos da pasta *.next*.
 
 ## Mensagens de commit
 

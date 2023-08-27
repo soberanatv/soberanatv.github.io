@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@import "reset";
+
+@font-face {
+  font-family: 'Molot';
+  src: url(/fonts/Molot.otf), format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --soberana-orange: #FA5901;
+  --soberana-pink: #EB005C;
+  --soberana-black: #161214;
+
+  --site-background-color: #060606;
+  --text-white: #ECE8E1;
+
+  color-scheme: dark;
+}
+
+// .app-container {}
+
+body {
+  background-color: var(--site-background-color);
+  color: var(--text-white);
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
