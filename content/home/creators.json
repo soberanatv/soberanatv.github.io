@@ -7,6 +7,13 @@
 		"pronouns": ["Ela", "Dela"]
 	},
 	{
+		"name": "Aya",
+		"links": "https://linktr.ee/programadoracomunista",
+		"image": "images/aya.jpg",
+		"tags": "Tutora e programadora Python, Otaku de carteirinha e Cosplayer Frustrada que nunca consegue terminar as roupas, viciada em J-RPGs (principalmente persona) e jogos de estratégia. Juche que ama compartilhar e debater sobre política e revolução. Escreve nya e põe emoji de coração em 99,9% das frases.",
+		"pronouns": ["Ela", "Dela"]
+	},
+	{
 		"name": "Azhariel",
 		"links": "https://linktr.ee/azhariel",
 		"image": "images/azhariel.jpg",
@@ -71,7 +78,7 @@
 	},
 	{
 		"name": "Gui Afonso | Radio Guerrilha",
-		"links": "https://www.radioguerrilha.com",
+		"links": "https://radioguerrilha.com",
 		"image": "images/radioguerrilha.png",
 		"tags": "A Rádio Guerrilha é um projeto que visa difundir o pensamento comunista por meio da música e da sua relação com a sociedade. O projeto nasceu em junho/2022 e desde então, venho produzindo conteúdo na Twitch, com cortes lançados no YouTube, TikTok e Instagram. Eu, Gui Afonso, sou músico e trabalho com isso diretamente há mais de 10 anos, sendo que parte disso foi dando aula e a outra parte eu passei produzindo, compondo e arranjando.",
 		"pronouns": ["Ele", "Dele"]
@@ -123,6 +130,13 @@
 		"links": "https://linktr.ee/pedagolitica",
 		"image": "images/pedagolitica.jpg",
 		"tags": "A professora sobre a qual o Brasil Paralelo te alertou. Pedagoga, mestranda em psicologia e marxista que não acredita que a educação, sozinha, vai revolucionar o mundo, mas que certamente faz parte da construção revolucionária.",
+		"pronouns": ["Ela", "Dela"]
+	},
+	{
+		"name": "Pequeña",
+		"links": "https://instagram.com/nanda.amorr/",
+		"image": "images/pequena.jpg",
+		"tags": "Publicitária há mais tempo do que eu deveria, faço uns desenhos que nunca mostro pra ninguém e sou profissional em bolar um. Salva do liberalismo pela Soberana e hoje tentando converter qualquer um que me der bom dia.",
 		"pronouns": ["Ela", "Dela"]
 	},
 	{
