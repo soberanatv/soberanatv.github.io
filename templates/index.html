@@ -24,6 +24,10 @@
         <svg><use href="#fa-scroll-icon"></use></svg>
         Manifesto
       </a></li>
+      <li><a href="https://loja.soberana.tv">
+        <svg><use href="#fa-shop-icon"></use></svg>
+        Loja
+      </a></li>
       <li>
         <a href="#faq-hr">
           <svg><use href="#fa-circle-question"></use></svg>
@@ -131,7 +135,7 @@
     </div>
     <div class="container form">
       <h3>Entre em contato por e-mail</h3>
-      
+
       <form id="formulario" onsubmit="sendEmail()">
         <fieldset>
           <legend>Nome</legend>
@@ -149,7 +153,7 @@
           <legend>Mensagem</legend>
           <textarea id="message" name="message" placeholder="Digite a sua mensagem" required autocomplete="off"></textarea>
         </fieldset>
-        
+
         <button class="button" type="submit">Enviar e-mail</button>
       </form>
     </div>
@@ -254,7 +258,7 @@ scrollables.forEach((scrollable) => {
   let isDown = false;
   let startX;
   let scrollLeft;
-  
+
   selectedSection.addEventListener('mousedown', (e) => {
     isDown = true;
     selectedSection.classList.add('active');
