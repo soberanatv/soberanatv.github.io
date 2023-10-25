@@ -254,6 +254,7 @@ form.addEventListener('submit', handleSubmit);
 const scrollables = ['creators', 'projects']
 
 scrollables.forEach((scrollable) => {
+  const body = document.querySelector('.app-container')
   const selectedSection = document.querySelector(`#${scrollable}`);
   let isDown = false;
   let startX;
@@ -265,15 +266,15 @@ scrollables.forEach((scrollable) => {
     startX = e.pageX - selectedSection.offsetLeft;
     scrollLeft = selectedSection.scrollLeft;
   });
-  selectedSection.addEventListener('mouseleave', () => {
+  body.addEventListener('mouseleave', () => {
     isDown = false;
     selectedSection.classList.remove('active');
   });
-  selectedSection.addEventListener('mouseup', () => {
+  body.addEventListener('mouseup', () => {
     isDown = false;
     selectedSection.classList.remove('active');
   });
-  selectedSection.addEventListener('mousemove', (e) => {
+  body.addEventListener('mousemove', (e) => {
     if (!isDown) return;
     e.preventDefault();
     const x = e.pageX - selectedSection.offsetLeft;

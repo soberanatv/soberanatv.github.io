@@ -2,9 +2,9 @@
 <div class="creator-card container">
   <div class="heading">
     <p>{{name}}</p>
-    <a href={{links}} target="_blank" rel="noopener noreferrer">{{links}}</a>
+    <a href={{links}} target="_blank" rel="noopener noreferrer" draggable="false">{{links}}</a>
   </div>
-  <img src="{{image}}" />
+  <img src="{{image}}" draggable="false"/>
   <div class="description-container">
     <p>{{tags}}</p>
   </div>
@@ -18,13 +18,13 @@
 
 {% macro project_card(title, image, tags, link) %}
 <div class="project-card container">
-  <img src="{{image}}" />
+  <img src="{{image}}" draggable="false"/>
   <div class="description-container">
     <p>{{title}}</p>
     <p>{{tags}}</p>
   </div>
   <div class="social-buttons">
-    <a href="{{link.href}}" class="button">{{link.label}}</a>
+    <a href="{{link.href}}" class="button" draggable="false">{{link.label}}</a>
   </div>
 </div>
 {% endmacro project_card %}
