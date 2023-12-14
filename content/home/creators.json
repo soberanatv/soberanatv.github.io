@@ -63,6 +63,13 @@
 		"pronouns": ["Ela", "Dela"]
 	},
 	{
+		"name": "Fabio Chocolate",
+		"links": "https://tiktok.com/@chocolateexpresso",
+		"image": "images/chocolate.jpg",
+		"tags": "Assim como a Joelma, do Pará para o Brasil.",
+		"pronouns": ["Ele", "Dele"]
+	},
+	{
 		"name": "Froggy",
 		"links": "https://linktr.ee/0froggy",
 		"image": "images/froggy.jpg",
