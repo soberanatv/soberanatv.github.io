@@ -1,24 +1,10 @@
 [
 	{
-		"name": "Ana",
-		"links": "https://linktr.ee/souananeves",
-		"image": "images/ana.jpg",
-		"tags": "Eu escrevo, canto, produzo, trabalho e, acima de tudo, eu me importo. Atuo na criação de conteúdos da Soberana, sou palestrinha de não-monogamia política e inimiga de fascista.",
-		"pronouns": ["Ela", "Dela"]
-	},
-	{
 		"name": "Aya",
 		"links": "https://linktr.ee/programadoracomunista",
 		"image": "images/aya.jpg",
 		"tags": "Tutora e programadora Python, Otaku de carteirinha e Cosplayer Frustrada que nunca consegue terminar as roupas, viciada em J-RPGs (principalmente persona) e jogos de estratégia. Juche que ama compartilhar e debater sobre política e revolução. Escreve nya e põe emoji de coração em 99,9% das frases.",
 		"pronouns": ["Ela", "Dela"]
-	},
-	{
-		"name": "Azhariel",
-		"links": "https://linktr.ee/azhariel",
-		"image": "images/azhariel.jpg",
-		"tags": "Autista, programador e ex-advogado, meu maior defeito é gostar de League of Legends. Componho o núcleo de tecnologia da Soberana, tanto na divulgação através do canal Tecnologia e Classe quanto no desenvolvimento do site e outras ferramentas internas.",
-		"pronouns": ["Ele", "Dele"]
 	},
 	{
 		"name": "Bebel Abelhinha",
@@ -28,38 +14,10 @@
 		"pronouns": ["Ela", "Dela"]
 	},
 	{
-		"name": "Bonzago",
-		"links": "https://linktr.ee/bonzago",
-		"image": "images/bonzago.jpg",
-		"tags": "Graduando em História, TikToker e o fã mais jovem de Star Trek. Componho o núcleo de Divulgação da Soberana ajudando na coordenação e criação dos conteúdos nos perfis oficiais do coletivo. Ah, e dizem por aí que eu gosto de Pokémon.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
-		"name": "Camarada Furry",
-		"links": "https://linktr.ee/camaradafurry",
-		"image": "images/furry.jpg",
-		"tags": "Furry, já cursou física e meteorologia 🌧️ e principalmente planilheiro. Empenhado diariamente em ser uma burocracia. Péssimo artista nas horas vagas e um dia sonha em ser um caçador de tornados.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
-		"name": "Carol 🤏",
-		"links": "https://linktr.ee/frkcarol",
-		"image": "images/carolzinha.jpg",
-		"tags": "Bipolar, emo e a editora mais 🤏 do coletivo. Pronta para produzir vídeos e conteúdos que vão te radicalizar da mesma forma que aconteceu comigo.",
-		"pronouns": ["Ela", "Dela"]
-	},
-	{
 		"name": "Duda Bolche",
 		"links": "https://linktr.ee/dudabolche",
 		"image": "images/dudabolche.jpg",
 		"tags": "Internacionalista, brasileira e uruguaia, criadora de conteúdo sobre  integração regional, relações internacionais e luta de classes na América Latina. Fã de Rosalía, adora uma partidinha de xadrez nas horas vagas e é TDAH em tempo integral. Para combater o capitalismo é preciso combater o discurso imperialista.",
-		"pronouns": ["Ela", "Dela"]
-	},
-	{
-		"name": "Elisa",
-		"links": "https://linktr.ee/delirioscomunas",
-		"image": "images/elisa.jpg",
-		"tags": "Crocheteira, swiftie e sommelier de waffles. Estudei Economia e Direito e, atualmente, atuo como coordenadora financeira na Soberana. Minha gata, Farofa, é minha fiel companheira. Sou fascinada por leitura desde criança e hoje, além de números e leis, mergulho em textos marxistas na Audioteca Crítica, um podcast de audiolivros.",
 		"pronouns": ["Ela", "Dela"]
 	},
 	{
@@ -77,13 +35,6 @@
 		"pronouns": ["Ele", "Dele"]
 	},
 	{
-		"name": "Gabe",
-		"links": "https://linktr.ee/gabe_da_soberana",
-		"image": "images/gabe.jpg",
-		"tags": "Motion designer, faço coreografias de k-pop enquanto estou na cadeira do computador trabalhando. E ao mesmo tempo em que quero ficar em meus saves de joguinhos, não posso pois preciso malhar para me tornar bolchefitness. Basicamente eu sou a contradição em pessoa (ou em milho).",
-		"pronouns": ["Ela", "Dela"]
-	},
-	{
 		"name": "Groselha Atômica",
 		"links": "https://linktr.ee/groselha_atomica",
 		"image": "images/groselha.jpg",
@@ -95,13 +46,6 @@
 		"links": "https://radioguerrilha.com",
 		"image": "images/radioguerrilha.png",
 		"tags": "A Rádio Guerrilha é um projeto que visa difundir o pensamento comunista por meio da música e da sua relação com a sociedade. O projeto nasceu em junho/2022 e desde então, venho produzindo conteúdo na Twitch, com cortes lançados no YouTube, TikTok e Instagram. Eu, Gui Afonso, sou músico e trabalho com isso diretamente há mais de 10 anos, sendo que parte disso foi dando aula e a outra parte eu passei produzindo, compondo e arranjando.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
-		"name": "Gus",
-		"links": "https://linktr.ee/gbringel",
-		"image": "images/gus.jpg",
-		"tags": "Tatuador, ilustrador e power ranger nas horas vagas. Adoro um joguim, ouso dizer que world of warcraft me ensinou o que é luta de classe e pelas minorias. Sou amante dos doguinhos e não passo pano pra quem não gosta de bichos. Minha mãe sempre me disse pra eu estudar muito pra ser alguém na vida, mal sabe ela o que eu preciso desenhar pra pagar as contas :D",
 		"pronouns": ["Ele", "Dele"]
 	},
 	{
@@ -126,46 +70,11 @@
 		"pronouns": ["Ele", "Dele"]
 	},
 	{
-		"name": "Naná",
-		"links": "https://linktr.ee/nanacaligari",
-		"image": "images/nana.jpg",
-		"tags": "Autora, neurodivergente, PcD surda e queer até os ossos, pronta para lutar contra o capitalismo seja ele colorido ou não. É parte do núcleo de criação da Soberana, mas mostra as caras no TikTok quando é pra contar curiosidades que permeiam experiências socialistas.",
-		"pronouns": ["Ela", "Elu"]
-	},
-	{
-		"name": "Nate",
-		"links": "https://linktr.ee/kanshow",
-		"image": "images/nate.jpg",
-		"tags": "Otaku safado sempre atento ao que passou despercebido pelo consenso geral, por isso apresenta o Kanshow, podcast que acompanha obras, episódio por episódio, sempre trazendo uma banca diversa, experiente ou não, para analisar a fundo a alma da animação e entender sua contextualização. Pelo menos tentar. Editor de áudio de podcasts e video game, tenho expertise na área do áudio desde 2017, sempre disposto pra dar pitaco e puxar orelha se tiver alguém segurando microfone errado.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
 		"name": "Pedagolitica",
 		"links": "https://linktr.ee/pedagolitica",
 		"image": "images/pedagolitica.jpg",
 		"tags": "A professora sobre a qual o Brasil Paralelo te alertou. Pedagoga, mestranda em psicologia e marxista que não acredita que a educação, sozinha, vai revolucionar o mundo, mas que certamente faz parte da construção revolucionária.",
 		"pronouns": ["Ela", "Dela"]
-	},
-	{
-		"name": "Pequeña",
-		"links": "https://instagram.com/nanda.amorr/",
-		"image": "images/pequena.jpg",
-		"tags": "Publicitária há mais tempo do que eu deveria, faço uns desenhos que nunca mostro pra ninguém e sou profissional em bolar um. Salva do liberalismo pela Soberana e hoje tentando converter qualquer um que me der bom dia.",
-		"pronouns": ["Ela", "Dela"]
-	},
-	{
-		"name": "Pequi",
-		"links": "https://bento.me/eai-pequi",
-		"image": "images/pequi.jpg",
-		"tags": "Designer de produto, cozinheiro amador e viciado em usar emojis. Acredito firmemente no design como instrumento na busca do bem-estar da classe trabalhadora, e acho incrível colaborar em projetos que beneficiam verdadeiramente às pessoas. Nunca vi um pequi.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
-		"name": "Tarcísio",
-		"links": "https://linktr.ee/tarcisioe",
-		"image": "images/tarcisio.jpg",
-		"tags": "Programador e radicalizado pelo trabalho, teve a chama da organização acendida pela Soberana quando já tinha passado tempo demais lamentando sozinho pelo estado da nossa sociedade. Mais conhecido pelas fotos de gato do que pelo próprio rosto, suspeita-se que seja na verdade três gatos empilhados dentro de um jaleco (ou um sobretudo, depende pra quem você pergunta).",
-		"pronouns": ["Ele", "Dele"]
 	},
 	{
 		"name": "Terça",
@@ -182,24 +91,10 @@
 		"pronouns": ["Ele", "Dele"]
 	},
 	{
-		"name": "VinnyDays",
-		"links": "https://linktr.ee/vinnydays",
-		"image": "images/vinnydays.jpg",
-		"tags": "Psicólogo, zeldeiro, gateiro, SAMEQUER e constantemente me pergunto: 'será que estou velho demais pra isso?'. Ao longo da minha atuação na psicologia social e junto ao SUAS adquiri experiência que levo atualmente para meu atendimento clínico, dentro de uma perspectiva que entende que o sofrimento psíquico é indissociável da experiência de viver em uma sociedade individuzliante e atomizada - é contra isso que lutamos dentro da militância e é com isso que contribuo com o coletivo.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
 		"name": "Zawacki",
 		"links": "https://links.lfzawacki.com/",
 		"image": "images/zawacki.jpg",
 		"tags": "Músico, gxmer, metaleiro e desenvolvedor de software camarada. Crio conteúdo sobre música, tecnologia e como estes tópicos se misturam com a política.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
-		"name": "Zorzal",
-		"links": "https://linkr.bio/zorzaverso",
-		"image": "images/zorzal.jpg",
-		"tags": "Podcaster, roteirista, editor, e apaixonado por cinema que também faz filmes. Crio uns 300 projetos por minuto (me faz parar, sério), e gosto de dançar forró e ver vídeos ensaios enormes sobre assuntos que nunca mais vou ouvir falar na vida.",
 		"pronouns": ["Ele", "Dele"]
 	}
 ]
