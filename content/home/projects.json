@@ -43,23 +43,5 @@
 			"label": "Assistir",
 			"href": "https://www.youtube.com/watch?v=cg5winGpx80"
 		}
-	},
-	{
-		"title": "Clube de Leitura",
-		"image": "images/clube-de-leitura.jpg",
-		"tags": "O Clube ocorre quinzenalmente e é livre para todes participarem! Acompanhe os anúncios e pegue o cargo 'Clube do Livro' no Discord para saber quando será o próximo encontro.",
-		"link": {
-			"label": "Acessar Discord",
-			"href": "https://discord.gg/soberana"
-		}
-	},
-	{
-		"title": "Curso de Formação de Criadoras de Conteúdo Nadejda Krúpskaia",
-		"image": "images/curso-nadejda-krupskaia.jpg",
-		"tags": "O Cursinho da Krups é uma iniciativa para fomentar a formação de conteúdo. Atualmente está sendo reformulado e em breve teremos novidades!",
-		"link": {
-			"label": "Em breve",
-			"href": "#"
-		}
 	}
 ]

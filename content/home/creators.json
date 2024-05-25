@@ -21,11 +21,11 @@
 		"pronouns": ["Ela", "Dela"]
 	},
 	{
-		"name": "Fabio Chocolate",
-		"links": "https://tiktok.com/@chocolateexpresso",
-		"image": "images/chocolate.jpg",
-		"tags": "Assim como a Joelma, do Pará para o Brasil.",
-		"pronouns": ["Ele", "Dele"]
+		"name": "Elisa",
+		"links": "https://linktr.ee/delirioscomunas",
+		"image": "images/elisa.jpg",
+		"tags": "Crocheteira, swiftie e sommelier de waffles. Estudei Economia e Direito e, atualmente, atuo como coordenadora financeira na Soberana. Minha gata, Farofa, é minha fiel companheira. Sou fascinada por leitura desde criança e hoje, além de números e leis, mergulho em textos marxistas na Audioteca Crítica, um podcast de audiolivros.",
+		"pronouns": ["Ela", "Dela"]
 	},
 	{
 		"name": "Froggy",
@@ -67,6 +67,20 @@
 		"links": "https://linktr.ee/assimdisseojoao",
 		"image": "images/joao.jpg",
 		"tags": "Fruto do Amor proibido entre uma Escada Magirus e uma Biblioteca do SCP, João é o gigante gentil que veio atacar a sua webvila com recomendações de livros. O Tio pode ser encontrado no canal História e no coração daqueles que creem em sua existência.",
+		"pronouns": ["Ele", "Dele"]
+	},
+	{
+		"name": "Naná",
+		"links": "https://linktr.ee/nanacaligari",
+		"image": "images/nana.jpg",
+		"tags": "Autora, neurodivergente, PcD surda e queer até os ossos, pronta para lutar contra o capitalismo seja ele colorido ou não. É parte do núcleo de criação da Soberana, mas mostra as caras no TikTok quando é pra contar curiosidades que permeiam experiências socialistas.",
+		"pronouns": ["Ela", "Elu"]
+	},
+	{
+		"name": "Nate",
+		"links": "https://linktr.ee/kanshow",
+		"image": "images/nate.jpg",
+		"tags": "Bacharel em Ciência e Tecnologia, editor de áudio e apresentador de podcast. Minha cor favorita é o vermelho.",
 		"pronouns": ["Ele", "Dele"]
 	},
 	{
