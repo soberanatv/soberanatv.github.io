@@ -1,12 +1,5 @@
 [
 	{
-		"name": "Ana",
-		"links": "https://linktr.ee/souananeves",
-		"image": "images/ana.jpg",
-		"tags": "Eu escrevo, canto, produzo, trabalho e, acima de tudo, eu me importo. Atuo na criação de conteúdos da Soberana, sou palestrinha de não-monogamia política e inimiga de fascista.",
-		"pronouns": ["Ela", "Dela"]
-	},
-	{
 		"name": "Aya",
 		"links": "https://linktr.ee/programadoracomunista",
 		"image": "images/aya.jpg",
@@ -14,38 +7,10 @@
 		"pronouns": ["Ela", "Dela"]
 	},
 	{
-		"name": "Azhariel",
-		"links": "https://linktr.ee/azhariel",
-		"image": "images/azhariel.jpg",
-		"tags": "Autista, programador e ex-advogado, meu maior defeito é gostar de League of Legends. Componho o núcleo de tecnologia da Soberana, tanto na divulgação através do canal Tecnologia e Classe quanto no desenvolvimento do site e outras ferramentas internas.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
 		"name": "Bebel Abelhinha",
 		"links": "https://linktr.ee/bebel_abelhinha",
 		"image": "images/bebel.jpg",
 		"tags": "Mestranda em ecologia política, publicitária, poliglota, e colecionadora de mel de abelhas nativas. Gosto de permacultura, bioconstrução, agroecologia, e todos esses babados. Sei que a raiz do problema não são os combustíveis fósseis, mas sim, a acumulação de capital.",
-		"pronouns": ["Ela", "Dela"]
-	},
-	{
-		"name": "Bonzago",
-		"links": "https://linktr.ee/bonzago",
-		"image": "images/bonzago.jpg",
-		"tags": "Graduando em História, TikToker e o fã mais jovem de Star Trek. Componho o núcleo de Divulgação da Soberana ajudando na coordenação e criação dos conteúdos nos perfis oficiais do coletivo. Ah, e dizem por aí que eu gosto de Pokémon.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
-		"name": "Camarada Furry",
-		"links": "https://linktr.ee/camaradafurry",
-		"image": "images/furry.jpg",
-		"tags": "Furry, já cursou física e meteorologia 🌧️ e principalmente planilheiro. Empenhado diariamente em ser uma burocracia. Péssimo artista nas horas vagas e um dia sonha em ser um caçador de tornados.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
-		"name": "Carol 🤏",
-		"links": "https://linktr.ee/frkcarol",
-		"image": "images/carolzinha.jpg",
-		"tags": "Bipolar, emo e a editora mais 🤏 do coletivo. Pronta para produzir vídeos e conteúdos que vão te radicalizar da mesma forma que aconteceu comigo.",
 		"pronouns": ["Ela", "Dela"]
 	},
 	{
@@ -70,13 +35,6 @@
 		"pronouns": ["Ele", "Dele"]
 	},
 	{
-		"name": "Gabe",
-		"links": "https://linktr.ee/gabe_da_soberana",
-		"image": "images/gabe.jpg",
-		"tags": "Motion designer, faço coreografias de k-pop enquanto estou na cadeira do computador trabalhando. E ao mesmo tempo em que quero ficar em meus saves de joguinhos, não posso pois preciso malhar para me tornar bolchefitness. Basicamente eu sou a contradição em pessoa (ou em milho).",
-		"pronouns": ["Ela", "Dela"]
-	},
-	{
 		"name": "Groselha Atômica",
 		"links": "https://linktr.ee/groselha_atomica",
 		"image": "images/groselha.jpg",
@@ -88,13 +46,6 @@
 		"links": "https://radioguerrilha.com",
 		"image": "images/radioguerrilha.png",
 		"tags": "A Rádio Guerrilha é um projeto que visa difundir o pensamento comunista por meio da música e da sua relação com a sociedade. O projeto nasceu em junho/2022 e desde então, venho produzindo conteúdo na Twitch, com cortes lançados no YouTube, TikTok e Instagram. Eu, Gui Afonso, sou músico e trabalho com isso diretamente há mais de 10 anos, sendo que parte disso foi dando aula e a outra parte eu passei produzindo, compondo e arranjando.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
-		"name": "Gus",
-		"links": "https://linktr.ee/gbringel",
-		"image": "images/gus.jpg",
-		"tags": "Tatuador, ilustrador e power ranger nas horas vagas. Adoro um joguim, ouso dizer que world of warcraft me ensinou o que é luta de classe e pelas minorias. Sou amante dos doguinhos e não passo pano pra quem não gosta de bichos. Minha mãe sempre me disse pra eu estudar muito pra ser alguém na vida, mal sabe ela o que eu preciso desenhar pra pagar as contas :D",
 		"pronouns": ["Ele", "Dele"]
 	},
 	{
@@ -140,27 +91,6 @@
 		"pronouns": ["Ela", "Dela"]
 	},
 	{
-		"name": "Pequeña",
-		"links": "https://instagram.com/nanda.amorr/",
-		"image": "images/pequena.jpg",
-		"tags": "Publicitária há mais tempo do que eu deveria, faço uns desenhos que nunca mostro pra ninguém e sou profissional em bolar um. Salva do liberalismo pela Soberana e hoje tentando converter qualquer um que me der bom dia.",
-		"pronouns": ["Ela", "Dela"]
-	},
-	{
-		"name": "Pequi",
-		"links": "https://bento.me/eai-pequi",
-		"image": "images/pequi.jpg",
-		"tags": "Designer de produto, cozinheiro amador e viciado em usar emojis. Acredito firmemente no design como instrumento na busca do bem-estar da classe trabalhadora, e acho incrível colaborar em projetos que beneficiam verdadeiramente às pessoas. Nunca vi um pequi.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
-		"name": "Tarcísio",
-		"links": "https://linktr.ee/tarcisioe",
-		"image": "images/tarcisio.jpg",
-		"tags": "Programador e radicalizado pelo trabalho, teve a chama da organização acendida pela Soberana quando já tinha passado tempo demais lamentando sozinho pelo estado da nossa sociedade. Mais conhecido pelas fotos de gato do que pelo próprio rosto, suspeita-se que seja na verdade três gatos empilhados dentro de um jaleco (ou um sobretudo, depende pra quem você pergunta).",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
 		"name": "Terça",
 		"links": "https://linktr.ee/historiatopia",
 		"image": "images/terca.jpg",
@@ -175,24 +105,10 @@
 		"pronouns": ["Ele", "Dele"]
 	},
 	{
-		"name": "VinnyDays",
-		"links": "https://linktr.ee/vinnydays",
-		"image": "images/vinnydays.jpg",
-		"tags": "Psicólogo, zeldeiro, gateiro, SAMEQUER e constantemente me pergunto: 'será que estou velho demais pra isso?'. Ao longo da minha atuação na psicologia social e junto ao SUAS adquiri experiência que levo atualmente para meu atendimento clínico, dentro de uma perspectiva que entende que o sofrimento psíquico é indissociável da experiência de viver em uma sociedade individuzliante e atomizada - é contra isso que lutamos dentro da militância e é com isso que contribuo com o coletivo.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
 		"name": "Zawacki",
 		"links": "https://links.lfzawacki.com/",
 		"image": "images/zawacki.jpg",
 		"tags": "Músico, gxmer, metaleiro e desenvolvedor de software camarada. Crio conteúdo sobre música, tecnologia e como estes tópicos se misturam com a política.",
-		"pronouns": ["Ele", "Dele"]
-	},
-	{
-		"name": "Zorzal",
-		"links": "https://linkr.bio/zorzaverso",
-		"image": "images/zorzal.jpg",
-		"tags": "Podcaster, roteirista, editor, e apaixonado por cinema que também faz filmes. Crio uns 300 projetos por minuto (me faz parar, sério), e gosto de dançar forró e ver vídeos ensaios enormes sobre assuntos que nunca mais vou ouvir falar na vida.",
 		"pronouns": ["Ele", "Dele"]
 	}
 ]
