@@ -21,6 +21,8 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+
+  pointer-events: none;
 }
 
 .creator-card .heading p {
@@ -86,4 +88,5 @@
   min-height: 280px;
   object-fit: cover;
   object-position: left center;
+  pointer-events: none;
 }
