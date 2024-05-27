@@ -14,6 +14,20 @@
 		"pronouns": ["Ela", "Dela"]
 	},
 	{
+		"name": "Bonzago",
+		"links": "https://linktr.ee/bonzago",
+		"image": "images/bonzago.jpg",
+		"tags": "Graduando em História, TikToker e o fã mais jovem de Star Trek. Componho o núcleo de Divulgação da Soberana ajudando na coordenação e criação dos conteúdos nos perfis oficiais do coletivo. Ah, e dizem por aí que eu gosto de Pokémon.",
+		"pronouns": ["Ele", "Dele"]
+	},
+	{
+		"name": "Carol 🤏",
+		"links": "https://linktr.ee/frkcarol",
+		"image": "images/carolzinha.jpg",
+		"tags": "Bipolar, emo e a editora mais 🤏 do coletivo. Pronta para produzir vídeos e conteúdos que vão te radicalizar da mesma forma que aconteceu comigo.",
+		"pronouns": ["Ela", "Dela"]
+	},
+	{
 		"name": "Duda Bolche",
 		"links": "https://linktr.ee/dudabolche",
 		"image": "images/dudabolche.jpg",
@@ -46,6 +60,13 @@
 		"links": "https://radioguerrilha.com",
 		"image": "images/radioguerrilha.png",
 		"tags": "A Rádio Guerrilha é um projeto que visa difundir o pensamento comunista por meio da música e da sua relação com a sociedade. O projeto nasceu em junho/2022 e desde então, venho produzindo conteúdo na Twitch, com cortes lançados no YouTube, TikTok e Instagram. Eu, Gui Afonso, sou músico e trabalho com isso diretamente há mais de 10 anos, sendo que parte disso foi dando aula e a outra parte eu passei produzindo, compondo e arranjando.",
+		"pronouns": ["Ele", "Dele"]
+	},
+	{
+		"name": "Gus",
+		"links": "https://linktr.ee/gbringel",
+		"image": "images/gus.jpg",
+		"tags": "Tatuador, ilustrador e power ranger nas horas vagas. Adoro um joguim, ouso dizer que world of warcraft me ensinou o que é luta de classe e pelas minorias. Sou amante dos doguinhos e não passo pano pra quem não gosta de bichos. Minha mãe sempre me disse pra eu estudar muito pra ser alguém na vida, mal sabe ela o que eu preciso desenhar pra pagar as contas :D",
 		"pronouns": ["Ele", "Dele"]
 	},
 	{
@@ -91,6 +112,13 @@
 		"pronouns": ["Ela", "Dela"]
 	},
 	{
+		"name": "Raugus",
+		"links": "https://linktr.ee/raugus",
+		"image": "images/raugus.jpg",
+		"tags": "Psicólogo marxista do SAMECA. Jogador tryharder de qualquer coisa. Flamenguista, não tem jeito.",
+		"pronouns": ["Ele", "Dele"]
+	},
+	{
 		"name": "Terça",
 		"links": "https://linktr.ee/historiatopia",
 		"image": "images/terca.jpg",
@@ -102,6 +130,13 @@
 		"links": "https://linktr.ee/victutur",
 		"image": "images/victor.jpg",
 		"tags": "Professor de física, autista, gosto de desenhos (seja em brochura, na tela, ou na pele), falar mal de gringo, esportes, filmes, exposições, piadas e de surpreender as pessoas com análises políticas detalhadas e espantosamente precisas sobre todos esses assuntos.",
+		"pronouns": ["Ele", "Dele"]
+	},
+	{
+		"name": "VinnyDays",
+		"links": "https://linktr.ee/vinnydays",
+		"image": "images/vinnydays.jpg",
+		"tags": "Psicólogo, zeldeiro, gateiro, SAMEQUER e constantemente me pergunto: 'será que estou velho demais pra isso?'. Ao longo da minha atuação na psicologia social e junto ao SUAS adquiri experiência que levo atualmente para meu atendimento clínico, dentro de uma perspectiva que entende que o sofrimento psíquico é indissociável da experiência de viver em uma sociedade individuzliante e atomizada - é contra isso que lutamos dentro da militância e é com isso que contribuo com o coletivo.",
 		"pronouns": ["Ele", "Dele"]
 	},
 	{
