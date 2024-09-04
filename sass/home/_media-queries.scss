@@ -14,7 +14,7 @@
       border-radius: 0;
     }
   }
-  
+
   section#mail .text-container {
     padding: 1.5rem 0;
   }
@@ -47,11 +47,11 @@
   header nav {
     all: unset;
   }
-  
+
   header nav ul {
     gap: 26px;
   }
-  
+
   header nav a {
     flex-direction: row;
   }
@@ -74,9 +74,26 @@
   section#manifesto {
     padding: 1.25rem 3rem;
     /* cores soberana-pink e soberana-black, porem mais escuras */
-    box-shadow: -15px -15px 0 -3px #120F11,
-                -15px -15px #A70343,
+    box-shadow: -15px -15px 0 -3px #120F11, 
+                -15px -15px #A70343, 
                 -30px -30px 0 -3px #090909,
                 -30px -30px #4A0420;
+  }
+  #contribua-hr {
+    margin-inline: auto;
+  }
+  h2[data-reflection='contribua']{
+    text-align: center;
+  }
+  h2[data-reflection='contribua']::before {
+    transform: translateX(50%);
+  }
+  #contribua {
+    text-align: center;
+  }
+  
+  #contribua video {
+    aspect-ratio: 16/9;
+    max-height: unset;
   }
 }

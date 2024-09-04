@@ -1,0 +1,22 @@
+#contribua .video-container {
+  background-color: rgba($color: #fff, $alpha: .05);
+  margin-inline: auto;
+  margin-bottom: 32px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  max-width: 800px;
+}
+#contribua video {
+  width: 100%;
+  max-height: 450px;
+  cursor: pointer;
+}
+#contribua p {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-inline: auto;
+  margin-bottom: 32px;
+}
+
