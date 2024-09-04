@@ -139,6 +139,14 @@ svg {
   padding: 0 var(--page-padding);
 }
 
+.button-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  row-gap: 1rem;
+}
+
 .button {
   display: inline-block;
   cursor: pointer;
@@ -160,6 +168,22 @@ svg {
     color: #FFF;
     background-color: var(--soberana-pink);
   }
+}
+
+// 👇 botao com icone genérico ao invés de exclusivo do Banner
+.button-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  
+  &> svg {
+    font-size: 1.25em
+  }
+}
+
+.button-secondary  {
+  background-color: var(--soberana-pink-light);
+  color: var(--soberana-pink-dark);
 }
 
 a {
@@ -189,6 +213,9 @@ a {
 
 /* FAQ */
 @import "home/faq";
+
+/* CONTRIBUA */
+@import "home/contribua";
 
 /* CONTACT */
 @import "home/contact";

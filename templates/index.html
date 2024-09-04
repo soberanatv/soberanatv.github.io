@@ -60,10 +60,20 @@
   <!-- BANNER -->
   <div class="banner full-width-container">
     <strong>Coletivo marxista-leninista.</strong>
-    <a target="_blank" href="{{section.extra.discord}}" class="button">
-      <svg><use xlink:href="#fa-discord-icon"></use></svg>
-      Junte-se no Discord
-    </a>
+    <ul class="button-list">
+      <li>
+        <a target="_blank" href="{{section.extra.discord}}" class="button button-with-icon">
+          <svg><use xlink:href="#fa-discord-icon"></use></svg>
+          Junte-se no Discord
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href={{section.extra.apoiase}} class="button button-with-icon button-secondary">
+          <svg><use xlink:href="#fa-hand-holding-heart"></use></svg>
+          Apoie o coletivo
+        </a>
+      </li>
+    </ul>
   </div>
   <!-- CREATORS -->
   <hr id="creators-hr">
@@ -117,6 +127,21 @@
     </button>
   </section>
 
+  <!-- CONTRIBUA -->
+  <hr id="contribua-hr">
+  <h2 data-reflection="contribua">Contribua</h2>
+  <section id="contribua">
+    {#👇 solucao melhor do que embedar o vídeo do instagram e pesar o site #}
+    <div class="video-container">
+      <video src="/videos/financiamento-coletivo.mp4" controls preload="metadata" poster="/videos/thumb-financiamento-coletivo.jpg"></video>
+    </div>
+    <p>Com seu apoio, podemos continuar produzindo conteúdos cada vez melhores, realizar o congresso anual e expandir nossos projetos. Cada contribuição nos ajuda a alcançar mais pessoas e a fortalecer nossa luta para difundir o marxismo-leninismo.</p>
+    <a target="_blank" href={{section.extra.apoiase}} class="button button-with-icon ">
+      <svg><use xlink:href="#fa-hand-holding-heart"></use></svg>
+      Apoie o coletivo
+    </a>
+  </section>
+  
   <!-- FAQ -->
   <hr id="faq-hr">
   <h2 data-reflection="FAQ">FAQ</h2>
@@ -138,6 +163,7 @@
       <p>Também temos uma <a href="https://loja.soberana.tv">loja online</a> onde disponibilizamos produtos relacionados ao coletivo Soberana, como camisetas, adesivos, bonés e outros materiais. Ao adquirir esses produtos, você estará apoiando financeiramente o coletivo e também poderá disseminar nossa mensagem ao utilizar esses itens no seu dia a dia. Além disso, ao adquirir produtos da nossa loja, você estará contribuindo para a visibilidade do coletivo e para a divulgação do discurso comunista nas plataformas virtuais.</p>
     </details>
   </section>
+  
 </main>
 <!-- CONTACT -->
 <footer id="contact-container">
