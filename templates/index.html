@@ -3,7 +3,6 @@
 
 {% block styles %}
 <link rel="stylesheet" href="{{ get_url(path="home.css") }}">
-<script src="https://smtpjs.com/v3/smtp.js"></script>
 <!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
@@ -177,14 +176,14 @@
     <div class="container form">
       <h3>Entre em contato por e-mail</h3>
 
-      <form id="formulario" onsubmit="sendEmail()">
+      <form onSubmit="handleSubmitEmail()" id="formulario" action="mailto:{{section.extra.email}}">
         <fieldset>
-          <legend>Nome</legend>
-          <input type="text" id="name" name="name" placeholder="Digite seu nome" required autocomplete="off"><br>
+          <legend>Para:</legend>
+          <input type="text" id="email" disabed value="sou.soberana.tv@gmail.com" readonly><br>
         </fieldset>
         <fieldset>
-          <legend>E-mail</legend>
-          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required autocomplete="off"><br>
+          <legend>Nome</legend>
+          <input type="text" id="name" name="first_name" placeholder="Digite seu nome" required autocomplete="off"><br>
         </fieldset>
         <fieldset>
           <legend>Assunto</legend>
@@ -192,10 +191,10 @@
         </fieldset>
         <fieldset>
           <legend>Mensagem</legend>
-          <textarea id="message" name="message" placeholder="Digite a sua mensagem" required autocomplete="off"></textarea>
+          <textarea id="message" name="body" placeholder="Digite a sua mensagem" required autocomplete="off"></textarea>
         </fieldset>
-
-        <button class="button" type="submit">Enviar e-mail</button>
+        <p id="avisoForm">Falha ao abrir seu aplicativo de email. Mande um e-mail para <strong>{{section.extra.email}}</strong></p>
+        <button id="submitBtn" class="button" type="submit">Enviar e-mail</button>
       </form>
     </div>
     <div class="social-media">
@@ -214,9 +213,9 @@
           </a>
         </li>
         <li>
-          <a href="{{section.extra.twitter}}" target="_blank">
+          <a href="{{section.extra.bluesky}}" target="_blank">
             <svg><use xlink:href="#fa-twitter-icon"></use></svg>
-            Twitter
+            Bluesky
           </a>
         </li>
         <li>
@@ -263,30 +262,15 @@
 
 <!-- Email form -->
 <script type="text/javascript" defer>
-const form = document.getElementById('formulario');
-const handleSubmit = (e) => {
-  e.preventDefault();
-  const formData = new FormData(form);
-  const data = Object.fromEntries(formData);
-  Email.send({
-    SecureToken: "{{section.extra.secureToken}}",
-    To: "{{section.extra.email}}",
-    From: data.email,
-    Subject : `Contato pelo Site: ${data.subject}`,
-    Body : `<b>Nome:</b> ${data.name}<br><b>E-mail:</b> ${data.email}<br><b>Assunto:</b> ${data.subject}<br><b>Mensagem:</b> ${data.message}`
-  }).then(
-    message => {
-      if (message === 'OK') {
-        alert('E-mail enviado com sucesso!');
-        form.reset();
-      } else {
-        alert('Ocorreu um erro ao enviar o e-mail, tente novamente mais tarde ou envie diretamente para {{section.extra.email}}');
-      }
-    }
-    );
-  }
-
-form.addEventListener('submit', handleSubmit);
+  const MAIL_CLIENT_TIMEOUT = 3000;
+  const handleSubmitEmail = () => {
+    const submitBtn = document.getElementById("submitBtn");
+    submitBtn.disabled = true;
+    setTimeout(() => {
+      document.getElementById("avisoForm").style.display = "block";
+      submitBtn.disabled = false;
+    }, MAIL_CLIENT_TIMEOUT);
+  };
 </script>
 
 <!-- Scrollables -->

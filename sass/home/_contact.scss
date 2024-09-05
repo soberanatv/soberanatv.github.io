@@ -116,3 +116,13 @@ textarea {
   height: 100px;
   padding-top: 12px;
 }
+
+#submitBtn:disabled {
+  background-color: #666666;
+  color: #999999;
+  cursor: wait;
+}
+
+#avisoForm {
+  display: none;
+}
