@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ get_url(path="home.css") }}">
+{% include "partials/matomo.html" %}
+{% endblock styles %}
+
+
+{% block content %}
+
+{% include "partials/header.html" %}
+
+<main>
+  <!-- BANNER -->
+  <div class="banner full-width-container">
+    <strong>404 - Página não encontrada</strong>
+    <h3>O <strike>acesso</strike> capitalismo falhou, falha e falhará.</h3>
+    <a href="/" class="button button-with-icon">
+      <svg>
+        <use xlink:href="#fa-home-icon"></use>
+      </svg>Ir para a pagina inical </a>
+  </div>
+  {% endblock content %} 
+
+  {% block scripts %}
+  {% include "partials/metadata.html" %}
+  {% endblock scripts %}
+</main>
