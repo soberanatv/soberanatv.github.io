@@ -1,8 +1,17 @@
 <!-- Matomo -->
 <script>
+  const eventTrackPageView = new Event("calledTrackPageView");
+  //👇https://github.com/matomo-org/matomo/blob/5.x-dev/js/piwik.js#L6729
+  const trackPageViewArgs =Object.values({
+    customTitle: null,
+    customData: null,
+    callback: ()=> window.dispatchEvent(eventTrackPageView)
+  })
+    
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
+  /*trackPageView */
+  _paq.push(['trackPageView', ...trackPageViewArgs]);
   _paq.push(['enableLinkTracking']);
   (function() {
     var u="//stats.soberana.tv/";

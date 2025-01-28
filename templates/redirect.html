@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{page.title}}</title>
+    <meta name="description" content="{{page.description}}">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="{{page.permalink | safe}}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:description" content="{{page.description}}">
+    <meta property="og:image" content="{{page.extra.og_image | safe}}">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{page.permalink | safe}}">
+    <meta name="twitter:title" content="{{page.title}}">
+    <meta name="twitter:description" content="{{page.description}}">
+    <meta name="twitter:image" content="{{page.extra.og_image | safe}}">
+
+    <meta name="robots" content="noindex">
+    <noscript>
+      <meta http-equiv="refresh" content="0;URL='{{page.extra.redirect_url | safe}}'" />  
+    </noscript>
+    {%include "partials/matomo.html"%}
+    <script>
+      window.addEventListener("calledTrackPageView",(e)=>{
+        window.location.replace("{{page.extra.redirect_url | safe}}")
+      })
+      setTimeout(()=>{
+        window.location.replace("{{page.extra.redirect_url | safe}}")
+      },3000)
+    </script>
+  </head>
+  <body>
+    <main>
+      <div>
+
+        <img src="/images/logo.svg" alt="">
+      </div>
+      
+       <p>Ir para <a href="{{page.extra.redirect_url | safe}}">{{page.title}}</a></p>
+    </main>
+  </body>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f5e9;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      text-align: center;
+      color: white;
+    }
+    main{
+      max-width: 580px;
+      width: 100%;
+      margin-top: 4rem;
+      padding: 2rem 2rem;
+      margin-inline: auto;
+      background: linear-gradient(135deg,#292524 0%, #0c0a09 100%);
+      border-radius: 5px;
+      position: relative
+    }
+    a {
+      font-weight: bold;     
+      color: #51a2ff;
+    }
+    a::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+
+    img {
+      width: 72px;
+      height: auto;
+      padding: 1rem;
+      filter: brightness(0) invert(1);
+    }
+  </style>
+  </html>
