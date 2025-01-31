@@ -132,7 +132,7 @@
     <div class="container form">
       <h3>Entre em contato por e-mail</h3>
 
-      <form onSubmit="handleSubmitEmail()" id="formulario" action="mailto:{{section.extra.email}}">
+      <form onSubmit="handleSubmitEmail()" id="formulario">
         <fieldset>
           <legend>Para:</legend>
           <input type="text" id="email" disabed value="sou.soberana.tv@gmail.com" readonly><br>
@@ -149,8 +149,8 @@
           <legend>Mensagem</legend>
           <textarea id="message" name="body" placeholder="Digite a sua mensagem" required autocomplete="off"></textarea>
         </fieldset>
-        <p id="avisoForm">Falha ao abrir seu aplicativo de email. Mande um e-mail para <strong>{{section.extra.email}}</strong></p>
-        <button id="submitBtn" class="button" type="submit">Enviar e-mail</button>
+        <button id="submitBtn" class="button" type="submit">Enviar mensagem</button>
+        <p id="avisoForm">O envio falhou? Entre em contato pelo endereço <strong>{{section.extra.email}}</strong></p>
       </form>
     </div>
     <div class="social-media">
@@ -209,14 +209,25 @@
 <!-- Email form -->
 <script type="text/javascript" defer>
   const MAIL_CLIENT_TIMEOUT = 3000;
-  const handleSubmitEmail = () => {
+  const EMAIL_ADDRESS = "{{section.extra.email}}";
+  const form =document.querySelector("#formulario");
+  form.addEventListener("submit",(e)=>{
+    event.preventDefault(); 
+    const formData = new FormData(form)
+    const encodedName = formData.get("first_name").replace(/ /g, "%20")
+    const encodedSubject = formData.get("subject").replace(/ /g, "%20")
+    const encodedBody = formData.get("body").replace(/ /g, "%20")
+    const mailtoUrl = `mailto:${EMAIL_ADDRESS}?subject=${encodedName}: ${encodedSubject}&body=${encodedBody}`;
+    window.location.href = mailtoUrl;
     const submitBtn = document.getElementById("submitBtn");
     submitBtn.disabled = true;
     setTimeout(() => {
       document.getElementById("avisoForm").style.display = "block";
       submitBtn.disabled = false;
     }, MAIL_CLIENT_TIMEOUT);
-  };
+    return false;
+  })
+
 </script>
 
 <!-- Scrollables -->
