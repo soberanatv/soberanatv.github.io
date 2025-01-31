@@ -1,0 +1,24 @@
+{# Inspired in https://github.com/getzola/zola/blob/master/components/templates/src/builtins/sitemap.xml#}
+{# This template prevents pages with redirects to external links (linktree) from being indexed#}
+{# and ensures that PDFs are indexed.#}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {%- for sitemap_entry in entries %}
+    {# 👇 index internal pages (e.g homepage) #}
+    {%- if not sitemap_entry.extra.redirect_url -%} 
+    {%- set url = sitemap_entry.permalink -%}
+    {# 👇 index assets that have a specific page (e.g @/enem.md/)  #}
+    {%- elif sitemap_entry.extra.add_asset_to_index -%} 
+    {%- set url = get_url(path=sitemap_entry.extra.redirect_url) -%} 
+    {# 👇 avoid page redirects indexing (e.g @/cezpem.md/) #}
+    {%- else -%} 
+    {%- continue -%}
+    {%- endif -%}
+    <url>
+        <loc>{{ url | escape_xml | safe }}</loc>
+        {%- if sitemap_entry.updated %}
+        <lastmod>{{ sitemap_entry.updated }}</lastmod>
+        {%- endif %}
+    </url>
+    {%- endfor %}
+</urlset> 
