@@ -34,7 +34,7 @@ Para saber mais, acesse a [Especificação do Conventional Commit](https://www.c
 
 ## Pull requests (PRs)
 
-Independente da contribuição a ser feita (no código-fonte e/ou na documentação), o *merge* da PR só será realizado após revisão por ao menos um membros do Coletivo Soberana. O membro responsável pelo repositório é [Azhariel](https://github.com/azhariel), mas você também pode pedir revisão para [Zawacki](https://github.com/lfzawacki), [Tarcísio](https://github.com/tarcisioe) ou [Froggy](https://github.com/0xfroggy).
+Independente da contribuição a ser feita (no código-fonte e/ou na documentação), o *merge* da PR só será realizado após revisão por ao menos um membros do Coletivo Soberana. O membro responsável pelo repositório é [Azhariel](https://github.com/azhariel), mas você também pode pedir revisão para [Zawacki](https://github.com/lfzawacki), ou [Tarcísio](https://github.com/tarcisioe).
 
 Todas as PRs devem ser direcionadas para a branch [`novo-site`](https://github.com/soberanatv/soberanatv.github.io/tree/novo-site).
 
