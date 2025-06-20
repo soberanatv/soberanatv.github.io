@@ -2,10 +2,10 @@
        {
                "title": "Projeto Saúde Mental Camarada",
                "image": "images/sameca.png",
-               "tags": "O Projeto Saúde Mental Camarada, também conhecido como SAMECA oferece apoio psicológico a valores sociais às pessoas da comunidade da Soberana presentes no nosso discord aberto. Ao mesmo tempo, o SAMECA organiza uma rede de profissionais da psicologia em torno de uma prática que considera o sujeito em sua dimensão social, fortalecendo a categoria profissional e estimulando sua consciência de classe.",
+               "tags": "A associação Saúde Mental Camarada, também conhecido como SAMECA oferece atendimentos na área da saúde, com foco em saúde mental e na psicologia. Ao mesmo tempo, a SAMECA organiza uma rede de profissionais da área da saúde, em especial da psicologia, em torno de uma prática que considera o sujeito em sua dimensão biopsicosocial, fortalecendo a categoria profissional, estimulando a consciência de classe e lutando contra a precarização das pessoas trabalhadoras.",
                "link": {
-                       "label": "Acessar Discord",
-                       "href": "https://discord.com/channels/828778305691844609/849991695725625394/1073348147604115456"
+                       "label": "Acessar o site",
+                       "href": "https://sameca.org/"
                }
         },
 	{
@@ -33,15 +33,6 @@
 		"link": {
 			"label": "Acessar Plataformas",
 			"href": "https://linktr.ee/audiotecacritica"
-		}
-	},
-	{
-		"title": "Segunda Popular",
-		"image": "images/seg_pop.png",
-		"tags": "O Segunda Popular é um podcast dedicado a falar da cultura pop através da esquerda radical. A proposta é pegar obras já amplamente conhecidas (ou não) e trazer uma discussão politica e de esquerda revolucionária sobre elas. Produzido por Ana Neves e apresentado por Froggy e Terça, o Segunda Popular vai ao ar em todas as plataformas de podcast a cada 15 dias, sempre às segundas.",
-		"link": {
-			"label": "Ouvir no Spotify",
-			"href": "https://open.spotify.com/show/3Pq43387dV5I0YEZY3CPjJ?si=8521612fc7e94126"
 		}
 	},
 	{
