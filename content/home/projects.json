@@ -1,13 +1,4 @@
 [
-       {
-               "title": "Projeto Saúde Mental Camarada",
-               "image": "images/sameca.png",
-               "tags": "A associação Saúde Mental Camarada, também conhecido como SAMECA oferece atendimentos na área da saúde, com foco em saúde mental e na psicologia. Ao mesmo tempo, a SAMECA organiza uma rede de profissionais da área da saúde, em especial da psicologia, em torno de uma prática que considera o sujeito em sua dimensão biopsicosocial, fortalecendo a categoria profissional, estimulando a consciência de classe e lutando contra a precarização das pessoas trabalhadoras.",
-               "link": {
-                       "label": "Acessar o site",
-                       "href": "https://sameca.org/"
-               }
-        },
 	{
 		"title": "Centro Zoia Prestes de Educação Multidisciplinar - CeZPEM",
 		"image": "images/cezpem.png",
