@@ -30,7 +30,7 @@
       })
       setTimeout(()=>{
         window.location.replace("{{page.extra.redirect_url | safe}}")
-      },3000)
+      },{{ page.extra.redirect_time | default(value = 3000) | safe}})
     </script>
   </head>
   <body>
