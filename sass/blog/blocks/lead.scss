@@ -1,0 +1,24 @@
+.lead {
+  font-family: 'roboto serif';
+  font-style: italic;
+  padding-left: 1.25rem;
+  padding-block: 0.25rem;
+  position: relative;
+  letter-spacing: 1%;
+}
+.lead::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(190deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+
+  background-color: var(--color-secondary);
+  width: 4px;
+  height: 100%;
+  border-radius: 9999px;
+}
+
+.lead + * {
+  --flow-space: 2em;
+}

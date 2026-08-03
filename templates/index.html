@@ -2,6 +2,7 @@
 {% import "macros.html" as macros %}
 
 {% block styles %}
+<link rel="stylesheet" href="{{ get_url(path="style.css") }}">
 <link rel="stylesheet" href="{{ get_url(path="home.css") }}">
 {% include "partials/matomo.html" %}
 {% endblock styles %}

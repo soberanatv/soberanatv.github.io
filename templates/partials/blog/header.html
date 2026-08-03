@@ -1,0 +1,32 @@
+<header class="wrapper">
+  <div class="header__inner">
+    <div>
+      <a href="/">
+        <img class="header__logo" src="/images/soberana-logo-e-texto.svg" alt="">
+      </a>
+    </div>
+      <nav class="header__nav">
+        <ul class="cluster" role="list">
+          <li>
+            {%if current_path == '/portal/'%}
+              <a href="/portal/" class="nav__link nav__current-page">Artigos</a>
+            {%else %}
+              <a href="/portal/" class="nav__link">Artigos</a>
+            {%endif %}
+          </li>
+          <li>
+            <a href="/#projects-hr" class="nav__link">Projetos</a>
+          </li>
+          <li>
+            <a href="https://loja.soberana.tv/" class="nav__link">Loja</a>
+          </li>
+          <li>
+            <a href="/#contact-hr" class="nav__link">Contato</a>
+          </li>
+        </ul>
+      </nav>
+
+  </div>
+  </div>
+
+</header>

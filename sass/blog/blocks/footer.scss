@@ -1,0 +1,13 @@
+footer{
+  --wrapper-max-width:30rem;
+  padding-block: var(--space-2xl) var(--space-3xl);
+}
+.footer__logo{
+  max-width: 8rem;
+  margin-inline: auto;
+}
+.footer__links{
+  padding-inline: 0;
+  justify-content: center;
+  row-gap: 0;
+}

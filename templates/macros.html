@@ -28,3 +28,10 @@
   </div>
 </div>
 {% endmacro project_card %}
+
+{% macro title_and_description(title, description)%}
+  <title>{{title}}</title>
+  <meta property="og:title" content="{{title}}">
+  <meta name="description" content="{{description}}">
+  <meta property="og:description" content="{{description}}">
+{% endmacro title_and_description%}

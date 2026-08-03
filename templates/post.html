@@ -1,0 +1,41 @@
+{% extends "base-blog.html" %}
+{% import "macros.html" as macros %}
+{% block meta_tags %}{{macros::title_and_description(title=page.title, description=page.description)}}{% endblock meta_tags %}
+{% block extra_head %}
+  <meta property="article:author" content="{{page.extra.author}}">
+  
+  <link rel="stylesheet" href="{{ get_url(path="/blog/post.css") }}">
+{% endblock extra_head %}
+{%block header %}
+  {% include "partials/blog/header.html" %}
+{%endblock header %}
+{%block main_inner %}
+
+  <article class="flow">
+    <h1>{{page.title}}</h1>
+    <ul class="post-metadata flow" role="list"> 
+      <li class="cluster item">
+        <span class="key">Criado em</span> 
+        <time class="value" datetime="{{page.date}}">
+          {{page.extra.date_in_portuguese}}
+        </time>
+      </li>
+      <li class="cluster item"><span class="key">Redação</span> <span class="value">{{page.extra.author}}</span></li>
+      <li class="cluster item">
+        <span class="key">Tags</span> 
+        <span class="cluster value">
+          {%for i in page.extra.tags%}
+              <span class="tag" >{{i}}</span>
+          {%endfor%}
+        </span>
+      </li>
+    </ul>
+    <p class="lead">{{page.extra.lead}}</p>
+    {{ page.content | safe }}
+    
+  </article>
+{%endblock main_inner %}
+{%block footer%}
+  {% include "partials/blog/footer.html" %}
+{%endblock footer%}
+
