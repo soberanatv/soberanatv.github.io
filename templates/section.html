@@ -1,0 +1,28 @@
+{% extends "base-blog.html" %}
+{% import "macros.html" as macros %}
+{% set section = get_section(path="portal/_index.md") %}
+{% block meta_tags %}{{macros::title_and_description(title=section.title, description=section.description)}}{% endblock meta_tags %}
+{% block extra_head %}
+  <link rel="stylesheet" href="{{ get_url(path="/blog/articles.css") }}">
+{% endblock extra_head %}
+
+{%block header %}
+  {% include "partials/blog/header.html" %}
+{%endblock header %}
+{%block main_inner %}
+
+  <div class="wrapper flow">
+    <h1>Artigos</h1>
+    <ul role="list" class="flow post-list">
+      {% for page in section.pages %}
+        <li class="post">
+          <a class="post__link" href="{{page.permalink}}">
+            <h2 class="post__title">{{ page.title | safe }}</h2>
+            <span class="post__date">{{page.extra.date_in_portuguese}}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{%endblock main_inner %}
+

@@ -1,0 +1,45 @@
+/* 
+SIDEBAR
+
+CUSTOM PROPERTIES AND CONFIGURATION
+--gutter (var(--space-size-l)): This defines the space
+between the sidebar and main content.
+
+--sidebar-target-width (20rem): How large the sidebar should be
+
+--sidebar-content-min-width(50%): The minimum size of the main content area
+
+EXCEPTIONS
+.sidebar[data-direction='rtl']: flips the sidebar to be on the right 
+*/
+.sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter, var(--space-s-l));
+}
+
+.sidebar > :first-child {
+  flex-basis: var(--sidebar-target-width, null);
+  flex-grow: 1;
+}
+
+.sidebar > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: var(--sidebar-content-min-width, 50%);
+}
+
+/* 
+A flipped version where the sidebar is on the right
+*/
+.sidebar[data-direction='rtl'] > :first-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: var(--sidebar-content-min-width, 50%);
+}
+
+.sidebar[data-direction='rtl'] > :last-child {
+  flex-basis: var(--sidebar-target-width, null);
+  flex-grow: 1;
+  min-width: unset;
+}

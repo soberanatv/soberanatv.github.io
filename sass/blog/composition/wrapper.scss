@@ -1,0 +1,14 @@
+/**
+ * WRAPPER UTILITY
+ * Sets a max width, adds a consistent gutter and horizontally
+ * centers the contents
+ * Info: https://piccalil.li/quick-tip/use-css-clamp-to-create-a-more-flexible-wrapper-utility/
+ */
+.wrapper {
+  --wrapper-total-width: calc(var(--wrapper-max-width) + var(--gutter) * 2);
+  width:100%;
+  max-width: var(--wrapper-total-width, 85rem);
+  margin-inline: auto;
+  padding-inline: var(--gutter-wrapper-inline,var(--gutter));
+  position: relative;
+}

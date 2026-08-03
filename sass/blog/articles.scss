@@ -1,0 +1,38 @@
+@import "reset.scss";
+@import "global.scss";
+@import "./blocks/header.scss";
+
+
+main {
+  --gutter-wrapper-inline:0;
+  margin-top: var(--space-2xl);
+}
+
+:is(h1, h2, h3) + *{
+  --flow-space:var(--gutter);
+}
+
+.post {
+  --flow-space: var(--space-xl)
+}
+
+.post__link {
+  text-decoration: none;
+}
+.post__link:hover {
+ text-decoration: underline;
+ text-decoration-color: var(--color-primary);
+}
+.post__title {
+  font-size: var(--size-step-2);
+  color: var(--color-secondary-200);
+  line-height: 1.2;
+  font-weight: 400;
+  max-width: 50ch;
+}
+.post__date{
+  font-family: 'roboto serif';
+  color:var(--color-neutral-400);
+  line-height: 1;
+  display: inline-block;
+}

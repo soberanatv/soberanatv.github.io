@@ -1,0 +1,100 @@
++++
+title = "A escala 6X1 contribui para a manutenção da desigualdade na educação"
+template = "post.html"
+description = "A diminuição da jornada é uma pauta histórica dos comunistas e voltou a ser centro dos debates com o PL que visa superá-la na câmara."
+date="2026-04-30"
+[extra]
+date_in_portuguese="30 de abril de 2026"
+author="Pedagolítica"
+tags=["Educação", "Raça e Classe"]
+lead = "A diminuição da jornada de trabalho é uma pauta histórica dos comunistas e ela voltou a se tornar centro dos debates trabalhistas com o pedido de urgência da tramitação do PL que visa superá-la na câmara. Mas fujamos do óbvio: que a jornada de trabalho composta por um dia de folga para cada 6 dias trabalhados é péssima para o trabalhador, todos nós sabemos. O que proponho que pensemos aqui é na forma como a escala 6x1 afeta e torna praticamente impossível o acesso de mulheres ao mercado de trabalho formal, com registro em carteira, e as obrigam a ocupar funções trabalho informal, que não garante qualquer seguridade a elas e aos seus filhos. Isso afeta especialmente as mulheres que são mães, e ainda mais as mulheres negras e periféricas e as que se tornaram mães mais jovens."
++++
+
+## As mulheres e o trabalho
+
+Segundo uma pesquisa realizada pelo instituto de estatística da FGV, 49% das mulheres com filhos relatam que a maternidade é percebida como um empecilho em suas buscas por emprego.
+
+Segundo elas, os principais motivos apresentados pelas empresas são a eventual necessidade de levar os filhos para o trabalho ou de faltar porque os filhos adoeceram, o que implica em elas sequer serem consideradas para as vagas às quais concorrem durante os processos seletivos.
+
+Somado a esse dado, temos o fato de que, segundo o último levantamento do IBGE, mais de 11 milhões de mulheres criam seus filhos sozinhas no Brasil.
+São 11 milhões de mulheres que, a despeito de serem as responsáveis financeiras pela vida de uma criança, vão ter menos chance de conseguir um emprego formal, que lhes garanta direitos trabalhistas e também um salário que lhes permita alimentar e cuidar de seus filhos, sendo este o motivo pelo qual precisam de um emprego.
+
+Nessas condições, as mulheres veem como uma possível alternativa recorrer a trabalhos informais para sustentar a si e aos seus filhos, o que faz com que precisem trabalhar incontáveis horas até que consigam dinheiro o suficiente para isso e tenham menos tempo livre para acompanhar sua criação, o que terceiriza essa demanda para a escola.
+
+Essa lógica de trabalho é normalizada quando temos uma realidade na qual os trabalhadores com direitos são explorados em uma jornada exaustiva, como a atual. Em outras palavras, a escala 6x1 normaliza o trabalhar até a exaustão, a ausência e a falta de qualidade de vida com tempo para lazer e descanso.
+
+Ao considerarmos a realidade das mulheres-mães da classe trabalhadora, especialmente daquelas que são as únicas que provém sustento às suas famílias, ou seja, das mães-solo, não podemos deixar de levar em consideração os dados de um estudo da Fundação Abrinq, que mostrou que quase 30% das mães adolescentes, com até 19 anos, não concluíram o ensino fundamental. Em algumas regiões do Brasil este número passa de 35%.
+
+Atualmente, a maioria das vagas destinadas à trabalhadores que não concluíram o ensino básico e em especial o ensino fundamental exigem que o trabalhador trabalhe 6 dias na semana.
+
+Temos aqui um ciclo: a mulher é “forçada”, seja por pressão social ou por excesso de demandas, a abandonar os estudos por conta da gravidez e da maternidade. Posteriormente lhe são impostos ou postos de trabalho mal-remunerados em uma escala que não lhes permite cuidar de seus filhos, ou o trabalho informal.
+
+Em alguns casos, é importante dizer, as mulheres se veem obrigadas a depender financeiramente de seus parceiros. Nesses casos, acabam se tornando, como postulou a teórica comunista Clara Zetkin, escravas do lar, sendo responsabilizadas integralmente pelos cuidados da casa, pela alimentação da família e pelo cuidado dos filhos.
+
+Se a própria condição de responsável em tempo integral pela manutenção do lar e da saúde de todos que com ela vivem já não fosse o bastante, muitas delas somam à isso a condição de serem vítimas de violência doméstica.
+Cabe apontar que pesquisas apontam que, quanto maior o número de filhos, maior a chance de uma mulher ser vítima de violência doméstica.
+
+Segundo dados da UNB, a falta de renda é o principal motivo pelo qual 61% das mulheres vítimas de violência doméstica não denunciam as agressões, sendo condicionadas a serem vítimas de uma violência constante para que seus filhos tenham o que comer.
+
+## A escala 6X1 e a educação escolar
+
+Diversas pesquisas apontam a desigualdade da responsabilização pelo acompanhamento da educação domiciliar e escolar dos filhos quando comparados responsáveis de diferentes gêneros.
+
+Isso significa que, a despeito de estarem ou não em um relacionamento, de terem ou não um trabalho e independente de suas condições, caso tenham, as mulheres são vistas como as figuras responsáveis pela educação dos filhos. São elas que são cobradas caso eles não estejam asseados, educados e com o caderno e a lição de casa em dia.
+
+Essa é uma condição imposta pelo sistema capitalista, que se fundamentou, inicialmente, sobre o trabalho assalariado do homem e o trabalho invisível da mulher, mas que , para que pudesse ampliar o lucro, forçou a presença da mulher no trabalho produtivo, através da redução dos salários dos homens somada ao aumento do custo de vida.
+
+O fato é que, para que exista lucro para o patrão, à mulher agora é imposta a condição de trabalhadora assalariada (ou não, a depender do regime de trabalho) somada ao trabalho doméstico e de cuidado.
+
+Em “a origem da familia, do estado e da propriedade privada, Engels já apontava que a família passa por transformações que são correspondentes às mudanças na ordem econômica e social e estas refletem-se diretamente na escola.
+
+Porém a mulher, que, pasmem, é um ser humano e possui limitações, simplesmente não consegue dar conta de tantas demandas que lhe são impostas no atual contexto, com incontáveis horas de trabalho.
+
+Nesse cenário, a criança fica à revelia da própria sorte, uma vez que a escola não da conta de fazer o acompanhamento individual de cada criança (e nem é essa a sua função), mas a família também não tem condições.
+
+Existe uma grande quantidade de Projetos de Lei que objetivam obrigar os pais a acompanharem a educação escolar dos filhos, o que nos mostra que o “abandono” existe, mas não existe um olhar para o motivo pelo qual esse “abandono” generalizado acontece.
+
+A precarização das condições de trabalho prejudica diretamente as crianças, uma vez que elas deixam de receber o respaldo do qual precisam para que seu desenvolvimento físico, emocional e cognitivo seja possível.
+
+Dito isso, uma melhoria da educação, tanto aquela que “deveria vir de casa”, quanto da escolar, passa necessariamente pela diminuição da jornada de trabalho, para que os responsáveis tenham condições de prover o acompanhamento, acolhimento e orientação que a criança precisam.
+
+## Temos outras possibilidades?
+
+O cenário exposto torna-se ainda mais sério porque a nossa sociedade tem tecnologia o suficiente para que o trabalhador pudesse trabalhar uma jornada bem menor do que as atuais e com mais dias de descanso.
+
+Mas a despeito disso, a nossa realidade enquanto trabalhadores tá cada dia pior, e isso acontece para que o empresário possa lucrar cada vez mais, uma vez que um funcionário trabalhando até exaustão é muito mais lucrativo do que três trabalhando com qualidade.
+
+Além disso, com o aumento do exército de reserva e com a precarização do trabalho, as pessoas que estão na busca por um emprego vão aceitar trabalhar por menos salário porque elas não querem estar no lugar do desempregado.
+
+Concluímos, portanto, que em uma sociedade onde se espera que a mãe cuide e naturaliza o abandono do pai (seja o abandono real ou o que é praticado por homens que continuam na casa, mas não contribuem para os trabalhos de cuidado), é impossível esperar que a mulher que trabalha na escala 6x1 vai oriente, acompanhe as necessidades do filho e o eduque.
+
+Precisamos não apenas que o fim da escala seja aprovado, mas também que as reformas previdenciárias, que facilitaram e aumentaram exponencialmente o número de pessoas trabalhando na informalidade ou sob MEIs que precarizam as condições de trabalho sejam revogadas.
+
+Somado a isso, é importante lutarmos por políticas estruturais que visem a superação das desigualdades de gênero. Sabendo que estas são um dos pilares que sustentam o capitalismo, através do trabalho invisível e não remunerado das mulheres, entendemos que só é possível a diminuição das desigualdades e o acesso a tempo de qualidade para elas acompanharem a educação dos filhos através da luta popular e organizada.
+
+<div class="flow">
+  <section class="ending-card ">
+    <h2>🔗 Fontes</h2>
+    <ul class="flow">
+      <li>Marsílea Gombata. <a target="_blank" href="https://valor.globo.com/brasil/noticia/2024/05/31/maternidade-afeta-carreira-para-maioria-das-mulheres-comprova-levantamento.ghtml">Maternidade Afeta Carreira Para Maioria Das Mulheres, Comprova Levantamento.</a> <i>Valor Econômico</i>, 31 de maio de 2024.</li>
+      <li>VLV Advogados. <a target="_blank" href="https://www.jusbrasil.com.br/artigos/11-milhoes-de-maes-solo-no-brasil/2332232268">11 Milhões de Mães Solo No Brasil</a> <i>Jusbrasil</i>, 2024.</li>
+      <li>Jornal Nacional. <a target="_blank" href="https://g1.globo.com/jornal-nacional/noticia/2019/04/22/gravidez-precoce-e-uma-das-principais-causas-da-evasao-escolar-diz-estudo.ghtml">Gravidez Precoce é Uma Das Principais Causas Da Evasão Escolar, Diz Estudo.</a> <i>G1</i>, 2019.</li>
+      <li>Marcelo Olivieri. <a target="_blank" href="https://www.gazetadopovo.com.br/opiniao/artigos/como-as-empresas-podem-reter-mais-maes-no-mercado-de-trabalho/">Como as Empresas Podem Reter Mais Mães No Mercado de Trabalho?</a> <i>Gazeta Do Povo</i>, 2019.</li>
+      <li>Ferrari, Ana Clara. <a target="_blank" href="https://fpabramo.org.br/ser-mae-no-brasil-e-fator-de-risco-social-pesquisa-fpa/">Ser Mãe No Brasil é Fator de Risco Social, Aponta Pesquisa</a> <i>Fundação Perseu Abramo</i>, 2025.</li>
+      <li>Saraiva, Mariana. <a target="_blank" href="https://www.correiobraziliense.com.br/cidades-df/2025/10/7273401-falta-de-renda-impede-mulheres-de-romper-ciclo-de-violencia-aponta-estudo.html">Falta de Renda Impede Mulheres de Romper Ciclo de Violência, Aponta Estudo</a> <i>Correio Braziliense</i>, 2025.</li>
+      <li>ALCANTARA, Guilherme de; RESENDE, Tânia de Freitas. <a target="_blank" href="https://www.scielo.br/j/er/a/H6xhvcxMxdsYFPL7wPjQkmF/?format=html&lang=pt">Participação das famílias na gestão educacional: o lugar dos pais-professores.</a> <i>Educar em Revista, Curitiba, v. 41, e96138</i>, 2025.</li>
+      <li>Silva, Anielle Cristine. <a target="_blank" href="https://www.ihu.unisinos.br/categorias/186-noticias-2017/573453-desigualdade-de-genero-maes-sao-responsaveis-pela-criacao-dos-filhos-ate-3-anos-em-89-dos-casos">Desigualdade de Gênero: Mães São Responsáveis Pela Criação Dos Filhos Até 3 Anos Em 89% Dos Casos.</a> <i>Unisinos</i>, 2026.</li>
+      <li>Castro, Danielle. <a target="_blank" href="https://www1.folha.uol.com.br/equilibrio/2026/03/maes-sao-mais-julgadas-pela-alimentacao-dos-filhos-do-que-pais-e-especialistas-recomendam-equilibrio.shtml">Mães São Mais Julgadas Pela Alimentação Dos Filhos Do Que Pais, E Especialistas Recomendam Equilíbrio.</a> <i>Folha de S.Paulo</i>, 2026.</li>
+      <li>RUAS, DANIELLE. <a target="_blank" href="https://deducao.com.br/pesquisa-revela-que-60-das-maes-estao-fora-do-mercado-de-trabalho-em-2025/">Pesquisa Revela: 60% Das Mães Estão Fora Do Mercado de Trabalho Em 2025</a> <i>Portal Dedução</i>, 2025.</li>
+      <li>Thais Carrança. <a target="_blank" href="https://www.bbc.com/portuguese/articles/c1dr0lywk13o">Dia Do Trabalho: Reforma Trabalhista Aumentou a Informalidade Ao Enfraquecer Sindicatos, Diz Estudo</a> <i>BBC</i>, 2025.</li>
+      <li>Wanderley Preite Sobrinho. <a target="_blank" href="https://economia.uol.com.br/noticias/redacao/2024/08/26/reforma-trabalhista-informalidade-autonomos-clt-carteira-assinada.htm">7 anos após reforma trabalhista, 70% dos informais querem carteira assinada</a> <i>UOL</i>, 2024.</li>
+      <li><a target="_blank" href="https://www.vagas.com.br/vagas/v2810371/auxiliar-contas-medicas-tesouraria-vila-nova-star">Vaga - Auxiliar Contas Médicas - Tesouraria - Vila Nova Star</a></li>
+    </ul>
+  </section>
+      <div class="ending-card">
+        <h2>📕 Bibliografia</h2>
+        <ul class="flow">
+          <li>Pedagolítica. <a href="https://www.youtube.com/watch?v=AhaEjgAcpS8" target="_blank">A infância perdida na escala 6x1</a>, 2026.</li>
+        </ul>
+      </div>
+    </div>

@@ -10,6 +10,15 @@ build_search_index = true
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+# Whether external links are to be opened in a new tab
+
+# If this is true, a `rel="noopener"` will always automatically be added for security reasons
+external_links_target_blank = true
+
+# CSS class to add to external links (e.g. "external-link")
+external_links_class = "external-link"
 
 [extra]
-# Put all your custom variables here
+site_name = "Soberana"
+opengraph_default = "images/opengraph-default.png"
+opengraph_locale = "pt_BR"

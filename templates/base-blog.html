@@ -1,0 +1,41 @@
+{% import "macros.html" as macros %}
+{% set description = "A Soberana é um coletivo marxista-leninista que atua na disputa pela consciência política dos trabalhadores na internet."%}
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  {% block meta_tags %}
+    {{macros::title_and_description(title="Soberana", description=description)}}
+  {% endblock meta_tags %}
+  
+  <link rel="icon" href="/favicon.ico" type="image/png">
+
+  <!-- Opengraph -->
+  <meta property="og:url" content="{{current_url}}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{config.base_url}}{{config.extra.opengraph_default}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="{{config.extra.site_name}}">
+  <meta property="og:locale" content="{{config.extra.opengraph_locale}}">
+
+  {% block extra_head %}
+  {% endblock extra_head %}
+</head>
+<body>
+  {%block header %}
+  {%endblock header %}
+  <main>
+    {%block main_inner %}
+    {%endblock main_inner %}
+  </main>
+  {%block footer%}
+  {%endblock footer%}
+</body>
+{% block scripts %} {% endblock %}
+</html>

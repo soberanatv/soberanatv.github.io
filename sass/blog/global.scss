@@ -1,0 +1,160 @@
+@import "fonts.scss";
+@import "./composition/flow.scss";
+@import "./composition/cluster.scss";
+@import "./composition/sidebar.scss";
+@import "./composition/wrapper.scss";
+
+
+:root {
+  --color-neutral-100: #f1f3f3;
+  --color-neutral-200: #e3e7e8;
+  --color-neutral-300: #d0d6d8;
+  --color-neutral-400: #9ca8ab;
+  --color-neutral-500: #67787c;
+  --color-neutral-600: #4b585b;
+  --color-neutral-700: #394447;
+  --color-neutral-800: #22292b;
+  --color-neutral-900: #161b1d;
+  --color-neutral-950: #090b0c;
+
+  --color-dark: var(--color-neutral-950);
+  --color-light: var(--color-neutral-200);
+  
+
+  --color-primary-200: #f1669e;
+  --color-primary-200: #ee4d8e;
+  --color-primary-300: #ec337e;
+  --color-primary-400: #e91a6e;
+  --color-primary-500: #e7005e;
+  --color-primary-600: #d00055;
+  --color-primary-700: #b9004b;
+  --color-primary-800: #a20042;
+  --color-primary-900: #8b0038;
+
+  --color-secondary-100: #ffedd4;
+  --color-secondary-200: #ffd6a7;
+  --color-secondary-300: #ffb86a;
+  --color-secondary-400: #ff8904;
+  --color-secondary-500: #f65519;
+  --color-secondary-600: #f54900;
+  --color-secondary-700: #ca3500;
+  --color-secondary-800: #9f2d00;
+  --color-secondary-900: #7e2a0c;
+  
+  --color-primary: var(--color-primary-500);
+  --color-secondary: var(--color-secondary-500);
+  --color-tertiary: #3b285d;
+
+  /* @link https://utopia.fyi/type/calculator?c=360,16,1.2,1240,18,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  --size-step--2: clamp(0.6331rem, 0.7195rem + -0.1115vw, 0.6944rem);
+  --size-step--1: clamp(0.8333rem, 0.829rem + 0.0193vw, 0.844rem);
+  --size-step-0: clamp(1rem, 0.9489rem + 0.2273vw, 1.125rem);
+  --size-step-1: clamp(1.2rem, 1.0774rem + 0.5448vw, 1.4996rem);
+  --size-step-2: clamp(1.44rem, 1.2113rem + 1.0164vw, 1.999rem);
+  --size-step-3: clamp(1.728rem, 1.3448rem + 1.703vw, 2.6647rem);
+  --size-step-4: clamp(2.0736rem, 1.4688rem + 2.688vw, 3.552rem);
+  --size-step-5: clamp(2.4883rem, 1.5693rem + 4.0845vw, 4.7348rem);
+  --fluid-14-18: clamp(0.875rem, 0.7727rem + 0.4545vw, 1.125rem);
+
+  --space-xs: clamp(0.75rem, 0.6989rem + 0.2273vw, 0.875rem);
+  --space-s: clamp(1rem, 0.9489rem + 0.2273vw, 1.125rem);
+  --space-m: clamp(1.5rem, 1.4233rem + 0.3409vw, 1.6875rem);
+  --space-l: clamp(2rem, 1.8977rem + 0.4545vw, 2.25rem);
+  --space-xl: clamp(3rem, 2.8466rem + 0.6818vw, 3.375rem);
+  --space-2xl: clamp(4rem, 3.7955rem + 0.9091vw, 4.5rem);
+  --space-3xl: clamp(6rem, 5.6932rem + 1.3636vw, 6.75rem);
+    /* One-up pairs */
+  --space-2xl-3xl: clamp(4rem, 3.25rem + 3.3333vw, 6.75rem);
+  
+  --wrapper-max-width: 1240px;
+  --flow-space: var(--space-l);
+  --gutter: var(--space-m);
+}
+:focus {
+  outline: 3px solid;
+  outline-offset: var(--focus-offset, 0.3ch);
+}
+
+body {
+  background: var(--color-dark);
+  color: var(--color-light);
+  font-size: var(--size-step-0);
+  font-family: 'Archivo', sans-serif;
+  line-height: 1.7;
+  padding-inline: var(--gutter);
+}
+hr {
+  border: none;
+  height: 1.5px;
+  background-color: var(--color-neutral-500);
+  border-radius: 2px;
+}
+
+:is(h1, h2, h3, blockquote) {
+  --flow-space: 1.5em;
+}
+
+:is(h1, h2, h3) + * {
+  --flow-space: 0.5em;
+}
+h1 {
+  font-size: var(--size-step-4);
+}
+
+h2 {
+  font-size: var(--size-step-3);
+}
+
+h3 {
+  font-size: var(--size-step-2);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Molot', 'Archivo', sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
+  text-wrap: balance;
+  hyphens: none;
+}
+
+ul,
+ol {
+  padding-inline-start: 1em;
+}
+
+blockquote {
+  padding-inline-start: 1em;
+  border-inline-start: 0.3em solid;
+  border-color: var(--color-secondary);
+  font-family: 'Roboto Serif';
+  font-size: var(--size-step-1);
+}
+
+blockquote {
+  max-width: 50ch;
+}
+
+h1 {
+  max-width: 20ch;
+}
+
+h2,
+h3 {
+  max-width: 28ch;
+}
+
+a {
+  color: currentColor;
+  text-decoration-color: var(--color-primary-400);
+  text-decoration-thickness: 0.3ex;
+  text-underline-offset: 0.3ex;
+}
+a:hover {
+  text-underline-offset: 0.4ex;
+}
+
+
+
+

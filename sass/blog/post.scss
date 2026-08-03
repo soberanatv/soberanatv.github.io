@@ -1,0 +1,84 @@
+@import "reset.scss";
+@import "global.scss";
+@import "./blocks/header.scss";
+@import "./blocks/lead.scss";
+@import "./blocks/post-metadata.scss";
+@import "./blocks/ending-card.scss";
+@import "./blocks/footer.scss";
+
+article {
+  text-wrap: pretty;
+  max-width: 60ch;
+  margin-inline: auto;
+  margin-top: var(--space-2xl-3xl);
+  font-size: var(--size-step-1);
+}
+
+@media (min-width: 992px) {
+  article {
+    /*negocio fubango*/
+    border: 3px solid var(--color-primary);
+    box-shadow:
+      -15px -15px 0 -3px #120f11,
+      -15px -15px #a70343,
+      -30px -30px 0 -3px #090909,
+      -30px -30px #4a0420;
+    padding: var(--space-2xl) var(--space-3xl);
+    box-sizing: content-box;
+    border-radius: 0.25rem;
+    /*fim do negócio fubango*/
+    margin-top: var(--space-2xl);
+  }
+}
+@media (max-width: 420px) {
+  h1 {
+    hyphens: auto;
+  }
+}
+@media (max-width: 640px) {
+  article {
+    hyphens: auto;
+  }
+}
+
+article > * {
+  max-width: 60ch;
+}
+
+
+article img {
+  border-radius: 5px;
+  margin-inline:auto;
+}
+
+article figcaption {
+  --flow-space:var(--space-xs);
+  text-align: center;
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-size: var(--size-step-0);
+  color: var(--color-neutral-400)
+}
+
+article a[href^="http"]:not([href*="localhost:1111"]):not([href*="soberana.tv"]):not(.no-indicator)::after  {
+  padding-inline-end: .8em;
+}
+
+article a[href^="http"]:not([href*="localhost:1111"]):not([href*="soberana.tv"]):not(.no-indicator)::after {
+  background-image: url(/images/external.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 60% auto;
+  block-size: 1em;
+  content: "(link externo)";
+  display: inline-block;
+  inline-size: 1em;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 1em;
+  white-space: nowrap;
+}
+
+.article-separator {
+  margin-block: var(--space-2xl);
+}
+
