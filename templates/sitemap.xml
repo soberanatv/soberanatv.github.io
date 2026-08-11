@@ -1,8 +1,8 @@
-{# Inspired in https://github.com/getzola/zola/blob/master/components/templates/src/builtins/sitemap.xml#}
-{# This template prevents pages with redirects to external links (linktree) from being indexed#}
-{# and ensures that PDFs are indexed.#}
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {# Inspired in https://github.com/getzola/zola/blob/master/components/templates/src/builtins/sitemap.xml#}
+    {# This template prevents pages with redirects to external links (linktree) from being indexed#}
+    {# and ensures that PDFs are indexed.#}
     {%- for sitemap_entry in entries %}
     {# 👇 index internal pages (e.g homepage) #}
     {%- if not sitemap_entry.extra.redirect_url -%} 
