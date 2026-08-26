@@ -78,6 +78,29 @@ article a[href^="http"]:not([href*="localhost:1111"]):not([href*="soberana.tv"])
   white-space: nowrap;
 }
 
+aside {
+	border-width: 1px 0px;
+	border-color: var(--color-neutral-500);
+	border-style: solid;
+}
+aside blockquote {
+	border-left: 0px;
+	padding-block: var(--space-m);
+	padding-inline: var(--space-xs-s);
+	margin-inline: auto;
+	position: relative;
+}
+aside blockquote::before {
+	border-bottom: .2em solid var(--color-blue-500);
+	border-top: .2em solid var(--color-blue-500);
+	bottom: 0px;
+	content: " ";
+	left: calc(50% - 60px);
+	position: absolute;
+	top: 0px;
+	width: 120px;
+}
+
 .article-separator {
   margin-block: var(--space-2xl);
 }
