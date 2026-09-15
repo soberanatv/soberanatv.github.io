@@ -1,10 +1,10 @@
-@import "reset.scss";
-@import "global.scss";
-@import "./blocks/header.scss";
-@import "./blocks/lead.scss";
-@import "./blocks/post-metadata.scss";
-@import "./blocks/ending-card.scss";
-@import "./blocks/footer.scss";
+@import 'reset.scss';
+@import 'global.scss';
+@import './blocks/header.scss';
+@import './blocks/lead.scss';
+@import './blocks/post-metadata.scss';
+@import './blocks/ending-card.scss';
+@import './blocks/footer.scss';
 
 article {
   text-wrap: pretty;
@@ -41,35 +41,39 @@ article {
   }
 }
 
-article > * {
+article > *:not(h1) {
   max-width: 60ch;
 }
 
-
 article img {
   border-radius: 5px;
-  margin-inline:auto;
+  margin-inline: auto;
 }
 
 article figcaption {
-  --flow-space:var(--space-xs);
+  --flow-space: var(--space-xs);
   text-align: center;
-  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-family:
+    ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
   font-size: var(--size-step-0);
-  color: var(--color-neutral-400)
+  color: var(--color-neutral-400);
 }
 
-article a[href^="http"]:not([href*="localhost:1111"]):not([href*="soberana.tv"]):not(.no-indicator)::after  {
-  padding-inline-end: .8em;
+article
+  a[href^='http']:not([href*='localhost:1111']):not([href*='soberana.tv']):not(.no-indicator) {
+  padding-inline-end: 0.8em;
 }
 
-article a[href^="http"]:not([href*="localhost:1111"]):not([href*="soberana.tv"]):not(.no-indicator)::after {
+article
+  a[href^='http']:not([href*='localhost:1111']):not([href*='soberana.tv']):not(
+    .no-indicator
+  )::after {
   background-image: url(/images/external.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 60% auto;
   block-size: 1em;
-  content: "(link externo)";
+  content: '(link externo)';
   display: inline-block;
   inline-size: 1em;
   overflow: hidden;
@@ -105,3 +109,10 @@ aside blockquote::before {
   margin-block: var(--space-2xl);
 }
 
+.footnote-definition-label {
+  vertical-align: baseline;
+}
+
+.footnote-definition p {
+  display: inline;
+}
