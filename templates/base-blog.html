@@ -5,28 +5,36 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   {% block meta_tags %}
-    {{macros::title_and_description(title="Soberana", description=description)}}
+  {{macros::title_and_description(title="Soberana", description=description)}}
   {% endblock meta_tags %}
-  
+
   <link rel="icon" href="/favicon.ico" type="image/png">
 
   <!-- Opengraph -->
   <meta property="og:url" content="{{current_url}}">
   <meta property="og:type" content="website">
+  {%if page.extra.og_image %}
+  <meta property="og:image" content="{{ current_url }}{{ page.extra.og_image }}">
+  {% else %}
   <meta property="og:image" content="{{config.base_url}}{{config.extra.opengraph_default}}">
+  {% endif %}
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:site_name" content="{{config.extra.site_name}}">
   <meta property="og:locale" content="{{config.extra.opengraph_locale}}">
+  <meta name="twitter:card" content="summary_large_image" />
+
 
   {% block extra_head %}
   {% endblock extra_head %}
 </head>
+
 <body>
   {%block header %}
   {%endblock header %}
@@ -38,4 +46,5 @@
   {%endblock footer%}
 </body>
 {% block scripts %} {% endblock %}
+
 </html>

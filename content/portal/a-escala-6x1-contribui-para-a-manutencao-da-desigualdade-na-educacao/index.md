@@ -4,6 +4,7 @@ template = "post.html"
 description = "A diminuição da jornada é uma pauta histórica dos comunistas e voltou a ser centro dos debates com o PL que visa superá-la na câmara."
 date="2026-04-30"
 [extra]
+og_image="og-image.jpg"
 date_in_portuguese="30 de abril de 2026"
 author="Pedagolítica"
 tags=["Educação", "Raça e Classe"]

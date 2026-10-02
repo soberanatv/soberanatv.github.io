@@ -4,6 +4,7 @@ template = "post.html"
 description = "Muito se fala sobre como finalmente temos comunistas com chances reais de se eleger, mas como se difere exatamente uma candidatura comunista das demais?"
 date="2026-07-13"
 [extra]
+og_image="og-image.jpg"
 date_in_portuguese="13 de julho de 2026"
 author="Guiti"
 tags=["Eleições"]

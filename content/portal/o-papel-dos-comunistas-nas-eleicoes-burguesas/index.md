@@ -4,6 +4,7 @@ template = "post.html"
 description = "O movimento comunista se torna cada vez mais uma opção real para classe trabalhadora. Como isso se conecta com as eleições?"
 date="2026-05-02"
 [extra]
+og_image="og-image.jpg"
 date_in_portuguese="02 de maio de 2026"
 author="Zielort e Maristela Rosa"
 tags=["Eleições"]

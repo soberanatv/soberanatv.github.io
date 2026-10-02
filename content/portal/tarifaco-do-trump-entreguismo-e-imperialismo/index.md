@@ -4,6 +4,7 @@ template = "post.html"
 description = "Análise dos fatos relacionados ao entreguimo de Flavio Bolsonaro e as tarifas de Trump."
 date="2026-08-12"
 [extra]
+og_image="og-image.jpg"
 date_in_portuguese="12 de agosto de 2026"
 author="Lucash e Bebel Ecologia"
 tags=["Geopolítica"]
@@ -23,12 +24,12 @@ Foto: FlavioBolsonaro / instagram
 
 Com um objetivo de expor o histórico sobre as tarifas do Trump, veremos que:
 
-* Em 2018 Trump já começava a impor algumas tarifas sobre aço e alumínio, baixas a princípio, com o objetivo de “proteger” a produção estadunidense;
-* Já em seu segundo mandato, em 2025, Trump começou a taxar Deus e o mundo, e começou impondo uma tarifa de 10% sobre todas as importações até uma lista extensa de taxas diferenciadas para vários países, o que ele mesmo chamou de “Tarifas Recíprocas”.
+- Em 2018 Trump já começava a impor algumas tarifas sobre aço e alumínio, baixas a princípio, com o objetivo de “proteger” a produção estadunidense;
+- Já em seu segundo mandato, em 2025, Trump começou a taxar Deus e o mundo, e começou impondo uma tarifa de 10% sobre todas as importações até uma lista extensa de taxas diferenciadas para vários países, o que ele mesmo chamou de “Tarifas Recíprocas”.
 
 <aside>
 
-> *Fato interessante: Alguns dos lugares taxados foram as ilhas Heard e McDonald, ilhas isoladas que são populadas somente por animais. 🐧*
+> _Fato interessante: Alguns dos lugares taxados foram as ilhas Heard e McDonald, ilhas isoladas que são populadas somente por animais. 🐧_
 
 </aside>
 
@@ -36,8 +37,7 @@ Em fevereiro de 2026, as tarifas recíprocas foram derrubadas pela Suprema Corte
 
 <aside>
 
-> *Disclaimer sobre o imposto de importação no Brasil: Diferente de como é nos EUA, no Brasil nós temos um imposto próprio para importações, distinto de taxas ou tarifas, o que significa que ele possui previsão constitucional. E a alíquota desse imposto é definida livremente pelo presidente da república, respeitando tratados e acordos internacionais.*
-> 
+> _Disclaimer sobre o imposto de importação no Brasil: Diferente de como é nos EUA, no Brasil nós temos um imposto próprio para importações, distinto de taxas ou tarifas, o que significa que ele possui previsão constitucional. E a alíquota desse imposto é definida livremente pelo presidente da república, respeitando tratados e acordos internacionais._
 
 </aside>
 
@@ -51,7 +51,7 @@ Recentemente, em junho de 2026, Flávio Bolsonaro foi para os EUA para se encont
 
 E isso não foi por acaso:
 
-Em janeiro de 2026, nosso país vizinho, a Venezuela, foi invadido e teve seu presidente, Maduro, sequestrado pouco tempo após um anúncio dos EUA inventando uma organização de narcotráfico chamada “*Cartel de los Soles*” e classificando-a como terrorista.
+Em janeiro de 2026, nosso país vizinho, a Venezuela, foi invadido e teve seu presidente, Maduro, sequestrado pouco tempo após um anúncio dos EUA inventando uma organização de narcotráfico chamada “_Cartel de los Soles_” e classificando-a como terrorista.
 
 Flávio Bolsonaro **sabe** o que significa e quais são as consequências de ter uma organização criminosa classificada como terrorista pelos EUA. Sabe os riscos de ter a mira dos EUA sobre nossos ombros.
 
@@ -67,7 +67,7 @@ A taxa foi proposta pelo escritório de representação comercial dos EUA, basea
 
 Obviamente, toda essa situação não pegou bem eleitoralmente ao Flávio Bolsonaro, portanto ele logo tirou o corpo fora ao pedir para Trump que os produtos brasileiros não fossem taxados.
 
-Mas isso não isentou o entreguista de sugerir que o Brasil abandonasse o PIX para que seja implementado o Zelle, sistema privado dos EUA que é uma pior alternativa comparado ao PIX: é privado, pertence a bancos estadunidenses, não é instantâneo, não tem integração com o Banco Central e alguns bancos cobram taxas por transferência. 
+Mas isso não isentou o entreguista de sugerir que o Brasil abandonasse o PIX para que seja implementado o Zelle, sistema privado dos EUA que é uma pior alternativa comparado ao PIX: é privado, pertence a bancos estadunidenses, não é instantâneo, não tem integração com o Banco Central e alguns bancos cobram taxas por transferência.
 
 ## 🌎 Imperialismo, Estágio Superior do Capitalismo
 
