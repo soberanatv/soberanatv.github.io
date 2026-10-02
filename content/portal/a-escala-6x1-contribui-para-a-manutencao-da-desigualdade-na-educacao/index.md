@@ -8,7 +8,7 @@ og_image="og-image.jpg"
 date_in_portuguese="30 de abril de 2026"
 author="Pedagolítica"
 tags=["Educação", "Raça e Classe"]
-lead = "A diminuição da jornada de trabalho é uma pauta histórica dos comunistas e ela voltou a se tornar centro dos debates trabalhistas com o pedido de urgência da tramitação do PL que visa superá-la na câmara. Mas fujamos do óbvio: que a jornada de trabalho composta por um dia de folga para cada 6 dias trabalhados é péssima para o trabalhador, todos nós sabemos. O que proponho que pensemos aqui é na forma como a escala 6x1 afeta e torna praticamente impossível o acesso de mulheres ao mercado de trabalho formal, com registro em carteira, e as obrigam a ocupar funções trabalho informal, que não garante qualquer seguridade a elas e aos seus filhos. Isso afeta especialmente as mulheres que são mães, e ainda mais as mulheres negras e periféricas e as que se tornaram mães mais jovens."
+lead = "A diminuição da jornada de trabalho é uma pauta histórica dos comunistas e ela voltou a se tornar centro dos debates trabalhistas com o pedido de urgência da tramitação do PL que visa superá-la na câmara. Mas fujamos do óbvio: que a jornada de trabalho composta por um dia de folga para cada 6 dias trabalhados é péssima para o trabalhador, todos nós sabemos. O que proponho que pensemos aqui é na forma como a escala 6x1 afeta e torna praticamente impossível o acesso de mulheres ao mercado de trabalho formal, com registro em carteira, e as obrigam a recorrer ao trabalho informal, que não garante qualquer seguridade a elas e aos seus filhos. Isso afeta especialmente as mulheres que são mães, e ainda mais as mulheres negras e periféricas e as que se tornaram mães mais jovens."
 +++
 
 ## As mulheres e o trabalho
@@ -43,7 +43,7 @@ Diversas pesquisas apontam a desigualdade da responsabilização pelo acompanham
 
 Isso significa que, a despeito de estarem ou não em um relacionamento, de terem ou não um trabalho e independente de suas condições, caso tenham, as mulheres são vistas como as figuras responsáveis pela educação dos filhos. São elas que são cobradas caso eles não estejam asseados, educados e com o caderno e a lição de casa em dia.
 
-Essa é uma condição imposta pelo sistema capitalista, que se fundamentou, inicialmente, sobre o trabalho assalariado do homem e o trabalho invisível da mulher, mas que , para que pudesse ampliar o lucro, forçou a presença da mulher no trabalho produtivo, através da redução dos salários dos homens somada ao aumento do custo de vida.
+Essa é uma condição imposta pelo sistema capitalista, que se fundamentou, inicialmente, sobre o trabalho assalariado do homem e o trabalho invisível da mulher, mas que, para que pudesse ampliar o lucro, forçou a presença da mulher no trabalho produtivo, através da redução dos salários dos homens somada ao aumento do custo de vida.
 
 O fato é que, para que exista lucro para o patrão, à mulher agora é imposta a condição de trabalhadora assalariada (ou não, a depender do regime de trabalho) somada ao trabalho doméstico e de cuidado.
 
@@ -67,7 +67,7 @@ Mas a despeito disso, a nossa realidade enquanto trabalhadores tá cada dia pior
 
 Além disso, com o aumento do exército de reserva e com a precarização do trabalho, as pessoas que estão na busca por um emprego vão aceitar trabalhar por menos salário porque elas não querem estar no lugar do desempregado.
 
-Concluímos, portanto, que em uma sociedade onde se espera que a mãe cuide e naturaliza o abandono do pai (seja o abandono real ou o que é praticado por homens que continuam na casa, mas não contribuem para os trabalhos de cuidado), é impossível esperar que a mulher que trabalha na escala 6x1 vai oriente, acompanhe as necessidades do filho e o eduque.
+Concluímos, portanto, que em uma sociedade em que se espera que a mãe cuide e que naturaliza o abandono do pai (seja o abandono real ou o que é praticado por homens que continuam na casa, mas não contribuem para os trabalhos de cuidado), é impossível esperar que a mulher que trabalha na escala 6x1 oriente, acompanhe as necessidades do filho e o eduque.
 
 Precisamos não apenas que o fim da escala seja aprovado, mas também que as reformas previdenciárias, que facilitaram e aumentaram exponencialmente o número de pessoas trabalhando na informalidade ou sob MEIs que precarizam as condições de trabalho sejam revogadas.
 
