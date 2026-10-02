@@ -4,6 +4,7 @@ template = "post.html"
 description = "Eleições não são o caminho para a vitória da classe trabalhadora."
 date="2026-08-06"
 [extra]
+og_image="og-image.jpg"
 date_in_portuguese="06 de agosto de 2026"
 author="Maristela Rosa"
 tags=["Eleições"]
