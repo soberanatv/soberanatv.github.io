@@ -2,10 +2,10 @@
 title = "Tarifaço do Trump: Entreguismo e Imperialismo"
 template = "post.html"
 description = "Análise dos fatos relacionados ao entreguimo de Flavio Bolsonaro e as tarifas de Trump."
-date="2026-08-12"
+date="2026-08-25"
 [extra]
 og_image="og-image.jpg"
-date_in_portuguese="12 de agosto de 2026"
+date_in_portuguese="25 de agosto de 2026"
 author="Lucash e Bebel Ecologia"
 tags=["Geopolítica"]
 lead = "Todos devem estar sabendo a respeito da tarifa que o Trump aplicou ao Brasil recentemente (02/06). Abaixo, analisaremos os fatos que levaram a essa nova tarifa."
@@ -16,7 +16,7 @@ lead = "Todos devem estar sabendo a respeito da tarifa que o Trump aplicou ao Br
   <img src="./flavio-e-trump.jpg" alt="Flávio Bolsonaro e Donald Trump posam para foto na Casa Branca">
 </picture>
 <figcaption>
-Foto: FlavioBolsonaro / instagram 
+Foto: FlavioBolsonaro / instagram
 </figcaption>
 </figure>
 
@@ -125,5 +125,5 @@ Por um motivo muito menor (não a ameaça do avanço socialista, mas um mero sis
       <li><a href="https://www.instagram.com/reel/DZXszOHRyLT/" target="_blank"><i>Em 1988, era a indústria nacional de informática. Em 2026, é o Pix.</i></a> Dudabolche.</li>
     </ul>
   </section>
-  
+
 </div>
