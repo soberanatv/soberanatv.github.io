@@ -2,10 +2,10 @@
 title = "Daily Chronicle entrevista Engels"
 template = "post.html"
 description = "Entrevista concedida por Engels sobre as eleições do parlamento alemão."
-date="2026-08-13"
+date="2026-09-14"
 [extra]
 og_image="og-image.jpg"
-date_in_portuguese="13 de agosto de 2026"
+date_in_portuguese="14 de setembro de 2026"
 author=""
 tags=["Eleições"]
 lead = ""

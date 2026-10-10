@@ -2,10 +2,10 @@
 title = "O papel dos comunistas nas eleições burguesas"
 template = "post.html"
 description = "O movimento comunista se torna cada vez mais uma opção real para classe trabalhadora. Como isso se conecta com as eleições?"
-date="2026-05-02"
+date="2026-09-14"
 [extra]
 og_image="og-image.jpg"
-date_in_portuguese="02 de maio de 2026"
+date_in_portuguese="14 de setembro de 2026"
 author="Zielort e Maristela Rosa"
 tags=["Eleições"]
 lead = "O comunismo deixou de ser algo que “não existe mais” no país, para voltar a ser um “xingamento” e também para ser, cada vez mais, uma opção real para a classe trabalhadora brasileira. Nesse sentido, quando as eleições chegam, muitos se perguntam: e os comunistas? Vão sair candidatos? Mas eles nem têm chances. Vão apoiar alguém? Quem?"

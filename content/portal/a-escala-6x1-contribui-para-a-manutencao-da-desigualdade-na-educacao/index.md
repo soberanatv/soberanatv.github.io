@@ -2,10 +2,10 @@
 title = "A escala 6X1 contribui para a manutenção da desigualdade na educação"
 template = "post.html"
 description = "A diminuição da jornada é uma pauta histórica dos comunistas e voltou a ser centro dos debates com o PL que visa superá-la na câmara."
-date="2026-04-30"
+date="2026-08-02"
 [extra]
 og_image="og-image.jpg"
-date_in_portuguese="30 de abril de 2026"
+date_in_portuguese="2 de agosto de 2026"
 author="Pedagolítica"
 tags=["Educação", "Raça e Classe"]
 lead = "A diminuição da jornada de trabalho é uma pauta histórica dos comunistas e ela voltou a se tornar centro dos debates trabalhistas com o pedido de urgência da tramitação do PL que visa superá-la na câmara. Mas fujamos do óbvio: que a jornada de trabalho composta por um dia de folga para cada 6 dias trabalhados é péssima para o trabalhador, todos nós sabemos. O que proponho que pensemos aqui é na forma como a escala 6x1 afeta e torna praticamente impossível o acesso de mulheres ao mercado de trabalho formal, com registro em carteira, e as obrigam a recorrer ao trabalho informal, que não garante qualquer seguridade a elas e aos seus filhos. Isso afeta especialmente as mulheres que são mães, e ainda mais as mulheres negras e periféricas e as que se tornaram mães mais jovens."

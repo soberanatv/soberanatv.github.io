@@ -2,10 +2,10 @@
 title = "Quociente eleitoral e a farsa das eleições burguesas"
 template = "post.html"
 description = "Eleições não são o caminho para a vitória da classe trabalhadora."
-date="2026-08-06"
+date="2026-09-14"
 [extra]
 og_image="og-image.jpg"
-date_in_portuguese="06 de agosto de 2026"
+date_in_portuguese="14 de setembro de 2026"
 author="Maristela Rosa"
 tags=["Eleições"]
 lead = "As eleições não são o caminho para a vitória da classe trabalhadora. Dizer isso pode parecer estranho, derrotista ou fora da realidade, mas é justamente o oposto. Quanto mais clareza tivermos de que “eleições” e “democracia” na verdade são apenas facetas do teatro burguês, mais fortes estaremos para construir a sociedade que desejamos."
