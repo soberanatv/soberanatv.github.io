@@ -6,12 +6,13 @@
 }
 .post-metadata .item {
   --cluster-gap: var(--space-xs);
+  flex-wrap: nowrap;
 }
 .post-metadata .key {
   font-weight: 600;
   letter-spacing: 1%;
   color: var(--color-neutral-400);
-  min-width: 104px;
+  min-width: 114.75px;
 }
 .post-metadata .value {
   --cluster-gap: var(--space-xs);
@@ -25,8 +26,8 @@
   border-radius: 9999px;
   padding: 0.25rem var(--space-xs);
 }
-@media (max-width: 420px) {
-  .post-metadata .key {
-    min-width: 80px;
-  }
-}
+// @media (max-width: 420px) {
+//   .post-metadata .key {
+//     min-width: 80px;
+//   }
+// }

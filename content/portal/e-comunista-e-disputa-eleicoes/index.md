@@ -186,7 +186,7 @@ Quantas vezes nós ouvimos, de eleição em eleição, queixas de que o brasilei
 
 > Os escravos assalariados de hoje, em consequência da exploração capitalista, vivem de tal maneira acabrunhados pelas necessidades e pela miséria que nem tempo têm para se ocupar de "democracia" ou de "política"; no curso normal e pacífico das coisas, a maioria da população encontra-se afastada da vida sociopolítica.
 
-— Lenin, Esquerdismo – Doença Infantil do Comunismo.
+— Lenin, O Estado e a Revolução.
 
 E reconhecer o estado de despolitização da classe trabalhadora não significa sentenciar sua incapacidade de elevar sua consciência. A tarefa dos comunistas consiste em saber convencer os elementos atrasados, saber atuar entre eles.
 

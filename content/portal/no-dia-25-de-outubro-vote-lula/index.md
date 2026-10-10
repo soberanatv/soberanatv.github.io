@@ -27,7 +27,7 @@ E apesar de Flávio Bolsonaro querer se vender como “um Bolsonaro moderado”,
 
 Assim como Jair, Flávio Bolsonaro tem todas as suas prioridades ligadas exclusivamente aos mais ricos. Ele, inclusive, tem a mesma tática de comunicação do pai, fazendo lives e construindo narrativas desconexas junto de seu eleitorado. Não há nada de moderado em Flávio, há apenas uma propaganda que não deveria convencer ninguém.
 
-# **Os votos brancos, nulos, e abstenções**
+## **Os votos brancos, nulos, e abstenções**
 
 A diferença entre Flávio e Lula é a menor da história entre candidatos no 1º turno. São apenas 2,2 milhões de diferença entre um candidato e outro. Flávio Bolsonaro (PL) recebeu 47,03% dos votos válidos, enquanto Lula (PT) teve 45,16%. Ou seja, nem mesmo 2% de distância.
 
@@ -47,7 +47,8 @@ O cenário desenhado pelo primeiro turno já é de um saldo claramente negativo 
 
 Seguimos conscientes de que a verdadeira libertação da classe trabalhadora não virá através da via eleitoral, de bons programas de gestão do capitalismo, ou da conciliação de classes. Nosso voto e nossa posição neste momento tem o propósito claro de não entregar nossa classe mais ainda às mãos de quem nos explora, e seguir construindo um caminho verdadeiramente revolucionário.
 
-# Referências
+## Notas
 
 [^folha-marco-rubio]: [Se eleito, Flávio planeja implementar no Itamaraty reforma importada do governo Trump - Folha de S. Paulo, 29/09/2026](https://www1.folha.uol.com.br/mundo/2026/09/se-eleito-flavio-planeja-implementar-no-itamaraty-reforma-importada-do-governo-trump.shtml)
+
 [^a-publica-denuncias]: [Flávio Bolsonaro, os hospitais federais e a pandemia de Covid no Rio de Janeiro - Agência Pública, 01/10/2026](https://apublica.org/2026/10/flavio-bolsonaro-os-hospitais-federais-e-a-pandemia-de-covid-no-rio-de-janeiro/)

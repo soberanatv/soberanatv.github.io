@@ -93,6 +93,8 @@ Nossa organização é primorosa, provocando admiração e desespero em nossos o
 
 Disponível em [Entrevistas / Karl Marx, Friedrich Engels](https://www.boitempoeditorial.com.br/produto/entrevistas-153148); tradução Nélio Schneider; apresentação Murillo van der Laan. - 1. ed. - São Paulo : Boitempo, 2025.
 
+## Notas
+
 [^1]: (N. E. A.) \[Karl Marx e Friederich Engels, MEGA³, v.1, n.31, Berlim, Akademie, 2002, p. 387-8.\]
 
 [^2]: Referência ao Partido Popular de Mente Livre, que se formara em maio de 1893, em consequência da cisão do Partido de Mente Livre Alemão. A cisão do partido ocorreu no dia da dissolução do Parlamento, em 6 de maio de 1893, em razão das diferenças de opinião sobre o projeto de lei do orçamento militar. Parte da fração parlamentar desse partido, liderada por Rickert e Barth, começou a apoiar o governo e formou um novo partido \- a União de Mente Livre. A outra parte da fração parlamentar, sob a liderança de Eugen Richter, que representava os elementos radicais no interior do partido, voltou-se contra o aumento dos gastos militares. Essa parte passou a se denominar Partido Popular de Mente Livre. (N. E. A)
