@@ -12,6 +12,8 @@ build_search_index = true
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 # Whether external links are to be opened in a new tab
 
+bottom_footnotes = true # adds footnote backreference
+
 # If this is true, a `rel="noopener"` will always automatically be added for security reasons
 external_links_target_blank = true
 

@@ -11,9 +11,13 @@
   font-size: var(--size-step-2);
   font-weight: 600;
 }
-.ending-card ul{
+.ending-card ul {
   --flow-space: var(--space-s);
 }
-.ending-card li{
+.ending-card li {
   font-size: var(--size-step-0);
+}
+
+.ending-card a {
+  color: var(--color-primary-200);
 }

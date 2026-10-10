@@ -15,7 +15,7 @@
   --color-neutral-800: #22292b;
   --color-neutral-900: #161b1d;
   --color-neutral-950: #090b0c;
-  
+
   --color-blue-500: #2b7fff;
 
   --color-blue-500: #2b7fff;
@@ -65,7 +65,7 @@
   --space-xl: clamp(3rem, 2.8466rem + 0.6818vw, 3.375rem);
   --space-2xl: clamp(4rem, 3.7955rem + 0.9091vw, 4.5rem);
   --space-3xl: clamp(6rem, 5.6932rem + 1.3636vw, 6.75rem);
-    /* One-up pairs */
+  /* One-up pairs */
   --space-xs-s: clamp(0.75rem, 0.5966rem + 0.6818vw, 1.125rem);
   --space-2xl-3xl: clamp(4rem, 3.25rem + 3.3333vw, 6.75rem);
 
@@ -162,7 +162,7 @@ h3 {
 a {
   color: currentColor;
   text-decoration-color: var(--color-primary-400);
-  text-decoration-thickness: 0.3ex;
+  text-decoration-thickness: 0.2ex;
   text-underline-offset: 0.3ex;
 }
 a:hover {
