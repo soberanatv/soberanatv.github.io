@@ -2,9 +2,9 @@
 title = "Voto útil, comunistas nas eleições e como sustentar a nossa posição"
 template = "post.html"
 description = "Qualquer saldo eleitoral que não faça avançar a consciência de classe deve ser posto em dúvida."
-date = "2026-10-09"
+date = "2026-10-05"
 [extra]
-date_in_portuguese = "9 de outubro de 2026"
+date_in_portuguese = "5 de outubro de 2026"
 author = "Zawacki, Bebel Ecologia"
 tags=["Análise", "Eleições"]
 lead = "O teatro que acontece no plenário é apenas uma sombra distorcida da política real que é movida pelo conflito entre aqueles que trabalham e aqueles que, por dominarem os meios de produção, exploram o trabalho alheio. Qualquer saldo de um pleito eleitoral que não avance nesse sentido deve ser posto em dúvida."
