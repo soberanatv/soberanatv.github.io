@@ -4,7 +4,7 @@ template = "post.html"
 description = ""
 date="2026-10-16"
 [extra]
-og_image="Talvez ter caído no conto do “Bolsonaro moderado” tenha feito muito eleitor se abster de seu voto. Como? Eu explico!"
+og_image="og-image.jpg"
 date_in_portuguese="16 de outubro de 2026"
 author="Maristela Rosa"
 tags=["Eleições"]

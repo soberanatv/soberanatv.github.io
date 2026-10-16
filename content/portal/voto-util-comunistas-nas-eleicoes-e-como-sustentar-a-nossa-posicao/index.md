@@ -4,6 +4,7 @@ template = "post.html"
 description = "Qualquer saldo eleitoral que não faça avançar a consciência de classe deve ser posto em dúvida."
 date = "2026-10-05"
 [extra]
+og_image="og-image.jpg"
 date_in_portuguese = "5 de outubro de 2026"
 author = "Zawacki, Bebel Ecologia"
 tags=["Análise", "Eleições"]
