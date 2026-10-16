@@ -6,6 +6,22 @@
 @import './blocks/ending-card.scss';
 @import './blocks/footer.scss';
 
+.post-header {
+  padding-top: 0;
+  line-height: 1;
+}
+
+@media (min-width: 992px) {
+  .post-header {
+    margin-top: calc(var(--space-2xl) * -1);
+  }
+  .post-header__image {
+    width: calc(100% + 2 * var(--space-3xl));
+    max-width: calc(100% + 2 * var(--space-3xl));
+    margin-inline: calc(var(--space-3xl) * -1);
+  }
+}
+
 article {
   text-wrap: pretty;
   max-width: 60ch;

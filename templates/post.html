@@ -11,7 +11,23 @@
 {%endblock header %}
 {%block main_inner %}
 
+{% set has_header = false %}
+{% for asset in page.assets %}
+{% if asset is ending_with("/header.jpg") %}
+{% set_global has_header = true %}
+{% endif %}
+{% endfor %}
+
 <article class="flow">
+  {%if has_header %}
+  <header class="post-header">
+    <img src="{{ current_url }}header.jpg" alt="" class="post-header__image">
+  </header>
+  {% elif page.extra.og_image %}
+  <header class="post-header">
+    <img src="{{ current_url }}{{ page.extra.og_image }}" alt="" class="post-header__image">
+  </header>
+  {% endif %}
   <h1>{{page.title}}</h1>
   <ul class="post-metadata flow" role="list">
     <li class="cluster item">
