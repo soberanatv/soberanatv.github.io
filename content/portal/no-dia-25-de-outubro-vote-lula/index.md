@@ -4,7 +4,7 @@ template = "post.html"
 description = "Posição do Coletivo Soberana sobre o segundo turno das eleições 2026"
 date="2026-10-06"
 [extra]
-og_image=""
+og_image="og-image.jpg"
 date_in_portuguese="6 de outubro de 2026"
 author="Coletivo Soberana"
 tags=["Eleições"]
