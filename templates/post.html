@@ -29,25 +29,24 @@
   </header>
   {% endif %}
   <h1>{{page.title}}</h1>
-  <ul class="post-metadata flow" role="list">
-    <li class="cluster item">
-      <span class="key">Publicado em</span>
-      <time class="value" datetime="{{page.date}}">
-        {{page.extra.date_in_portuguese}}
-      </time>
-    </li>
-    {%if page.extra.author %}
-    <li class="cluster item"><span class="key">Redação</span> <span class="value">{{page.extra.author}}</span></li>
+  <div class="post-meta flow">
+    <p class="post-meta__byline">
+      {%if page.extra.author %}
+      <span class="post-meta__author">Por <strong>{{page.extra.author}}</strong></span>
+      {%endif%}
+      {%if page.extra.date_in_portuguese %}
+      <span class="post-meta__dot" aria-hidden="true"></span>
+      <time class="post-meta__date" datetime="{{page.date}}">{{page.extra.date_in_portuguese}}</time>
+      {%endif%}
+    </p>
+    {%if page.extra.tags %}
+    <ul class="post-meta__tags cluster" role="list">
+      {%for tag in page.extra.tags%}
+      <li class="tag">{{tag}}</li>
+      {%endfor%}
+    </ul>
     {%endif%}
-    <li class="cluster item">
-      <span class="key">Tags</span>
-      <span class="cluster value">
-        {%for i in page.extra.tags%}
-        <span class="tag">{{i}}</span>
-        {%endfor%}
-      </span>
-    </li>
-  </ul>
+  </div>
   {%if page.extra.lead %}
   <p class="lead">{{page.extra.lead}}</p>
   {% endif %}
