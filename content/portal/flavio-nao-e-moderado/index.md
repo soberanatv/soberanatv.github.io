@@ -36,7 +36,7 @@ Além disso, com relação às casas de apostas, as chamadas "bets", Flávio se 
 
 Ou seja, assim como Jair, Flávio Bolsonaro tem as suas prioridades ligadas totalmente aos mais ricos. Para ele, não faz diferença o clamor e a luta da classe trabalhadora brasileira. Além disso, ele também usa do mesmo discurso do pai de desmonte das instituições para impor suas convicções políticas e calar as demais. Não há nada de moderado em Flávio, além de uma propaganda que não deveria convencer ninguém, mas que infelizmente pode ter sido eficiente.
 
-# **Flávio Bolsonaro também supera o pai na subserviência aos EUA**
+## **Flávio Bolsonaro também supera o pai na subserviência aos EUA**
 
 Ao longo de seu segundo mandato como presidente dos EUA, Donald Trump tem deixado cada vez mais claras suas intenções com relação à América-Latina e ao Brasil: Trata-se de impor os interesses norte-americanos acima dos nossos, dentro do nosso próprio país.
 
@@ -62,7 +62,7 @@ Essas ações do governo estadunidense, tão próximas da gente, demonstram que,
 
 Flávio Bolsonaro ainda continuou: "Quando os Estados Unidos ficam vulneráveis, todo o mundo livre fica vulnerável". Ou seja, ao invés de estar interessado em proteger as nossas riquezas, a nossa soberania e segurança nacional, Flávio se mostra feliz em entregar tudo aos EUA. Obviamente, por essas e outras, ele é o candidato de Trump aqui no Brasil.
 
-# **Não esqueçamos do que foi o governo Bolsonaro**
+## **Não esqueçamos do que foi o governo Bolsonaro**
 
 O legado do governo de Jair Bolsonaro é o pior possível! Ele foi responsável por fazer o país voltar ao mapa da fome. Entre 2018 e 2020, anos do governo de Jair, a fome atingiu 7,5 milhões de brasileiros. Já entre 2014 e 2016, esse número era de 3,9 milhões[^bolsonaro-fome].
 

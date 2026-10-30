@@ -17,8 +17,18 @@
       {% for page in section.pages %}
         <li class="post">
           <a class="post__link" href="{{page.permalink}}">
-            <h2 class="post__title">{{ page.title | safe }}</h2>
-            <span class="post__date">{{page.extra.date_in_portuguese}}</span>
+            {%if page.extra.og_image %}
+            <img class="post__image" src="{{ page.permalink }}{{ page.extra.og_image }}" alt="" loading="lazy">
+            {% endif %}
+            <div class="post__content">
+              <h2 class="post__title">{{ page.title | safe }}</h2>
+              <span class="post__date">{{page.extra.date_in_portuguese}}</span>
+              {%if page.description %}
+              <p class="post__description">{{page.description}}</p>
+              {% elif page.extra.lead %}
+              <p class="post__description">{{page.extra.lead}}</p>
+              {% endif %}
+            </div>
           </a>
         </li>
       {% endfor %}
