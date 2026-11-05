@@ -19,6 +19,8 @@
           <a class="post__link" href="{{page.permalink}}">
             {%if page.extra.og_image %}
             <img class="post__image" src="{{ page.permalink }}{{ page.extra.og_image }}" alt="" loading="lazy">
+            {% else %}
+            <img class="post__image" src="{{ config.base_url }}{{ config.extra.opengraph_default }}" alt="" loading="lazy">
             {% endif %}
             <div class="post__content">
               <h2 class="post__title">{{ page.title | safe }}</h2>
